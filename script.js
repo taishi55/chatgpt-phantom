@@ -22,7 +22,7 @@ function showErrorMessage(e) {
     "absolute",
     "bottom-0",
     "right-1",
-    "dark:text-white",
+    "text-white",
     "bg-red-500",
     "p-4",
     "rounded-lg",
@@ -98,8 +98,8 @@ async function onSubmit(event) {
 
       // custom instruction
       if (instruction === "custom" && query.includes("--")) {
-        queryTopic = query.split("--")[0];
-        queryInstructions = query.split("--")[1];
+        queryTopic = query.split("--")[0]?.trim() || "";
+        queryInstructions = query.split("--")[1]?.trim() || "";
       }
 
       const results = await getSearchData(queryTopic, timePeriod, region);
