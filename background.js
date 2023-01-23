@@ -11,7 +11,8 @@ chrome.runtime.onInstalled.addListener(() => {
     web_access: true,
     region: "us-en",
     time_period: "w",
-    instruction: "Instructions: create an article in about the given info without plagiarism. Make sure to write in a formal tone. Make sure to cite the markdown notations # for a title, ## for paragraph's subtitles, and ![](src) for a thumbnail image. Provide a title that gets people's attention. Then provide a short description. Then provide a thumbnail image. Then provide 4 paragraphs consisting of subtitle and well-explained article. Then provide a conclusion."
+    instruction:
+      "Instructions: create an article in about the given info without plagiarism. Make sure to write in a formal tone. Make sure to cite the markdown notations # for a title, ## for paragraph's subtitles, and ![](src) for a thumbnail image. Provide a title that gets people's attention. Then provide a short description. Then provide a thumbnail image. Then provide 4 paragraphs consisting of subtitle and well-explained article. Then provide a conclusion.",
   });
   openChatGPTWebpage();
 });

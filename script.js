@@ -30,8 +30,7 @@ function showErrorMessage(e) {
     "mr-4",
     "text-sm"
   );
-  errorDiv.innerHTML =
-    "<b>An error occurred</b><br>" + "<br>Please try again!";
+  errorDiv.innerHTML = "<b>An error occurred</b><br>" + "<br>Please try again!";
   document.body.appendChild(errorDiv);
   setTimeout(() => {
     errorDiv.remove();
@@ -51,7 +50,7 @@ function showProcessingMessage() {
 
 function pasteWebResultsToTextArea(resultText, instruction) {
   if (instruction === "custom") {
-    textarea.value = `${resultText}\n\nInstructions: `;
+    textarea.value = `${resultText}\n\nInstructions: ${instruction}`;
   } else {
     textarea.value = `${resultText}\n\n${instruction}`;
   }
@@ -363,7 +362,9 @@ async function updateToolUI() {
     });
 
     // remove the previously created elements
-    const pastElements = document.querySelectorAll(".hide-element.show-element-lg")
+    const pastElements = document.querySelectorAll(
+      ".hide-element.show-element-lg"
+    );
     for (var i = 0; i < pastElements.length; i++) {
       pastElements[i].parentNode.removeChild(pastElements[i]);
     }
@@ -431,8 +432,6 @@ async function updateToolUI() {
     console.log("error occuring at tool bar", error);
   }
 }
-
-
 
 const rootEl = document.querySelector('div[id="__next"]');
 
