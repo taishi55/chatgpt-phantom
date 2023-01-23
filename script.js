@@ -362,7 +362,9 @@ async function updateToolUI() {
     });
 
     // modify the design of a vertical tool bar
-    const verticallyAllign = document.querySelectorAll("div[class*='text-gray-400 flex self-end lg:self-center']")
+    const verticallyAllign = document.querySelectorAll(
+      "div[class*='text-gray-400 flex self-end lg:self-center']"
+    );
     verticallyAllign.forEach((element) => {
       element.classList.remove("justify-center");
       element.classList.add("custom-tool-bar");
