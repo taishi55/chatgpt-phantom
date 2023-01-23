@@ -14,7 +14,7 @@
 
 ---
 
-[![IMAGE ALT TEXT HERE](https://phantom-ghost-writer.vercel.app/resized.png)](https://www.youtube.com/watch?v=YWfHyAtFDIo)
+https://user-images.githubusercontent.com/105188885/213975594-43f261a0-32de-4913-a1dc-2f55613103a7.mp4
 
 ## Magic commands ✨✨✨
 
