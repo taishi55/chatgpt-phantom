@@ -1,0 +1,129 @@
+.web-chatgpt-toolbar {
+  margin: 0.5em 0em;
+  display: flex;
+  align-items: end;
+}
+
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.web-chatgpt-toggle {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0.5em 0;
+}
+
+.web-chatgpt-toggle-switch {
+  display: inline-block;
+  background: #ccc;
+  border-radius: 8px;
+  width: 29px;
+  height: 16px;
+  position: relative;
+  vertical-align: middle;
+  transition: background 0.25s;
+}
+
+.web-chatgpt-toggle-switch:before,
+.web-chatgpt-toggle-switch:after {
+  content: "";
+}
+
+.web-chatgpt-toggle-switch:before {
+  display: block;
+  background: linear-gradient(to bottom, #fff 0%, #eee 100%);
+  border-radius: 50%;
+  box-shadow: 0 0 0 0.5px rgba(0, 0, 0, 0.25);
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  transition: left 0.25s;
+}
+
+.web-chatgpt-toggle:hover .web-chatgpt-toggle-switch:before {
+  background: linear-gradient(to bottom, #fff 0%, #fff 100%);
+  box-shadow: 0 0 0 0.5px rgba(0, 0, 0, 0.5);
+}
+
+.web-chatgpt-toggle-checkbox:checked + .web-chatgpt-toggle-switch {
+  background: #1853ca;
+}
+
+.web-chatgpt-toggle-checkbox:checked + .web-chatgpt-toggle-switch:before {
+  left: 15px;
+}
+
+.web-chatgpt-toggle-checkbox {
+  position: absolute;
+  visibility: hidden;
+}
+
+.web-chatgpt-toggle-label {
+  margin-left: 5px;
+  position: relative;
+  top: 2px;
+}
+
+.web-chatgpt-underline-on-hover:hover {
+  text-decoration: underline;
+}
+
+.hide-element {
+  display: none;
+}
+
+.dropdown-width {
+  width: 7rem;
+}
+
+.space-y-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+}
+
+.bg-blue-500 {
+  background-color: rgb(59 130 246);
+}
+
+@media (min-width: 1124px) {
+  .show-element-lg {
+    display: block;
+  }
+  .dropdown-width-lg {
+    width: auto;
+  }
+  .custom-tool-bar {
+    height: 100%;
+    flex-direction: column;
+    overflow: auto;
+    text-align: left;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+}
+
+.processing-message {
+  position: absolute;
+  bottom: 4rem;
+  right: 5rem;
+  border-radius: 0.5rem;
+  border-width: 2px;
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+  padding: 1rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.word-wrap {
+  word-wrap: break-word;
+}

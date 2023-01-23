@@ -1,0 +1,22 @@
+[
+  {
+    "label": "News article",
+    "value": "Instructions: create an article in about the given info without plagiarism. Make sure to write in a formal tone. Make sure to cite the markdown notations # for a title, ## for paragraph's subtitles, and ![](src) for a thumbnail image. Provide a title that gets people's attention. Then provide a short description. Then provide one thumbnail image from the given images. Then provide 4 paragraphs consisting of subtitle and well-explained article. Then provide a conclusion."
+  },
+  {
+    "label": "Blog article",
+    "value": "Instructions: create an article about the given info without plagiarism. Make sure to write in a casual tone. Make sure to write in a formal tone. Make sure to cite the markdown notations # for a title, ## for paragraph's subtitles, and ![](src) for a thumbnail image. Provide a title that gets people's attention. Then provide a short description. Then provide one thumbnail image from the given images. Then provide 4 paragraphs consisting of subtitle and well-explained article. Then provide food for thought."
+  },
+  {
+    "label": "Persuative article",
+    "value": "Instructions: create an article about the given info without plagiarism. Make sure to write in a persuasive tone. Make sure to write in a formal tone. Make sure to cite the markdown notations # for a title, ## for paragraph's subtitles, and ![](src) for a thumbnail image. Provide a title that gets people's attention. Then provide a short description. Then provide one thumbnail image from the given images. Then provide 4 paragraphs consisting of subtitle, well-explained article. Then provide a counter-argument paragraph. Then provide a food for thought."
+  },
+  {
+    "label": "Youtube script (ColdFusion style)",
+    "value": "Instructions: create a 1500-words storytelling script about the given info without plagiarism. Make sure to write in a conversational tone. Make sure to cite the markdown notations # for a title, ## for paragraph's subtitles, and ![](src) for a thumbnail image. Provide a title that gets people's attention. Then provide a short description. Then provide one thumbnail image from the given images. Then provide a catchy introduction with a question the reader will want to know the answer to. Then provide 4 paragraphs consisting of subtitle, well-explained script, and an interesting comment. Make sure to appeal to the emotions of the audience behind the story. Then provide food for thought."
+  },
+  {
+    "label": "Your custom instructions",
+    "value": "custom"
+  }
+]

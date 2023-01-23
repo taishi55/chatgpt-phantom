@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "ChatGPT Phantom - ghost writer",
+  "version": "1.1.1",
+  "description": "ChatGPT Phantom creates news articles and video scripts that contain accurate information based on recent sources.",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "permissions": ["storage"],
+  "host_permissions": ["https://phantom-ghost-writer.vercel.app/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {},
+  "content_scripts": [
+    {
+      "matches": ["https://chat.openai.com/chat/*"],
+      "js": ["script.js", "api.js"],
+      "css": ["styles.css"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "regions.json",
+        "instructions.json",
+        "periods.json",
+        "languages.json"
+      ],
+      "matches": ["https://chat.openai.com/*"]
+    }
+  ]
+}
