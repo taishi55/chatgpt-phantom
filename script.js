@@ -354,11 +354,18 @@ async function updateToolUI() {
 
     // modify the design of chat response section
     const formatElements = document.querySelectorAll(
-      ".flex.flex-col.items-start.gap-4.whitespace-pre-wrap"
+      "div[class*='flex flex-col items-start gap-4 whitespace-pre-wrap']"
     );
     formatElements.forEach((element) => {
       element.classList.remove("flex", "flex-col", "items-start", "gap-4");
       element.classList.add("space-y-4");
+    });
+
+    // modify the design of a vertical tool bar
+    const verticallyAllign = document.querySelectorAll("div[class*='text-gray-400 flex self-end lg:self-center']")
+    verticallyAllign.forEach((element) => {
+      element.classList.remove("justify-center");
+      element.classList.add("custom-tool-bar");
     });
 
     // remove the previously created elements
@@ -375,10 +382,6 @@ async function updateToolUI() {
     );
 
     chatDivElements.forEach((chatDiv) => {
-      // modify the design of a vertical tool bar
-      chatDiv.lastElementChild.classList.remove("justify-center");
-      chatDiv.lastElementChild.classList.add("custom-tool-bar");
-
       // prevent one-line url to be overflowed
       chatDiv.firstElementChild.classList.add("word-wrap");
 
@@ -399,13 +402,13 @@ async function updateToolUI() {
         chatText = childElement.textContent;
       }
 
-      // clean the noise
-      chatText = JSON.stringify(chatText.replace(/'/g, "").replace(/"/g, ""));
-
       // encode the text
       const encodedChatText = encodeURIComponent(chatText)
         .replace(/'/g, "%22")
         .replace(/"/g, "%22");
+
+      // clean the noise
+      chatText = JSON.stringify(chatText.replace(/'/g, "").replace(/"/g, ""));
 
       // copy button
       const copyIcon = document.createElement("div");
