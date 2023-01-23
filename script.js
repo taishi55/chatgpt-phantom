@@ -48,11 +48,11 @@ function showProcessingMessage() {
   }, 7000);
 }
 
-function pasteWebResultsToTextArea(resultText, instruction) {
+function pasteWebResultsToTextArea(resultText, instructionQuery) {
   if (instruction === "custom") {
-    textarea.value = `${resultText}\n\nInstructions: ${instruction}`;
+    textarea.value = `${resultText}\n\nInstructions: ${instructionQuery}`;
   } else {
-    textarea.value = `${resultText}\n\n${instruction}`;
+    textarea.value = `${resultText}\n\n${instructionQuery}`;
   }
 }
 
