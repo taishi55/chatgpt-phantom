@@ -12,15 +12,9 @@
   a free AI copywriting service for instantly creating articles based on real-time data.
 </p>
 
-<p align="center">
-[<img valign="middle" src="https://img.shields.io/chrome-web-store/v/lpfemeioodjbpieminkklglpmhlngfcn.svg">] [<img valign="middle" alt="Chrome Web Store" src="https://img.shields.io/chrome-web-store/users/lpfemeioodjbpieminkklglpmhlngfcn?color=blue">]
-<br>
-[<img valign="middle" src="https://img.shields.io/amo/v/web-chatgpt">]
-[<img valign="middle" alt="Mozilla Add-on" src="https://img.shields.io/amo/users/web-chatgpt">]
-</p>
-
 ---
 
+![Demo](https://www.youtube.com/watch?v=YWfHyAtFDIo)
 
 ## Magic commands ✨✨✨
 
