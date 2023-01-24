@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://tailwindcss.com" target="_blank">
+  <a href="https://github.com/taishi55/chatgpt-phantom#readme" target="_blank">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://phantom-ghost-writer.vercel.app/dark.png">
       <source media="(prefers-color-scheme: light)" srcset="https://phantom-ghost-writer.vercel.app/white.png">
@@ -13,6 +13,15 @@
 </p>
 
 ---
+
+## Chrome Extension
+
+[![Chrome Web Store](https://img.shields.io/chrome-web-store/d/ofkgndjljeccdgmehefcijojnaagopbn.svg?style=for-the-badge&label=Chrome%20users&ogo=google-chrome&logoColor=white)][chrome]
+[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/ofkgndjljeccdgmehefcijojnaagopbn.svg?style=for-the-badge&logo=google-chrome&logoColor=white)][chrome]
+
+[link-chrome]: https://chrome.google.com/webstore/detail/chatgpt-phantom-ghost-wri/ofkgndjljeccdgmehefcijojnaagopbn "Chrome Web Store"
+
+This will be also available on Firefox. Please wait for the coming approval.
 
 https://user-images.githubusercontent.com/105188885/213975594-43f261a0-32de-4913-a1dc-2f55613103a7.mp4
 
@@ -58,7 +67,7 @@ create an article in about the given info without plagiarism. Make sure to write
 |      real-time data       |          Yes           |     -     |    chat reply only     |     -     |
 |        data source        | All public data on Web |     -     | Google Knowledge Graph |     -     |
 | languages translated from |         DeepL          |   DeepL   |         DeepL          |  Google   |
-|     AI provider      |         OpenAI         |  OpenAI   |         OpenAI         |  OpenAI   |
+|        AI provider        |         OpenAI         |  OpenAI   |         OpenAI         |  OpenAI   |
 
 The data is estimated from the quality of the output. Basically, those paid AI copywriting services are just a combination of OpenAI and the DeepL (or Google Translate) API. ChatGPT-Phantom supports quality content production in seconds.
 
