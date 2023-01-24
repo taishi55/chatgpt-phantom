@@ -33,19 +33,6 @@
 
 https://user-images.githubusercontent.com/105188885/213975594-43f261a0-32de-4913-a1dc-2f55613103a7.mp4
 
-## Other Competitors 🌛🌝🌜
-
-|                           |    ChatGPT Phantom     | JesperAI  |       WriteSonic       |   Rytr    |
-| :-----------------------: | :--------------------: | :-------: | :--------------------: | :-------: |
-|        word limit         |       unlimited        |  100,000  |        160,000         | unlimited |
-|           price           |          FREE          | $99/month |       $99/month        | $30/month |
-|      real-time data       |          Yes           |     -     |    chat reply only     |     -     |
-|        data source        | All public data on Web |     -     | Google Knowledge Graph |     -     |
-| languages translated from |         DeepL          |   DeepL   |         DeepL          |  Google   |
-|        AI provider        |         OpenAI         |  OpenAI   |         OpenAI         |  OpenAI   |
-
-The data is estimated from the quality of the output. Basically, those paid AI copywriting services are just a combination of OpenAI and the DeepL (or Google Translate) API. ChatGPT-Phantom supports quality content production in seconds.
-
 ## Magic commands ✨✨✨
 
 ⚠️ To use magic commands, Turn OFF "Phantom Mode" on the toggle button.
@@ -82,6 +69,19 @@ create an article in about the given info without plagiarism. Make sure to write
 ## Prompt-HUNTER Community ✅✅✅
 
 Let's become a professional prompt-hunter!! Prompt engineering is similar to a treasure hunt 👑🏆🔱. Once you discover a proper prompt, you are already a master at something. This skill will be the key to success in the near future! Join the community below to learn more.
+
+## Other Competitors 🌛🌝🌜
+
+|                           |    ChatGPT Phantom     | JesperAI  |       WriteSonic       |   Rytr    |
+| :-----------------------: | :--------------------: | :-------: | :--------------------: | :-------: |
+|        word limit         |       unlimited        |  100,000  |        160,000         | unlimited |
+|           price           |          FREE          | $99/month |       $99/month        | $30/month |
+|      real-time data       |          Yes           |     -     |    chat reply only     |     -     |
+|        data source        | All public data on Web |     -     | Google Knowledge Graph |     -     |
+| languages translated from |         DeepL          |   DeepL   |         DeepL          |  Google   |
+|        AI provider        |         OpenAI         |  OpenAI   |         OpenAI         |  OpenAI   |
+
+The data is estimated from the quality of the output. Basically, those paid AI copywriting services are just a combination of OpenAI and the DeepL (or Google Translate) API. ChatGPT-Phantom supports quality content production in seconds.
 
 ## Be my supporter 🥺🥺🥺
 
