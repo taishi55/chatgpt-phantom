@@ -11,19 +11,40 @@
 <p align="center">
   a free AI copywriting service for instantly creating articles based on real-time data.
 </p>
+<p align="center">
+<a href="https://chrome.google.com/webstore/detail/chatgpt-phantom-ghost-wri/ofkgndjljeccdgmehefcijojnaagopbn" target="_blank">
+<img valign="middle" src="https://img.shields.io/chrome-web-store/v/ofkgndjljeccdgmehefcijojnaagopbn.svg"> <img valign="middle" alt="Chrome Web Store" src="https://img.shields.io/chrome-web-store/users/ofkgndjljeccdgmehefcijojnaagopbn?color=blue">
+</a>
+</p>
 
 ---
 
 ## Chrome Extension
 
-[![Chrome Web Store](https://img.shields.io/chrome-web-store/d/ofkgndjljeccdgmehefcijojnaagopbn.svg?style=for-the-badge&label=Chrome%20users&ogo=google-chrome&logoColor=white)][chrome]
-[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/ofkgndjljeccdgmehefcijojnaagopbn.svg?style=for-the-badge&logo=google-chrome&logoColor=white)][chrome]
+<p>
+<a href="https://chrome.google.com/webstore/detail/chatgpt-phantom-ghost-wri/ofkgndjljeccdgmehefcijojnaagopbn" target="_blank">
+<img src="https://storage.googleapis.com/web-dev-uploads/image/WlD8wC6g8khYWPJUsQceQkhXSlv1/iNEddTyWiMfLSwFD6qGq.png" width="200" alt="Chrome" valign="middle">
+</a>
+</p>
 
-[link-chrome]: https://chrome.google.com/webstore/detail/chatgpt-phantom-ghost-wri/ofkgndjljeccdgmehefcijojnaagopbn "Chrome Web Store"
+- Install [this extension](https://chrome.google.com/webstore/detail/chatgpt-phantom-ghost-wri/ofkgndjljeccdgmehefcijojnaagopbn) on Chrome browser.
 
-This will be also available on Firefox. Please wait for the coming approval.
+> ChatGTP Phantom will be also available on Firefox. Please wait for the upcoming approval.
 
 https://user-images.githubusercontent.com/105188885/213975594-43f261a0-32de-4913-a1dc-2f55613103a7.mp4
+
+## Other Competitors 🌛🌝🌜
+
+|                           |    ChatGPT Phantom     | JesperAI  |       WriteSonic       |   Rytr    |
+| :-----------------------: | :--------------------: | :-------: | :--------------------: | :-------: |
+|        word limit         |       unlimited        |  100,000  |        160,000         | unlimited |
+|           price           |          FREE          | $99/month |       $99/month        | $30/month |
+|      real-time data       |          Yes           |     -     |    chat reply only     |     -     |
+|        data source        | All public data on Web |     -     | Google Knowledge Graph |     -     |
+| languages translated from |         DeepL          |   DeepL   |         DeepL          |  Google   |
+|        AI provider        |         OpenAI         |  OpenAI   |         OpenAI         |  OpenAI   |
+
+The data is estimated from the quality of the output. Basically, those paid AI copywriting services are just a combination of OpenAI and the DeepL (or Google Translate) API. ChatGPT-Phantom supports quality content production in seconds.
 
 ## Magic commands ✨✨✨
 
@@ -57,19 +78,6 @@ create an article in about the given info without plagiarism. Make sure to write
 ```
 
 > ⚠️ Please insert "--"" in between your prompt and your instructions. According to your promt, Phantom will provide the real-time info. According to your instructions, ChatGPT will generate an output in the format.
-
-## Other Competitors 🌛🌝🌜
-
-|                           |    ChatGPT Phantom     | JesperAI  |       WriteSonic       |   Rytr    |
-| :-----------------------: | :--------------------: | :-------: | :--------------------: | :-------: |
-|        word limit         |       unlimited        |  100,000  |        160,000         | unlimited |
-|           price           |          FREE          | $99/month |       $99/month        | $30/month |
-|      real-time data       |          Yes           |     -     |    chat reply only     |     -     |
-|        data source        | All public data on Web |     -     | Google Knowledge Graph |     -     |
-| languages translated from |         DeepL          |   DeepL   |         DeepL          |  Google   |
-|        AI provider        |         OpenAI         |  OpenAI   |         OpenAI         |  OpenAI   |
-
-The data is estimated from the quality of the output. Basically, those paid AI copywriting services are just a combination of OpenAI and the DeepL (or Google Translate) API. ChatGPT-Phantom supports quality content production in seconds.
 
 ## Prompt-HUNTER Community ✅✅✅
 
