@@ -399,9 +399,9 @@ async function updateToolUI() {
             chatText += childElements[i].textContent + "\n\n";
           }
         }
-      } else if (childElement?.textContent) {
+      } else if (chatDiv.firstElementChild?.textContent) {
         // the element has no child elements
-        chatText = childElement.textContent;
+        chatText = chatDiv.firstElementChild.textContent;
       }
 
       // encode the text
