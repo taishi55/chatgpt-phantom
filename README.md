@@ -71,7 +71,7 @@ create an article in about the given info without plagiarism. Make sure to write
 Let's become a professional prompt-hunter!! Prompt engineering is similar to a treasure hunt 👑🏆🔱. Once you discover a proper prompt, you are already a master at something. This skill will be the key to success in the near future! Join the community below to learn more. [Join Now](https://prompt-hunter.discourse.group/invites/QuA6JFDReL)
 
 <a href="https://prompt-hunter.discourse.group/invites/QuA6JFDReL" target="_blank">
-<img src="https://global.discourse-cdn.com/basic10/uploads/prompt_hunter/original/1X/29b66186abb0fea1520a940267c7101301c6fec4.png" width="200" alt="Chrome" valign="middle">
+<img src="https://global.discourse-cdn.com/basic10/uploads/prompt_hunter/original/1X/2345cd3f54381097ca950be60b4ba6f4b6cd0b54.png" width="200" alt="Chrome" valign="middle">
 </a>
 
 ## Other Competitors 🌛🌝🌜
