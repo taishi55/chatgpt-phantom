@@ -27,6 +27,10 @@
     "label": "English (British)",
     "value": "EN-GB"
   },
+    {
+    "label": "Esperanto",
+    "value": "EO"
+  },
   {
     "label": "Estonian",
     "value": "ET"
