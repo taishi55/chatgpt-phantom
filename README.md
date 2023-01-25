@@ -25,11 +25,18 @@
 <a href="https://chrome.google.com/webstore/detail/chatgpt-phantom-ghost-wri/ofkgndjljeccdgmehefcijojnaagopbn" target="_blank">
 <img src="https://storage.googleapis.com/web-dev-uploads/image/WlD8wC6g8khYWPJUsQceQkhXSlv1/iNEddTyWiMfLSwFD6qGq.png" width="200" alt="Chrome" valign="middle">
 </a>
+
+<a href="https://addons.mozilla.org/en-US/firefox/addon/chatgpt-phantom-ghost-writer/" target="_blank">
+<img src="https://logolook.net/wp-content/uploads/2021/07/Mozilla-Firefox-Logo.png" height="50" alt="Chrome" valign="middle">
+</a>
+
+
+
 </p>
 
-- Install [this extension](https://chrome.google.com/webstore/detail/chatgpt-phantom-ghost-wri/ofkgndjljeccdgmehefcijojnaagopbn) on Chrome browser.
+- Install this extension on [Chrome browser](https://chrome.google.com/webstore/detail/chatgpt-phantom-ghost-wri/ofkgndjljeccdgmehefcijojnaagopbn)
 
-> ChatGTP Phantom will be also available on Firefox. Please wait for the upcoming approval.
+- Install this extension on [Firefox browser](https://addons.mozilla.org/en-US/firefox/addon/chatgpt-phantom-ghost-writer/)
 
 https://user-images.githubusercontent.com/105188885/213975594-43f261a0-32de-4913-a1dc-2f55613103a7.mp4
 
@@ -68,9 +75,9 @@ create an article in about the given info without plagiarism. Make sure to write
 
 ## Prompt-HUNTER Community ✅✅✅
 
-Let's become a professional prompt-hunter!! Prompt engineering is similar to a treasure hunt 👑🏆🔱. Once you discover a proper prompt, you are already a master at something. This skill will be the key to success in the near future! Join the community below to learn more. [Join Now](https://prompt-hunter.discourse.group/invites/QuA6JFDReL)
+Let's become a professional prompt-hunter!! Prompt engineering is similar to a treasure hunt 👑🏆🔱. Once you discover a proper prompt, you are already a master at something. This skill will be the key to success in the near future! Join the community below to learn more. [Join Now](https://prompt-hunter.discourse.group/invites/Fk3WneLGeW)
 
-<a href="https://prompt-hunter.discourse.group/invites/QuA6JFDReL" target="_blank">
+<a href="https://prompt-hunter.discourse.group/invites/Fk3WneLGeW" target="_blank">
 <img src="https://global.discourse-cdn.com/basic10/uploads/prompt_hunter/original/1X/2345cd3f54381097ca950be60b4ba6f4b6cd0b54.png" width="200" alt="Chrome" valign="middle">
 </a>
 
