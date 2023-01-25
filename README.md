@@ -13,7 +13,7 @@
 </p>
 <p align="center">
 <a href="https://chrome.google.com/webstore/detail/chatgpt-phantom-ghost-wri/ofkgndjljeccdgmehefcijojnaagopbn" target="_blank">
-<img valign="middle" src="https://img.shields.io/chrome-web-store/v/ofkgndjljeccdgmehefcijojnaagopbn.svg"> <img valign="middle" alt="Chrome Web Store" src="https://img.shields.io/chrome-web-store/users/ofkgndjljeccdgmehefcijojnaagopbn?color=blue">
+<img valign="middle" src="https://img.shields.io/chrome-web-store/v/ofkgndjljeccdgmehefcijojnaagopbn.svg">
 </a>
 </p>
 
@@ -54,7 +54,7 @@ https://user-images.githubusercontent.com/105188885/213975594-43f261a0-32de-4913
 
 If you discover an awesome command, share it on our community below👍 We love to see what you found😁
 
-## Custom Instuctions 💡💡💡
+## Custom Instuctions 🔥🔥🔥
 
 Example input:
 
@@ -68,7 +68,11 @@ create an article in about the given info without plagiarism. Make sure to write
 
 ## Prompt-HUNTER Community ✅✅✅
 
-Let's become a professional prompt-hunter!! Prompt engineering is similar to a treasure hunt 👑🏆🔱. Once you discover a proper prompt, you are already a master at something. This skill will be the key to success in the near future! Join the community below to learn more.
+Let's become a professional prompt-hunter!! Prompt engineering is similar to a treasure hunt 👑🏆🔱. Once you discover a proper prompt, you are already a master at something. This skill will be the key to success in the near future! Join the community below to learn more. [Join Now](https://prompt-hunter.discourse.group/invites/QuA6JFDReL)
+
+<a href="https://prompt-hunter.discourse.group/invites/QuA6JFDReL" target="_blank">
+<img src="https://global.discourse-cdn.com/basic10/uploads/prompt_hunter/original/1X/29b66186abb0fea1520a940267c7101301c6fec4.png" width="200" alt="Chrome" valign="middle">
+</a>
 
 ## Other Competitors 🌛🌝🌜
 
