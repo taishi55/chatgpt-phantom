@@ -3,7 +3,7 @@ let isProcessing = false;
 var timePeriod = "w";
 var region = "us-en";
 var instruction =
-  "Instructions: create an article in about the given info without plagiarism. Make sure to write in a formal tone. Make sure to cite the markdown notations # for a title, ## for paragraph's subtitles, and ![](src) for a thumbnail image. Provide a title that gets people's attention. Then provide a short description. Then provide one thumbnail image from the given images. Then provide 4 paragraphs consisting of subtitle and well-explained article. Then provide a conclusion.";
+  "Instructions: create an article about the given info without plagiarism. Make sure to write in a formal tone. Make sure to cite the markdown notations # for a title, ## for paragraph's subtitles, and ![](src) for a thumbnail image. Provide a title that gets people's attention. Then provide a short description. Then provide one thumbnail image from the given images. Then provide 4 paragraphs consisting of subtitle and well-explained article. Then provide a conclusion.";
 var urls = [];
 var textarea;
 
@@ -416,20 +416,20 @@ async function updateToolUI() {
       const copyIcon = document.createElement("div");
       copyIcon.classList.add("hide-element", "show-element-lg");
       copyIcon.innerHTML = `<button onclick='navigator.clipboard.writeText(${chatText})' class="flex items-center w-full py-1 rounded-md hover:bg-gray-100 hover:text-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-200 disabled:dark:hover:text-gray-400"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5"> <path stroke-linecap="round" stroke-linejoin="round" d="M15.666 3.888A2.25 2.25 0 0013.5 2.25h-3c-1.03 0-1.9.693-2.166 1.638m7.332 0c.055.194.084.4.084.612v0a.75.75 0 01-.75.75H9a.75.75 0 01-.75-.75v0c0-.212.03-.418.084-.612m7.332 0c.646.049 1.288.11 1.927.184 1.1.128 1.907 1.077 1.907 2.185V19.5a2.25 2.25 0 01-2.25 2.25H6.75A2.25 2.25 0 014.5 19.5V6.257c0-1.108.806-2.057 1.907-2.185a48.208 48.208 0 011.927-.184" /> </svg><span class="px-1">Copy</span></buttton>`;
-      chatDiv.lastElementChild.appendChild(copyIcon);
+      chatDiv.querySelector(".custom-tool-bar").appendChild(copyIcon);
 
       // plagiarism checker link
       const plagiarismChecker = document.createElement("div");
       plagiarismChecker.classList.add("hide-element", "show-element-lg");
       plagiarismChecker.innerHTML = `<a href='https://www.grammarly.com/plagiarism-checker' class='web-chatgpt-underline-on-hover' target='_blank'>plagiarism checker</a>`;
-      chatDiv.lastElementChild.appendChild(plagiarismChecker);
+      chatDiv.querySelector(".custom-tool-bar").appendChild(plagiarismChecker);
 
       // inject the encoded text into the translation link
       langs.forEach(function (option) {
         const langDiv = document.createElement("div");
         langDiv.classList.add("hide-element", "show-element-lg");
         langDiv.innerHTML = `<a href='https://www.deepl.com/translator#en/${option.value}/${encodedChatText}/' class='web-chatgpt-underline-on-hover' target='_blank'>- ${option.label}</a>`;
-        chatDiv.lastElementChild.appendChild(langDiv);
+        chatDiv.querySelector(".custom-tool-bar").appendChild(langDiv);
       });
     });
   } catch (error) {
