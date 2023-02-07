@@ -1,0 +1,104 @@
+{
+  "APPNAME": {
+    "message": "ChatGPT Phantom: גישת YouTube בזמן אמת"
+  },
+  "APPDESC": {
+    "message": "תוסף זה מאפשר לך לכתוב מאמרי NEWS בזמן אמת ותסריטים של YouTube."
+  },
+  "HOME_DESC": {
+    "message": "צור ופרסם מאמרים/סקריפטים בזמן אמת במהירות כמו Big Media!"
+  },
+  "SUB_1": {
+    "message": "נושאים בזמן אמת"
+  },
+  "SUB_2": {
+    "message": "תרגום של 20 שפות"
+  },
+  "SUB_3": {
+    "message": "בודק פלגיאט"
+  },
+  "SUB_4": {
+    "message": "לעולם אל תאסוף נתוני משתמש"
+  },
+  "SUB_5": {
+    "message": "חינם לחלוטין (תרומות ❤️)"
+  },
+  "SUB_6": {
+    "message": "שימוש בלתי מוגבל"
+  },
+  "PROMPT": {
+    "message": "הנחיה:"
+  },
+  "INFO": {
+    "message": "מידע:"
+  },
+  "INSTRUCTIONS": {
+    "message": "הוראות:"
+  },
+  "WARNING_LABEL": {
+    "message": "אנא סמן את ההוראה שלך!"
+  },
+  "WARNING_VALUE": {
+    "message": "אנא כתוב את ההוראה שלך!"
+  },
+  "ERROR_1": {
+    "message": "אירעה שגיאה"
+  },
+  "ERROR_2": {
+    "message": "אנא נסה שוב!"
+  },
+  "PROCESS_1": {
+    "message": "מחפש את המידע."
+  },
+  "PROCESS_2": {
+    "message": "אנא המתן..."
+  },
+  "SOURCE_1": {
+    "message": "מקור אחד"
+  },
+  "SOURCES_2": {
+    "message": "2 מקורות"
+  },
+  "SOURCES_3": {
+    "message": "3 מקורות"
+  },
+  "AUTO": {
+    "message": "אוטומטי"
+  },
+  "TODAY": {
+    "message": "היום"
+  },
+  "THIS_WEEK": {
+    "message": "השבוע"
+  },
+  "THIS_MONTH": {
+    "message": "החודש"
+  },
+  "THIS_YEAR": {
+    "message": "השנה"
+  },
+  "PLACEHOLDER_1": {
+    "message": "תייג את ההוראה שלך כאן"
+  },
+  "PLACEHOLDER_2": {
+    "message": "כתוב את ההוראות שלך כאן"
+  },
+  "BTN_1": {
+    "message": "צור חדש"
+  },
+  "BTN_2": {
+    "message": "בטל"
+  },
+  "BTN_3": {
+    "message": "הוסף"
+  },
+  "BTN_4": {
+    "message": "עדכון"
+  },
+  "BTN_5": {
+    "message": "מחק"
+  },
+  "HELP": {
+    "message": "אנא תהיו התומכים שלי לשמור את התוסף הזה בחינם 🥺"
+  }
+}

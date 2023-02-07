@@ -1,4 +1,4 @@
-<p align="center">
+<!-- <p align="center">
   <a href="https://github.com/taishi55/chatgpt-phantom#readme" target="_blank">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://phantom-ghost-writer.vercel.app/dark.png">
@@ -6,7 +6,9 @@
       <img alt="ChatGPT Phantom" src="https://phantom-ghost-writer.vercel.app/white.png" valign="middle" width="600px" style="max-width:600px;  width:100%;">
     </picture>
   </a>
-</p>
+</p> -->
+
+<h1 align="center">ChatGPT Phantom</h1>
 
 <p align="center">
   a free AI copywriting service for instantly creating articles based on real-time data.
@@ -29,8 +31,6 @@
 <a href="https://addons.mozilla.org/en-US/firefox/addon/chatgpt-phantom-ghost-writer/" target="_blank">
 <img src="https://logolook.net/wp-content/uploads/2021/07/Mozilla-Firefox-Logo.png" height="50" alt="Chrome" valign="middle">
 </a>
-
-
 
 </p>
 
@@ -72,14 +72,6 @@ create an article in about the given info without plagiarism. Make sure to write
 ```
 
 > ⚠️ Please insert "--"" in between your prompt and your instructions. According to your promt, Phantom will provide the real-time info. According to your instructions, ChatGPT will generate an output in the format.
-
-## Prompt-HUNTER Community ✅✅✅
-
-Let's become a professional prompt-hunter!! Prompt engineering is similar to a treasure hunt 👑🏆🔱. Once you discover a proper prompt, you are already a master at something. This skill will be the key to success in the near future! Join the community below to learn more. [Join Now](https://prompt-hunter.discourse.group/invites/Fk3WneLGeW)
-
-<a href="https://prompt-hunter.discourse.group/invites/Fk3WneLGeW" target="_blank">
-<img src="https://global.discourse-cdn.com/basic10/uploads/prompt_hunter/original/1X/2345cd3f54381097ca950be60b4ba6f4b6cd0b54.png" width="200" alt="Chrome" valign="middle">
-</a>
 
 ## Other Competitors 🌛🌝🌜
 

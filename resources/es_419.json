@@ -1,0 +1,22 @@
+[
+  {
+    "label": "Chat",
+    "value": "escribe una respuesta rápida usando la información proporcionada."
+  },
+  {
+    "label": "Artículo de noticias",
+    "value": "por favor escriba un artículo que responda rápidamente sobre la información dada sin plagio. Asegúrese de escribir en un tono formal. Asegúrese de citar las anotaciones de descuento # para un título, ## para los subtítulos de párrafos y ![](image_url) para un una imagen en miniatura. Proporcione un título que llame la atención de las personas. Luego, proporcione una breve descripción. Luego, proporcione una imagen en miniatura de las imágenes proporcionadas. Luego, proporcione 4 párrafos que consistan en un subtítulo y un artículo bien explicado. Luego, proporcione una conclusión"
+  },
+  {
+    "label": "Artículo de blog",
+    "value": "por favor escribe un artículo que responda rápidamente sobre la información dada sin plagio. Asegúrate de escribir en un tono casual. Asegúrate de escribir en un tono formal. Asegúrate de citar las anotaciones de descuento # para un título, ## para los subtítulos de los párrafos y ![](image_url) para una imagen en miniatura. Proporcione un título que llame la atención de las personas. Luego, proporcione una breve descripción. Luego, proporcione una imagen en miniatura de las imágenes proporcionadas. Luego, proporcione 4 párrafos que consistan en un subtítulo y un artículo bien explicado. Luego proporcionar alimento para el pensamiento"
+  },
+  {
+    "label": "Artículo persuasivo",
+    "value": "por favor escriba un artículo que responda rápidamente sobre la información dada sin plagio. Asegúrese de escribir en un tono persuasivo. Asegúrese de escribir en un tono formal. Asegúrese de citar las anotaciones de descuento # para un título, ## para los subtítulos del párrafo y ![](image_url) para una imagen en miniatura. Proporcione un título que llame la atención de las personas. Luego, proporcione una breve descripción. Luego, proporcione una imagen en miniatura de las imágenes proporcionadas. Luego, proporcione 4 párrafos que consistan en subtítulos, un artículo bien explicado. Luego Proporcione un párrafo de contraargumento. Luego proporcione algo para pensar"
+  },
+  {
+    "label": "Guión de Youtube",
+    "value": "cree un guión de video de respuesta rápida de 1500 palabras para la información proporcionada sin plagio. Asegúrese de escribir en un tono coloquial. Asegúrese de citar las anotaciones de descuento # para un título, ## para subtítulos de párrafos y ![](image_url) para una imagen en miniatura. Proporcione un título que llame la atención de las personas. Luego proporcione una breve descripción. Luego proporcione una imagen en miniatura de las imágenes dadas. Luego proporcione una introducción atractiva con una pregunta que el lector querrá saber la respuesta. Luego proporcione 4 párrafos que constan de subtítulos, guión bien explicado y una opinión interesante. Asegúrate de apelar a las emociones de la audiencia detrás de la historia. Luego proporciona algo para reflexionar"
+  }
+]

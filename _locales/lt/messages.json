@@ -1,0 +1,104 @@
+{
+  "APPNAME": {
+    "message": "ChatGPT Phantom: realiojo laiko Youtube prieiga"
+  },
+  "APPDESC": {
+    "message": "Šis plėtinys leidžia rašyti realaus laiko NAUJIENŲ straipsnius ir YouTube scenarijus."
+  },
+  "HOME_DESC": {
+    "message": "Kurkite ir skelbkite straipsnius / scenarijus realiuoju laiku taip pat greitai, kaip Big Media!"
+  },
+  "SUB_1": {
+    "message": "Realiojo laiko temos"
+  },
+  "SUB_2": {
+    "message": "+20 kalbų vertimas"
+  },
+  "SUB_3": {
+    "message": "Plagiato tikrintuvas"
+  },
+  "SUB_4": {
+    "message": "Niekada nerinkti vartotojo duomenų"
+  },
+  "SUB_5": {
+    "message": "Visiškai nemokama (aukos ❤️)"
+  },
+  "SUB_6": {
+    "message": "Neribotas naudojimas"
+  },
+  "PROMPT": {
+    "message": "Raginti:"
+  },
+  "INFO": {
+    "message": "Informacija:"
+  },
+  "INSTRUCTIONS": {
+    "message": "Instrukcijos:"
+  },
+  "WARNING_LABEL": {
+    "message": "Pažymėkite savo instrukciją!"
+  },
+  "WARNING_VALUE": {
+    "message": "Parašykite savo nurodymą!"
+  },
+  "ERROR_1": {
+    "message": "Įvyko klaida"
+  },
+  "ERROR_2": {
+    "message": "Prašome pabandyti dar kartą!"
+  },
+  "PROCESS_1": {
+    "message": "Ieškoma informacijos."
+  },
+  "PROCESS_2": {
+    "message": "Prašau palaukti..."
+  },
+  "SOURCE_1": {
+    "message": "1 šaltinis"
+  },
+  "SOURCES_2": {
+    "message": "2 šaltiniai"
+  },
+  "SOURCES_3": {
+    "message": "3 šaltiniai"
+  },
+  "AUTO": {
+    "message": "Automatinis"
+  },
+  "TODAY": {
+    "message": "Šiandien"
+  },
+  "THIS_WEEK": {
+    "message": "Šią savaitę"
+  },
+  "THIS_MONTH": {
+    "message": "Šį mėnesį"
+  },
+  "THIS_YEAR": {
+    "message": "Šiais metais"
+  },
+  "PLACEHOLDER_1": {
+    "message": "Pažymėkite savo instrukcijas čia"
+  },
+  "PLACEHOLDER_2": {
+    "message": "Parašykite savo nurodymą čia"
+  },
+  "BTN_1": {
+    "message": "Sukurti naują"
+  },
+  "BTN_2": {
+    "message": "Atšaukti"
+  },
+  "BTN_3": {
+    "message": "Pridėti"
+  },
+  "BTN_4": {
+    "message": "Atnaujinti"
+  },
+  "BTN_5": {
+    "message": "Ištrinti"
+  },
+  "HELP": {
+    "message": "Prašome būti mano rėmėju, kad išlaikytumėte šį plėtinį nemokamai 🥺"
+  }
+}

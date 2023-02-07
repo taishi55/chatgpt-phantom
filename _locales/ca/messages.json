@@ -1,0 +1,104 @@
+{
+  "APPNAME": {
+    "message": "ChatGPT Phantom: accés a Youtube en temps real"
+  },
+  "APPDESC": {
+    "message": "Aquesta extensió us permet escriure articles de NOTÍCIES en temps real i scripts de Youtube"
+  },
+  "HOME_DESC": {
+    "message": "Creeu i publiqueu articles/scripts en temps real tan ràpid com Big Media!"
+  },
+  "SUB_1": {
+    "message": "Temes en temps real"
+  },
+  "SUB_2": {
+    "message": "Traducció de +20 idiomes"
+  },
+  "SUB_3": {
+    "message": "Comprovador de plagi"
+  },
+  "SUB_4": {
+    "message": "Mai recopilar dades d'usuari"
+  },
+  "SUB_5": {
+    "message": "Completament gratuït (donacions ❤️)"
+  },
+  "SUB_6": {
+    "message": "Ús il·limitat"
+  },
+  "PROMPT": {
+    "message": "Solicita:"
+  },
+  "INFO": {
+    "message": "Informació:"
+  },
+  "INSTRUCTIONS": {
+    "message": "Instruccions:"
+  },
+  "WARNING_LABEL": {
+    "message": "Etiqueta la teva instrucció!"
+  },
+  "WARNING_VALUE": {
+    "message": "Escriviu les vostres instruccions!"
+  },
+  "ERROR_1": {
+    "message": "S'ha produït un error"
+  },
+  "ERROR_2": {
+    "message": "Si us plau, torna-ho a provar!"
+  },
+  "PROCESS_1": {
+    "message": "Cercant la informació."
+  },
+  "PROCESS_2": {
+    "message": "Espereu..."
+  },
+  "SOURCE_1": {
+    "message": "1 font"
+  },
+  "SOURCES_2": {
+    "message": "2 fonts"
+  },
+  "SOURCES_3": {
+    "message": "3 fonts"
+  },
+  "AUTO": {
+    "message": "Automàtic"
+  },
+  "TODAY": {
+    "message": "Avui"
+  },
+  "THIS_WEEK": {
+    "message": "Aquesta setmana"
+  },
+  "THIS_MONTH": {
+    "message": "Aquest mes"
+  },
+  "THIS_YEAR": {
+    "message": "Aquest any"
+  },
+  "PLACEHOLDER_1": {
+    "message": "Etiqueta la teva instrucció aquí"
+  },
+  "PLACEHOLDER_2": {
+    "message": "Escriu la teva instrucció aquí"
+  },
+  "BTN_1": {
+    "message": "Crear nou"
+  },
+  "BTN_2": {
+    "message": "Cancel·la"
+  },
+  "BTN_3": {
+    "message": "Afegeix"
+  },
+  "BTN_4": {
+    "message": "Actualització"
+  },
+  "BTN_5": {
+    "message": "Suprimeix"
+  },
+  "HELP": {
+    "message": "Si us plau, sigueu el meu suport per mantenir aquesta extensió gratuïta 🥺"
+  }
+}

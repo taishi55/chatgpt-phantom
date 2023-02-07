@@ -1,118 +1,118 @@
 [
   {
     "label": "Bulgarian",
-    "value": "BG"
+    "value": "bg"
   },
   {
-    "label": "Chinese (simplified)",
-    "value": "ZH"
+    "label": "Chinese",
+    "value": "zh"
   },
   {
     "label": "Czech",
-    "value": "CS"
+    "value": "cs"
   },
   {
     "label": "Danish",
-    "value": "DA"
+    "value": "da"
   },
   {
     "label": "Dutch",
-    "value": "NL"
+    "value": "nl"
   },
   {
-    "label": "English (American)",
-    "value": "EN-US"
+    "label": "English (US)",
+    "value": "en-US"
   },
   {
-    "label": "English (British)",
-    "value": "EN-GB"
+    "label": "English (UK)",
+    "value": "en-GB"
   },
   {
     "label": "Estonian",
-    "value": "ET"
+    "value": "et"
   },
   {
     "label": "Finnish",
-    "value": "FI"
+    "value": "fi"
   },
   {
     "label": "French",
-    "value": "FR"
+    "value": "fr"
   },
   {
     "label": "German",
-    "value": "DE"
+    "value": "de"
   },
   {
     "label": "Greek",
-    "value": "EL"
+    "value": "el"
   },
   {
     "label": "Hungarian",
-    "value": "HU"
+    "value": "hu"
   },
   {
     "label": "Indonesian",
-    "value": "ID"
+    "value": "id"
   },
   {
     "label": "Italian",
-    "value": "IT"
+    "value": "it"
   },
   {
     "label": "Japanese",
-    "value": "JA"
+    "value": "ja"
   },
   {
     "label": "Latvian",
-    "value": "LV"
+    "value": "lv"
   },
   {
     "label": "Lithuanian",
-    "value": "LT"
+    "value": "lt"
   },
   {
     "label": "Polish",
-    "value": "PL"
+    "value": "pl"
   },
   {
     "label": "Portuguese ",
-    "value": "PT-PT"
+    "value": "pt-PT"
   },
   {
-    "label": "Portuguese (Brazilian)",
-    "value": "PT-BR"
+    "label": "Portuguese (BZ)",
+    "value": "pt-BR"
   },
   {
     "label": "Romanian",
-    "value": "RO"
+    "value": "ro"
   },
   {
     "label": "Russian",
-    "value": "RU"
+    "value": "ru"
   },
   {
     "label": "Slovak",
-    "value": "SK"
+    "value": "sk"
   },
   {
     "label": "Slovenian",
-    "value": "SL"
+    "value": "sl"
   },
   {
     "label": "Spanish",
-    "value": "ES"
+    "value": "es"
   },
   {
     "label": "Swedish",
-    "value": "SV"
+    "value": "sv"
   },
   {
     "label": "Turkish",
-    "value": "TR"
+    "value": "tr"
   },
   {
     "label": "Ukrainian",
-    "value": "UK"
+    "value": "uk"
   }
 ]

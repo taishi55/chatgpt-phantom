@@ -1,0 +1,104 @@
+{
+  "APPNAME": {
+    "message": "ChatGPT Phantom: Reaaliaikainen Youtube-käyttö"
+  },
+  "APPDESC": {
+    "message": "Tämän laajennuksen avulla voit kirjoittaa reaaliaikaisia NEWS-artikkeleita ja Youtube-skriptejä."
+  },
+  "HOME_DESC": {
+    "message": "Luo ja julkaise reaaliaikaisia artikkeleita/skriptejä yhtä nopeasti kuin Big Media!"
+  },
+  "SUB_1": {
+    "message": "Reaaliaikaiset aiheet"
+  },
+  "SUB_2": {
+    "message": "+20 kielen käännös"
+  },
+  "SUB_3": {
+    "message": "Plagioinnin tarkistus"
+  },
+  "SUB_4": {
+    "message": "Älä koskaan kerää käyttäjätietoja"
+  },
+  "SUB_5": {
+    "message": "Täysin ilmainen (lahjoitukset ❤️)"
+  },
+  "SUB_6": {
+    "message": "Rajaton käyttö"
+  },
+  "PROMPT": {
+    "message": "Kehote:"
+  },
+  "INFO": {
+    "message": "Tiedot:"
+  },
+  "INSTRUCTIONS": {
+    "message": "Ohjeet:"
+  },
+  "WARNING_LABEL": {
+    "message": "Ole hyvä ja merkitse ohjeesi!"
+  },
+  "WARNING_VALUE": {
+    "message": "Kirjoita ohjeesi!"
+  },
+  "ERROR_1": {
+    "message": "Tapahtui virhe"
+  },
+  "ERROR_2": {
+    "message": "Yritä uudelleen!"
+  },
+  "PROCESS_1": {
+    "message": "Haetaan tietoja."
+  },
+  "PROCESS_2": {
+    "message": "Odota..."
+  },
+  "SOURCE_1": {
+    "message": "1 lähde"
+  },
+  "SOURCES_2": {
+    "message": "2 lähdettä"
+  },
+  "SOURCES_3": {
+    "message": "3 lähdettä"
+  },
+  "AUTO": {
+    "message": "Automaattinen"
+  },
+  "TODAY": {
+    "message": "Tänään"
+  },
+  "THIS_WEEK": {
+    "message": "Tällä viikolla"
+  },
+  "THIS_MONTH": {
+    "message": "Tässä kuussa"
+  },
+  "THIS_YEAR": {
+    "message": "Tänä vuonna"
+  },
+  "PLACEHOLDER_1": {
+    "message": "Merkitse ohjeet tähän"
+  },
+  "PLACEHOLDER_2": {
+    "message": "Kirjoita ohjeet tähän"
+  },
+  "BTN_1": {
+    "message": "Luo uusi"
+  },
+  "BTN_2": {
+    "message": "Peruuta"
+  },
+  "BTN_3": {
+    "message": "Lisää"
+  },
+  "BTN_4": {
+    "message": "Päivitä"
+  },
+  "BTN_5": {
+    "message": "Poista"
+  },
+  "HELP": {
+    "message": "Ole kannattajani pitääksesi tämän laajennuksen ilmaiseksi 🥺"
+  }
+}

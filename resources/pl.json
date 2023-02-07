@@ -1,0 +1,22 @@
+[
+  {
+    "label": "Czat",
+    "value": "napisz szybką odpowiedź, korzystając z podanych informacji"
+  },
+  {
+    "label": "Artykuł z wiadomościami",
+    "value": "proszę napisać szybko reagujący artykuł na temat podanych informacji bez plagiatu. Upewnij się, że piszesz formalnym tonem. Pamiętaj, aby zacytować oznaczenia przeceny # dla tytułu, ## dla podtytułów akapitów i ![](image_url) dla obraz miniatury. Podaj tytuł, który przyciągnie uwagę odbiorców. Następnie podaj krótki opis. Następnie podaj jeden obraz miniatury z podanych obrazów. Następnie podaj 4 akapity składające się z podtytułu i dobrze objaśnionego artykułu. Następnie podaj wnioski."
+  },
+  {
+    "label": "Artykuł na blogu",
+    "value": "proszę napisać szybko reagujący artykuł na temat podanych informacji bez plagiatu. Upewnij się, że piszesz swobodnym tonem. Upewnij się, że piszesz formalnym tonem. Pamiętaj, aby zacytować noty przeceny # dla tytułu, ## dla napisów akapitu i ![](image_url) dla miniatury. Podaj tytuł, który przyciągnie uwagę odbiorców. Następnie podaj krótki opis. Następnie podaj jeden obraz miniatury z podanych obrazów. Następnie podaj 4 akapity składające się z podtytułu i dobrze objaśnionego artykułu. Następnie dać do myślenia"
+  },
+  {
+    "label": "Artykuł perswazyjny",
+    "value": "proszę napisać szybko reagujący artykuł na temat podanych informacji bez plagiatu. Upewnij się, że piszesz przekonującym tonem. Upewnij się, że piszesz formalnym tonem. Pamiętaj, aby zacytować noty przeceny # dla tytułu, ## dla napisów akapitu i ![](image_url) dla obrazu miniatury. Podaj tytuł, który przyciągnie uwagę odbiorców. Następnie podaj krótki opis. Następnie podaj jeden obraz miniatury z podanych obrazów. Następnie podaj 4 akapity składające się z podtytułu, dobrze objaśniony artykuł. Następnie podaj akapit kontrargumentów. Następnie daj do myślenia."
+  },
+  {
+    "label": "Skrypt YouTube",
+    "value": "utwórz skrypt wideo z odpowiedzią na 1500 słów dla podanych informacji bez plagiatu. Pamiętaj, aby pisać tonem konwersacyjnym. Pamiętaj, aby zacytować noty przecen # dla tytułu, ## dla napisów akapitów i ![](image_url) dla obrazu miniatury. Podaj tytuł, który przyciągnie uwagę odbiorców. Następnie podaj krótki opis. Następnie podaj jeden obraz miniatury z podanych obrazów. Następnie podaj chwytliwe wprowadzenie z pytaniem, na które czytelnik będzie chciał znać odpowiedź. Następnie podaj 4 akapity składające się z podtytułu, dobrze wyjaśnionego scenariusza i interesującej opinii. Upewnij się, że historia odwołuje się do emocji odbiorców. Następnie daj do myślenia."
+  }
+]

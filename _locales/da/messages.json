@@ -1,0 +1,104 @@
+{
+  "APPNAME": {
+    "message": "ChatGPT Phantom: Real-Time Youtube-adgang"
+  },
+  "APPDESC": {
+    "message": "Denne udvidelse lader dig skrive artikler i realtid NYHEDER og Youtube-scripts."
+  },
+  "HOME_DESC": {
+    "message": "Opret og udgiv artikler/scripts i realtid lige så hurtigt som Big Media!"
+  },
+  "SUB_1": {
+    "message": "Emner i realtid"
+  },
+  "SUB_2": {
+    "message": "+20 sprog oversættelse"
+  },
+  "SUB_3": {
+    "message": "Plagiatkontrol"
+  },
+  "SUB_4": {
+    "message": "Indsaml aldrig brugerdata"
+  },
+  "SUB_5": {
+    "message": "Helt gratis (donationer ❤️)"
+  },
+  "SUB_6": {
+    "message": "Ubegrænset brug"
+  },
+  "PROMPT": {
+    "message": "Spørg:"
+  },
+  "INFO": {
+    "message": "Info:"
+  },
+  "INSTRUCTIONS": {
+    "message": "Instruktioner:"
+  },
+  "WARNING_LABEL": {
+    "message": "Mærk venligst din instruktion!"
+  },
+  "WARNING_VALUE": {
+    "message": "Skriv venligst din instruktion!"
+  },
+  "ERROR_1": {
+    "message": "Der opstod en fejl"
+  },
+  "ERROR_2": {
+    "message": "Prøv venligst igen!"
+  },
+  "PROCESS_1": {
+    "message": "Søger informationen."
+  },
+  "PROCESS_2": {
+    "message": "Vent venligst..."
+  },
+  "SOURCE_1": {
+    "message": "1 kilde"
+  },
+  "SOURCES_2": {
+    "message": "2 kilder"
+  },
+  "SOURCES_3": {
+    "message": "3 kilder"
+  },
+  "AUTO": {
+    "message": "Automatisk"
+  },
+  "TODAY": {
+    "message": "I dag"
+  },
+  "THIS_WEEK": {
+    "message": "Denne uge"
+  },
+  "THIS_MONTH": {
+    "message": "Denne måned"
+  },
+  "THIS_YEAR": {
+    "message": "I år"
+  },
+  "PLACEHOLDER_1": {
+    "message": "Mærk din instruktion her"
+  },
+  "PLACEHOLDER_2": {
+    "message": "Skriv din instruktion her"
+  },
+  "BTN_1": {
+    "message": "Opret ny"
+  },
+  "BTN_2": {
+    "message": "Annuller"
+  },
+  "BTN_3": {
+    "message": "Tilføj"
+  },
+  "BTN_4": {
+    "message": "Opdater"
+  },
+  "BTN_5": {
+    "message": "Slet"
+  },
+  "HELP": {
+    "message": "Vær venligst min tilhænger for at beholde denne udvidelse gratis 🥺"
+  }
+}

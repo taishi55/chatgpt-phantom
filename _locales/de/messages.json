@@ -1,0 +1,104 @@
+{
+  "APPNAME": {
+    "message": "ChatGPT Phantom: YouTube-Zugriff in Echtzeit"
+  },
+  "APPDESC": {
+    "message": "Mit dieser Erweiterung können Sie Echtzeit-NEWS-Artikel und Youtube-Skripte schreiben."
+  },
+  "HOME_DESC": {
+    "message": "Erstellen und veröffentlichen Sie Artikel/Skripte in Echtzeit so schnell wie Big Media!"
+  },
+  "SUB_1": {
+    "message": "Echtzeitthemen"
+  },
+  "SUB_2": {
+    "message": "Übersetzung in +20 Sprachen"
+  },
+  "SUB_3": {
+    "message": "Plagiatsprüfer"
+  },
+  "SUB_4": {
+    "message": "Erfasse niemals Benutzerdaten"
+  },
+  "SUB_5": {
+    "message": "Völlig kostenlos (Spenden ❤️)"
+  },
+  "SUB_6": {
+    "message": "Unbegrenzte Nutzung"
+  },
+  "PROMPT": {
+    "message": "Eingabeaufforderung:"
+  },
+  "INFO": {
+    "message": "Info:"
+  },
+  "INSTRUCTIONS": {
+    "message": "Anweisungen:"
+  },
+  "WARNING_LABEL": {
+    "message": "Bitte beschriften Sie Ihre Anleitung!"
+  },
+  "WARNING_VALUE": {
+    "message": "Bitte schreiben Sie Ihre Anweisung!"
+  },
+  "ERROR_1": {
+    "message": "Ein Fehler ist aufgetreten"
+  },
+  "ERROR_2": {
+    "message": "Bitte versuchen Sie es erneut!"
+  },
+  "PROCESS_1": {
+    "message": "Suche nach Informationen."
+  },
+  "PROCESS_2": {
+    "message": "Bitte warten..."
+  },
+  "SOURCE_1": {
+    "message": "1 Quelle"
+  },
+  "SOURCES_2": {
+    "message": "2 Quellen"
+  },
+  "SOURCES_3": {
+    "message": "3 Quellen"
+  },
+  "AUTO": {
+    "message": "Automatisch"
+  },
+  "TODAY": {
+    "message": "Heute"
+  },
+  "THIS_WEEK": {
+    "message": "Diese Woche"
+  },
+  "THIS_MONTH": {
+    "message": "Diesen Monat"
+  },
+  "THIS_YEAR": {
+    "message": "Dieses Jahr"
+  },
+  "PLACEHOLDER_1": {
+    "message": "Beschrifte hier deine Anweisung"
+  },
+  "PLACEHOLDER_2": {
+    "message": "Schreiben Sie hier Ihre Anweisung"
+  },
+  "BTN_1": {
+    "message": "Neu erstellen"
+  },
+  "BTN_2": {
+    "message": "Abbrechen"
+  },
+  "BTN_3": {
+    "message": "Hinzufügen"
+  },
+  "BTN_4": {
+    "message": "Aktualisieren"
+  },
+  "BTN_5": {
+    "message": "Löschen"
+  },
+  "HELP": {
+    "message": "Bitte seien Sie mein Unterstützer, um diese Erweiterung kostenlos zu behalten 🥺"
+  }
+}

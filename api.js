@@ -1,9 +1,9 @@
 // get info of the searched urls from query
-async function getSearchData(q, t, r) {
+async function getSearchData(query, time, num) {
   // query, time, region (all string types)
   // format query
-  q = q.replace(/\s/g, "+");
-  const url = `https://phantom-ghost-writer.vercel.app/api/search?q=${q}&t=${t}&r=${r}`;
+  query = query.replace(/\s/g, "+");
+  const url = `https://phantom-ghost-writer.vercel.app/api/youtube?query=${query}&time=${time}&num=${num}`;
 
   const headers = new Headers({
     Origin: "https://chat.openai.com",
@@ -15,7 +15,7 @@ async function getSearchData(q, t, r) {
       headers: headers,
     });
 
-    const result = await response.text();
+    const result = await response.json();
     return result;
   } catch (error) {
     showErrorMessage(error);

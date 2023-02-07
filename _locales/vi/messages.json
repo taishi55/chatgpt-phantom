@@ -1,0 +1,104 @@
+{
+  "APPNAME": {
+    "message": "ChatGPT Phantom: Truy cập Youtube theo thời gian thực"
+  },
+  "APPDESC": {
+    "message": "Tiện ích mở rộng này cho phép bạn viết các bài báo TIN TỨC theo thời gian thực và các đoạn mã Youtube."
+  },
+  "HOME_DESC": {
+    "message": "Tạo & Xuất bản các bài viết/tập lệnh thời gian thực nhanh như Big Media!"
+  },
+  "SUB_1": {
+    "message": "Chủ đề thời gian thực"
+  },
+  "SUB_2": {
+    "message": "+20 bản dịch ngôn ngữ"
+  },
+  "SUB_3": {
+    "message": "Trình kiểm tra đạo văn"
+  },
+  "SUB_4": {
+    "message": "Không bao giờ thu thập dữ liệu người dùng"
+  },
+  "SUB_5": {
+    "message": "Hoàn toàn miễn phí (đóng góp ❤️)"
+  },
+  "SUB_6": {
+    "message": "Sử dụng không giới hạn"
+  },
+  "PROMPT": {
+    "message": "Lời nhắc:"
+  },
+  "INFO": {
+    "message": "Thông tin:"
+  },
+  "INSTRUCTIONS": {
+    "message": "Hướng dẫn:"
+  },
+  "WARNING_LABEL": {
+    "message": "Vui lòng dán nhãn hướng dẫn của bạn!"
+  },
+  "WARNING_VALUE": {
+    "message": "Vui lòng viết hướng dẫn của bạn!"
+  },
+  "ERROR_1": {
+    "message": "Đã xảy ra lỗi"
+  },
+  "ERROR_2": {
+    "message": "Vui lòng thử lại!"
+  },
+  "PROCESS_1": {
+    "message": "Tìm kiếm thông tin."
+  },
+  "PROCESS_2": {
+    "message": "Vui lòng đợi..."
+  },
+  "SOURCE_1": {
+    "message": "1 nguồn"
+  },
+  "SOURCES_2": {
+    "message": "2 nguồn"
+  },
+  "SOURCES_3": {
+    "message": "3 nguồn"
+  },
+  "AUTO": {
+    "message": "Tự động"
+  },
+  "TODAY": {
+    "message": "Hôm nay"
+  },
+  "THIS_WEEK": {
+    "message": "Tuần này"
+  },
+  "THIS_MONTH": {
+    "message": "Tháng này"
+  },
+  "THIS_YEAR": {
+    "message": "Năm nay"
+  },
+  "PLACEHOLDER_1": {
+    "message": "Ghi nhãn hướng dẫn của bạn ở đây"
+  },
+  "PLACEHOLDER_2": {
+    "message": "Viết hướng dẫn của bạn ở đây"
+  },
+  "BTN_1": {
+    "message": "Tạo mới"
+  },
+  "BTN_2": {
+    "message": "Hủy bỏ"
+  },
+  "BTN_3": {
+    "message": "Thêm"
+  },
+  "BTN_4": {
+    "message": "Cập nhật"
+  },
+  "BTN_5": {
+    "message": "Xóa"
+  },
+  "HELP": {
+    "message": "Hãy là người ủng hộ tôi để giữ phần mở rộng này miễn phí 🥺"
+  }
+}

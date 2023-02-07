@@ -1,0 +1,104 @@
+{
+  "APPNAME": {
+    "message": "ChatGPT Phantom: pristup Youtubeu u stvarnom vremenu"
+  },
+  "APPDESC": {
+    "message": "Ovo proširenje vam omogućuje pisanje članaka VIJESTI u stvarnom vremenu i Youtube skripti."
+  },
+  "HOME_DESC": {
+    "message": "Stvorite i objavite članke/skripte u stvarnom vremenu jednako brzo kao Big Media!"
+  },
+  "SUB_1": {
+    "message": "Teme u stvarnom vremenu"
+  },
+  "SUB_2": {
+    "message": "Prijevod na +20 jezika"
+  },
+  "SUB_3": {
+    "message": "Provjera plagijata"
+  },
+  "SUB_4": {
+    "message": "Nikad ne prikupljaj korisničke podatke"
+  },
+  "SUB_5": {
+    "message": "Potpuno besplatno (donacije ❤️)"
+  },
+  "SUB_6": {
+    "message": "Neograničeno korištenje"
+  },
+  "PROMPT": {
+    "message": "Odziv:"
+  },
+  "INFO": {
+    "message": "Informacije:"
+  },
+  "INSTRUCTIONS": {
+    "message": "Upute:"
+  },
+  "WARNING_LABEL": {
+    "message": "Molimo označite svoju uputu!"
+  },
+  "WARNING_VALUE": {
+    "message": "Molimo napišite svoje upute!"
+  },
+  "ERROR_1": {
+    "message": "Došlo je do greške"
+  },
+  "ERROR_2": {
+    "message": "Molimo pokušajte ponovo!"
+  },
+  "PROCESS_1": {
+    "message": "Tražim informacije."
+  },
+  "PROCESS_2": {
+    "message": "Molim pričekajte..."
+  },
+  "SOURCE_1": {
+    "message": "1 izvor"
+  },
+  "SOURCES_2": {
+    "message": "2 izvora"
+  },
+  "SOURCES_3": {
+    "message": "3 izvora"
+  },
+  "AUTO": {
+    "message": "Auto"
+  },
+  "TODAY": {
+    "message": "Danas"
+  },
+  "THIS_WEEK": {
+    "message": "Ovaj tjedan"
+  },
+  "THIS_MONTH": {
+    "message": "Ovaj mjesec"
+  },
+  "THIS_YEAR": {
+    "message": "Ove godine"
+  },
+  "PLACEHOLDER_1": {
+    "message": "Ovdje označite svoje upute"
+  },
+  "PLACEHOLDER_2": {
+    "message": "Ovdje napišite svoje upute"
+  },
+  "BTN_1": {
+    "message": "Stvori novo"
+  },
+  "BTN_2": {
+    "message": "Odustani"
+  },
+  "BTN_3": {
+    "message": "Dodaj"
+  },
+  "BTN_4": {
+    "message": "Ažuriraj"
+  },
+  "BTN_5": {
+    "message": "Izbriši"
+  },
+  "HELP": {
+    "message": "Molim vas podržite me da zadržim ovo proširenje besplatno 🥺"
+  }
+}

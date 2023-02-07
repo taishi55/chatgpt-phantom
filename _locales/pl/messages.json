@@ -1,0 +1,104 @@
+{
+  "APPNAME": {
+    "message": "ChatGPT Phantom: dostęp do YouTube w czasie rzeczywistym"
+  },
+  "APPDESC": {
+    "message": "To rozszerzenie umożliwia pisanie artykułów NEWS w czasie rzeczywistym i skryptów YouTube"
+  },
+  "HOME_DESC": {
+    "message": "Twórz i publikuj artykuły/skrypty w czasie rzeczywistym tak szybko, jak Big Media!"
+  },
+  "SUB_1": {
+    "message": "Tematy w czasie rzeczywistym"
+  },
+  "SUB_2": {
+    "message": "Tłumaczenie na +20 języków"
+  },
+  "SUB_3": {
+    "message": "Kontrola plagiatu"
+  },
+  "SUB_4": {
+    "message": "Nigdy nie zbieraj danych użytkownika"
+  },
+  "SUB_5": {
+    "message": "Całkowicie za darmo (darowizny ❤️)"
+  },
+  "SUB_6": {
+    "message": "Nieograniczone użycie"
+  },
+  "PROMPT": {
+    "message": "Podpowiedź:"
+  },
+  "INFO": {
+    "message": "Informacje:"
+  },
+  "INSTRUCTIONS": {
+    "message": "Instrukcje:"
+  },
+  "WARNING_LABEL": {
+    "message": "Proszę oznaczyć swoją instrukcję!"
+  },
+  "WARNING_VALUE": {
+    "message": "Proszę napisać instrukcję!"
+  },
+  "ERROR_1": {
+    "message": "Wystąpił błąd"
+  },
+  "ERROR_2": {
+    "message": "Spróbuj ponownie!"
+  },
+  "PROCESS_1": {
+    "message": "Wyszukiwanie informacji."
+  },
+  "PROCESS_2": {
+    "message": "Proszę czekać..."
+  },
+  "SOURCE_1": {
+    "message": "1 źródło"
+  },
+  "SOURCES_2": {
+    "message": "2 źródła"
+  },
+  "SOURCES_3": {
+    "message": "3 źródła"
+  },
+  "AUTO": {
+    "message": "Auto"
+  },
+  "TODAY": {
+    "message": "Dzisiaj"
+  },
+  "THIS_WEEK": {
+    "message": "W tym tygodniu"
+  },
+  "THIS_MIESIĄC": {
+    "message": "W tym miesiącu"
+  },
+  "THIS_YEAR": {
+    "message": "W tym roku"
+  },
+  "PLACEHOLDER_1": {
+    "message": "Oznacz tutaj swoją instrukcję"
+  },
+  "PLACEHOLDER_2": {
+    "message": "Wpisz tutaj swoją instrukcję"
+  },
+  "BTN_1": {
+    "message": "Utwórz nowy"
+  },
+  "BTN_2": {
+    "message": "Anuluj"
+  },
+  "BTN_3": {
+    "message": "Dodaj"
+  },
+  "BTN_4": {
+    "message": "Aktualizacja"
+  },
+  "BTN_5": {
+    "message": "Usuń"
+  },
+  "HELP": {
+    "message": "Proszę, bądź moim wsparciem, aby zachować to rozszerzenie za darmo 🥺"
+  }
+}

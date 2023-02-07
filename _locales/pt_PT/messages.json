@@ -1,0 +1,104 @@
+{
+  "APPNAME": {
+    "message": "ChatGPT Phantom: acesso ao YouTube em tempo real"
+  },
+  "APPDESC": {
+    "message": "Esta extensão permite escrever artigos de notícias em tempo real e scripts do Youtube."
+  },
+  "HOME_DESC": {
+    "message": "Crie e publique artigos/scripts em tempo real tão rápido quanto a Big Media!"
+  },
+  "SUB_1": {
+    "message": "Tópicos em tempo real"
+  },
+  "SUB_2": {
+    "message": "Tradução de +20 idiomas"
+  },
+  "SUB_3": {
+    "message": "Verificador de plágio"
+  },
+  "SUB_4": {
+    "message": "Nunca colete dados do usuário"
+  },
+  "SUB_5": {
+    "message": "Completamente Gratuito (doações ❤️)"
+  },
+  "SUB_6": {
+    "message": "Uso Ilimitado"
+  },
+  "PROMPT": {
+    "message": "Aviso:"
+  },
+  "INFO": {
+    "message": "Informações:"
+  },
+  "INSTRUCTIONS": {
+    "message": "Instruções:"
+  },
+  "WARNING_LABEL": {
+    "message": "Por favor, identifique sua instrução!"
+  },
+  "WARNING_VALUE": {
+    "message": "Por favor, escreva sua instrução!"
+  },
+  "ERROR_1": {
+    "message": "Ocorreu um erro"
+  },
+  "ERROR_2": {
+    "message": "Por favor, tente novamente!"
+  },
+  "PROCESS_1": {
+    "message": "Pesquisando as informações."
+  },
+  "PROCESS_2": {
+    "message": "Aguarde..."
+  },
+  "SOURCE_1": {
+    "message": "1 fonte"
+  },
+  "SOURCES_2": {
+    "message": "2 fontes"
+  },
+  "SOURCES_3": {
+    "message": "3 fontes"
+  },
+  "AUTO": {
+    "message": "Automático"
+  },
+  "TODAY": {
+    "message": "Hoje"
+  },
+  "THIS_WEEK": {
+    "message": "Esta semana"
+  },
+  "THIS_MONTH": {
+    "message": "Este mês"
+  },
+  "THIS_YEAR": {
+    "message": "Este ano"
+  },
+  "PLACEHOLDER_1": {
+    "message": "Etiquete sua instrução aqui"
+  },
+  "PLACEHOLDER_2": {
+    "message": "Escreva sua instrução aqui"
+  },
+  "BTN_1": {
+    "message": "Criar novo"
+  },
+  "BTN_2": {
+    "message": "Cancelar"
+  },
+  "BTN_3": {
+    "message": "Adicionar"
+  },
+  "BTN_4": {
+    "message": "Atualizar"
+  },
+  "BTN_5": {
+    "message": "Excluir"
+  },
+  "HELP": {
+    "message": "Por favor, seja meu apoiador para manter esta extensão gratuitamente 🥺"
+  }
+}

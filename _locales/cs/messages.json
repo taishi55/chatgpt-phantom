@@ -1,0 +1,104 @@
+{
+  "APPNAME": {
+    "message": "ChatGPT Phantom: Přístup na YouTube v reálném čase"
+  },
+  "APPDESC": {
+    "message": "Toto rozšíření umožňuje psát články ZPRÁV v reálném čase a skripty na Youtube."
+  },
+  "HOME_DESC": {
+    "message": "Vytvářejte a publikujte články/skripty v reálném čase tak rychle jako Big Media!"
+  },
+  "SUB_1": {
+    "message": "Témata v reálném čase"
+  },
+  "SUB_2": {
+    "message": "Překlad +20 jazyků"
+  },
+  "SUB_3": {
+    "message": "Kontrola plagiátorství"
+  },
+  "SUB_4": {
+    "message": "Nikdy nesbírat uživatelská data"
+  },
+  "SUB_5": {
+    "message": "Zcela zdarma (dary ❤️)"
+  },
+  "SUB_6": {
+    "message": "Neomezené použití"
+  },
+  "PROMPT": {
+    "message": "Výzva:"
+  },
+  "INFO": {
+    "message": "Informace:"
+  },
+  "INSTRUCTIONS": {
+    "message": "Pokyny:"
+  },
+  "WARNING_LABEL": {
+    "message": "Označte prosím svůj pokyn!"
+  },
+  "WARNING_VALUE": {
+    "message": "Napište prosím svůj pokyn!"
+  },
+  "ERROR_1": {
+    "message": "Došlo k chybě"
+  },
+  "ERROR_2": {
+    "message": "Zkuste to prosím znovu!"
+  },
+  "PROCESS_1": {
+    "message": "Vyhledávám informace."
+  },
+  "PROCESS_2": {
+    "message": "Počkejte prosím..."
+  },
+  "SOURCE_1": {
+    "message": "1 zdroj"
+  },
+  "SOURCES_2": {
+    "message": "2 zdroje"
+  },
+  "SOURCES_3": {
+    "message": "3 zdroje"
+  },
+  "AUTO": {
+    "message": "Auto"
+  },
+  "TODAY": {
+    "message": "Dnes"
+  },
+  "THIS_WEEK": {
+    "message": "Tento týden"
+  },
+  "THIS_MONTH": {
+    "message": "Tento měsíc"
+  },
+  "THIS_YEAR": {
+    "message": "Letos"
+  },
+  "PLACEHOLDER_1": {
+    "message": "Sem označte svůj pokyn"
+  },
+  "PLACEHOLDER_2": {
+    "message": "Sem napište svůj pokyn"
+  },
+  "BTN_1": {
+    "message": "Vytvořit nový"
+  },
+  "BTN_2": {
+    "message": "Zrušit"
+  },
+  "BTN_3": {
+    "message": "Přidat"
+  },
+  "BTN_4": {
+    "message": "Aktualizovat"
+  },
+  "BTN_5": {
+    "message": "Smazat"
+  },
+  "HELP": {
+    "message": "Prosím, buďte mým příznivcem, abyste si toto rozšíření ponechali zdarma 🥺"
+  }
+}

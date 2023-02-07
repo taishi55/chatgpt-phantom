@@ -1,0 +1,22 @@
+[
+  {
+    "label": "Klepet",
+    "value": "napišite hitro odziven odgovor z uporabo danih informacij."
+  },
+  {
+    "label": "Članek z novicami",
+    "value": "prosimo, napišite hitro odziven članek o danih informacijah brez plagiatorstva. Pazite, da pišete v uradnem tonu. Ne pozabite navesti oznake # za naslov, ## za podnapise odstavka in ![](image_url) za sličica. Navedite naslov, ki pritegne pozornost ljudi. Nato navedite kratek opis. Nato navedite eno sličico izmed danih slik. Nato navedite 4 odstavke, sestavljene iz podnaslovov in dobro razloženega članka. Nato navedite zaključek."
+  },
+  {
+    "label": "Članek v blogu",
+    "value": "prosimo, napišite hitro odziven članek o danih informacijah brez plagiatorstva. Pišite v ležernem tonu. Pišite v uradnem tonu. Ne pozabite navesti oznak # za naslov, ## za podnapise odstavka in ![](image_url) za sličico. Navedite naslov, ki pritegne pozornost ljudi. Nato navedite kratek opis. Nato navedite eno sličico izmed danih slik. Nato navedite 4 odstavke, sestavljene iz podnaslovov in dobro razloženega članka. Nato zagotoviti hrano za razmišljanje."
+  },
+  {
+    "label": "Prepričljiv članek",
+    "value": "prosimo, napišite hitro odziven članek o danih informacijah brez plagiatorstva. Pišite s prepričljivim tonom. Pišite s formalnim tonom. Navedite oznake # za naslov, ## za podnapise odstavka in ![](image_url) za sličico. Navedite naslov, ki pritegne pozornost ljudi. Nato navedite kratek opis. Nato navedite eno sličico izmed danih slik. Nato navedite 4 odstavke, sestavljene iz podnaslovov, dobro razloženega članka. Nato navedite odstavek protiargumenta. Nato zagotovite hrano za razmislek."
+  },
+  {
+    "label": "YouTube skript",
+    "value": "prosimo, ustvarite 1500-besedni video skript s hitrim odzivom za dane informacije brez plagiatorstva. Pazite, da pišete v pogovornem tonu. Ne pozabite navesti oznak # za naslov, ## za podnapise odstavkov in ![](image_url) za sličico. Navedite naslov, ki pritegne pozornost ljudi. Nato navedite kratek opis. Nato navedite eno sličico izmed danih slik. Nato navedite privlačen uvod z vprašanjem, na katerega bo bralec želel izvedeti odgovor. Nato navedite 4 odstavki, sestavljeni iz podnaslovov, dobro razloženega scenarija in zanimivega mnenja. Poskrbite, da boste pritegnili čustva občinstva, ki stoji za zgodbo. Nato zagotovite hrano za razmišljanje."
+  }
+]

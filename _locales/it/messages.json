@@ -1,0 +1,104 @@
+{
+  "APPNAME": {
+    "message": "ChatGPT Phantom: accesso YouTube in tempo reale"
+  },
+  "APPDESC": {
+    "message": "Questa estensione ti consente di scrivere articoli di NOTIZIE in tempo reale e script per Youtube."
+  },
+  "HOME_DESC": {
+    "message": "Crea e pubblica articoli/script in tempo reale alla stessa velocità di Big Media!"
+  },
+  "SUB_1": {
+    "message": "Argomenti in tempo reale"
+  },
+  "SUB_2": {
+    "message": "Traduzione +20 lingue"
+  },
+  "SUB_3": {
+    "message": "Controllo antiplagio"
+  },
+  "SUB_4": {
+    "message": "Non raccogliere mai dati utente"
+  },
+  "SUB_5": {
+    "message": "Completamente gratuito (donazioni ❤️)"
+  },
+  "SUB_6": {
+    "message": "Utilizzo illimitato"
+  },
+  "PROMPT": {
+    "message": "Richiesta:"
+  },
+  "INFO": {
+    "message": "Informazioni:"
+  },
+  "INSTRUCTIONS": {
+    "message": "Istruzioni:"
+  },
+  "WARNING_LABEL": {
+    "message": "Per favore etichetta la tua istruzione!"
+  },
+  "WARNING_VALUE": {
+    "message": "Per favore, scrivi le tue istruzioni!"
+  },
+  "ERROR_1": {
+    "message": "Si è verificato un errore"
+  },
+  "ERROR_2": {
+    "message": "Per favore, riprova!"
+  },
+  "PROCESS_1": {
+    "message": "Ricerca delle informazioni."
+  },
+  "PROCESS_2": {
+    "message": "Per favore aspetta..."
+  },
+  "SOURCE_1": {
+    "message": "1 fonte"
+  },
+  "SOURCES_2": {
+    "message": "2 fonti"
+  },
+  "SOURCES_3": {
+    "message": "3 fonti"
+  },
+  "AUTO": {
+    "message": "Automatico"
+  },
+  "TODAY": {
+    "message": "Oggi"
+  },
+  "THIS_WEEK": {
+    "message": "Questa settimana"
+  },
+  "THIS_MONTH": {
+    "message": "Questo mese"
+  },
+  "THIS_YEAR": {
+    "message": "Quest'anno"
+  },
+  "PLACEHOLDER_1": {
+    "message": "Etichetta qui la tua istruzione"
+  },
+  "PLACEHOLDER_2": {
+    "message": "Scrivi qui le tue istruzioni"
+  },
+  "BTN_1": {
+    "message": "Crea nuovo"
+  },
+  "BTN_2": {
+    "message": "Annulla"
+  },
+  "BTN_3": {
+    "message": "Aggiungi"
+  },
+  "BTN_4": {
+    "message": "Aggiorna"
+  },
+  "BTN_5": {
+    "message": "Elimina"
+  },
+  "HELP": {
+    "message": "Si prega di essere il mio sostenitore per mantenere questa estensione gratuitamente 🥺"
+  }
+}

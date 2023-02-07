@@ -1,0 +1,104 @@
+{
+  "APPNAME": {
+    "message": "ChatGPT Phantom: Akses Youtube Masa Nyata"
+  },
+  "APPDESC": {
+    "message": "Sambungan ini membolehkan anda menulis artikel BERITA Masa Nyata dan skrip Youtube."
+  },
+  "HOME_DESC": {
+    "message": "Buat & Terbitkan artikel/skrip masa nyata sepantas Big Media!"
+  },
+  "SUB_1": {
+    "message": "Topik Masa Nyata"
+  },
+  "SUB_2": {
+    "message": "Terjemahan +20 Bahasa"
+  },
+  "SUB_3": {
+    "message": "Pemeriksa Plagiarisme"
+  },
+  "SUB_4": {
+    "message": "Jangan sekali-kali Kumpul Data Pengguna"
+  },
+  "SUB_5": {
+    "message": "Percuma Sepenuhnya (derma ❤️)"
+  },
+  "SUB_6": {
+    "message": "Penggunaan Tanpa Had"
+  },
+  "PROMPT": {
+    "message": "Prompt:"
+  },
+  "INFO": {
+    "message": "Maklumat:"
+  },
+  "INSTRUCTIONS": {
+    "message": "Arahan:"
+  },
+  "WARNING_LABEL": {
+    "message": "Sila labelkan arahan anda!"
+  },
+  "WARNING_VALUE": {
+    "message": "Sila tulis arahan anda!"
+  },
+  "ERROR_1": {
+    "message": "Ralat berlaku"
+  },
+  "ERROR_2": {
+    "message": "Sila cuba lagi!"
+  },
+  "PROCESS_1": {
+    "message": "Mencari maklumat."
+  },
+  "PROCESS_2": {
+    "message": "Sila tunggu..."
+  },
+  "SOURCE_1": {
+    "message": "1 sumber"
+  },
+  "SOURCES_2": {
+    "message": "2 sumber"
+  },
+  "SOURCES_3": {
+    "message": "3 sumber"
+  },
+  "AUTO": {
+    "message": "Auto"
+  },
+  "TODAY": {
+    "message": "Hari ini"
+  },
+  "THIS_WEEK": {
+    "message": "Minggu ini"
+  },
+  "THIS_MONTH": {
+    "message": "Bulan ini"
+  },
+  "THIS_YEAR": {
+    "message": "Tahun ini"
+  },
+  "PLACEHOLDER_1": {
+    "message": "Labelkan arahan anda di sini"
+  },
+  "PLACEHOLDER_2": {
+    "message": "Tulis arahan anda di sini"
+  },
+  "BTN_1": {
+    "message": "Buat Baharu"
+  },
+  "BTN_2": {
+    "message": "Batalkan"
+  },
+  "BTN_3": {
+    "message": "Tambah"
+  },
+  "BTN_4": {
+    "message": "Kemas kini"
+  },
+  "BTN_5": {
+    "message": "Padam"
+  },
+  "HELP": {
+    "message": "Sila jadi penyokong saya untuk mengekalkan sambungan ini secara percuma 🥺"
+  }
+}

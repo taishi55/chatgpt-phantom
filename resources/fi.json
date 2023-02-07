@@ -1,0 +1,22 @@
+[
+  {
+    "label": "Chat",
+    "value": "kirjoita nopeasti reagoiva vastaus annettujen tietojen avulla."
+  },
+  {
+    "label": "Uutisartikkeli",
+    "value": "kirjoita nopeasti reagoiva artikkeli annetuista tiedoista ilman plagiointia. Varmista, että kirjoitat muodollisella sävyllä. Muista lainata merkintämerkinnät # otsikossa, ## kappaleen tekstityksessä ja ![](image_url) pikkukuva. Anna otsikko, joka kiinnittää ihmisten huomion. Anna sitten lyhyt kuvaus. Anna sitten yksi pikkukuva annetuista kuvista. Anna sitten 4 kappaletta, jotka koostuvat alaotsikosta ja hyvin selitetystä artikkelista. Tee sitten johtopäätös."
+  },
+  {
+    "label": "Blogiartikkeli",
+    "value": "kirjoita nopeasti reagoiva artikkeli annetuista tiedoista ilman plagiointia. Muista kirjoittaa rennosti. Muista kirjoittaa muodollisella sävyllä. Muista lainata otsikon merkintämerkinnät #, ## kappaleen tekstityksille ja ![](image_url) pikkukuvalle. Anna otsikko, joka kiinnittää ihmisten huomion. Anna sitten lyhyt kuvaus. Anna sitten yksi pikkukuva annetuista kuvista. Anna sitten 4 kappaletta, jotka koostuvat alaotsikosta ja hyvin selitetystä artikkelista. antaa ajattelemisen aihetta."
+  },
+  {
+    "label": "Vakuuttava artikkeli",
+    "value": "kirjoita nopeasti reagoiva artikkeli annetuista tiedoista ilman plagiointia. Varmista, että kirjoitat vakuuttavalla sävyllä. Varmista, että kirjoitat virallisella sävyllä. Muista lainata otsikon merkintämerkinnät #, ## kappaleen tekstityksille ja ![](image_url) pikkukuvalle. Anna otsikko, joka kiinnittää ihmisten huomion. Anna sitten lyhyt kuvaus. Anna sitten yksi pikkukuva annetuista kuvista. Anna sitten 4 kappaletta, jotka koostuvat alaotsikosta, hyvin selitetystä artikkelista. Sitten anna vasta-argumentti kappale. Anna sitten ajattelun aihetta."
+  },
+  {
+    "label": "Youtube-skripti",
+    "value": "luo annetuille tiedoille 1500-sanainen pikavastausvideoskripti ilman plagiointia. Varmista, että kirjoitat keskustelusävyllä. Muista lainata merkintämerkinnät # otsikossa, ## kappaleiden tekstityksissä ja ![](image_url) pikkukuvalle. Anna otsikko, joka kiinnittää ihmisten huomion. Anna sitten lyhyt kuvaus. Anna sitten yksi pikkukuva annetuista kuvista. Esitä sitten tarttuva johdanto ja kysymys, johon lukija haluaa tietää vastauksen. Anna sitten 4 kappaletta, jotka koostuvat alaotsikosta, hyvin selitetyistä käsikirjoituksista ja mielenkiintoisesta mielipiteestä. Varmista, että vetoaa tarinan takana olevien yleisön tunteisiin. Anna sitten ajattelemisen aihetta."
+  }
+]

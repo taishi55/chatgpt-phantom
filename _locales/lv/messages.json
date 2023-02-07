@@ -1,0 +1,104 @@
+{
+  "APPNAME": {
+    "message": "ChatGPT Phantom: reāllaika Youtube piekļuve"
+  },
+  "APPDESC": {
+    "message": "Šis paplašinājums ļauj rakstīt reāllaika ZIŅU rakstus un Youtube skriptus."
+  },
+  "HOME_DESC": {
+    "message": "Izveidojiet un publicējiet reāllaika rakstus/skriptus tikpat ātri kā Big Media!"
+  },
+  "SUB_1": {
+    "message": "Reāllaika tēmas"
+  },
+  "SUB_2": {
+    "message": "+20 valodu tulkošana"
+  },
+  "SUB_3": {
+    "message": "Plaģiātisma pārbaudītājs"
+  },
+  "SUB_4": {
+    "message": "Nekad neapkopojiet lietotāja datus"
+  },
+  "SUB_5": {
+    "message": "Pilnīgi bez maksas (ziedojumi ❤️)"
+  },
+  "SUB_6": {
+    "message": "Neierobežots lietojums"
+  },
+  "PROMPT": {
+    "message": "Uzvedne:"
+  },
+  "INFO": {
+    "message": "Informācija:"
+  },
+  "INSTRUCTIONS": {
+    "message": "Instrukcijas:"
+  },
+  "WARNING_LABEL": {
+    "message": "Lūdzu, marķējiet savu norādījumu!"
+  },
+  "WARNING_VALUE": {
+    "message": "Lūdzu, uzrakstiet savu norādījumu!"
+  },
+  "ERROR_1": {
+    "message": "Radās kļūda"
+  },
+  "ERROR_2": {
+    "message": "Lūdzu, mēģiniet vēlreiz!"
+  },
+  "PROCESS_1": {
+    "message": "Informācijas meklēšana."
+  },
+  "PROCESS_2": {
+    "message": "Lūdzu, uzgaidiet..."
+  },
+  "SOURCE_1": {
+    "message": "1 avots"
+  },
+  "SOURCES_2": {
+    "message": "2 avoti"
+  },
+  "SOURCES_3": {
+    "message": "3 avoti"
+  },
+  "AUTO": {
+    "message": "Auto"
+  },
+  "TODAY": {
+    "message": "Šodien"
+  },
+  "THIS_WEEK": {
+    "message": "Šonedēļ"
+  },
+  "THIS_MONTH": {
+    "message": "Šomēnes"
+  },
+  "THIS_YEAR": {
+    "message": "Šogad"
+  },
+  "PLACEHOLDER_1": {
+    "message": "Šeit atzīmējiet savu norādījumu"
+  },
+  "PLACEHOLDER_2": {
+    "message": "Uzrakstiet savu norādījumu šeit"
+  },
+  "BTN_1": {
+    "message": "Izveidot jaunu"
+  },
+  "BTN_2": {
+    "message": "Atcelt"
+  },
+  "BTN_3": {
+    "message": "Pievienot"
+  },
+  "BTN_4": {
+    "message": "Atjaunināt"
+  },
+  "BTN_5": {
+    "message": "Dzēst"
+  },
+  "HELP": {
+    "message": "Lūdzu, esiet mans atbalstītājs, lai saglabātu šo paplašinājumu bez maksas 🥺"
+  }
+}

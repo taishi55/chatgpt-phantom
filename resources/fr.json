@@ -1,0 +1,22 @@
+[
+  {
+    "label": "Discuter",
+    "value": "écrivez une réponse réactive en utilisant les informations fournies."
+  },
+  {
+    "label": "Article d'actualité",
+    "value": "veuillez écrire un article réactif sur l'information donnée sans plagiat. Assurez-vous d'écrire sur un ton formel. Assurez-vous de citer les notations de démarquage # pour un titre, ## pour les sous-titres de paragraphe et ![](image_url) pour un Fournissez un titre qui attire l'attention des gens. Ensuite, fournissez une courte description. Ensuite, fournissez une image miniature à partir des images données. Ensuite, fournissez 4 paragraphes composés d'un sous-titre et d'un article bien expliqué. Ensuite, fournissez une conclusion."
+  },
+  {
+    "label": "Article de blog",
+    "value": "veuillez écrire un article réactif sur l'information donnée sans plagiat. Assurez-vous d'écrire sur un ton décontracté. Assurez-vous d'écrire sur un ton formel. Assurez-vous de citer les notations de démarquage # pour un titre, ## pour les sous-titres du paragraphe et ![](image_url) pour une image miniature. Fournissez un titre qui attire l'attention des internautes. Ensuite, fournissez une courte description. Ensuite, fournissez une image miniature parmi les images données. Ensuite, fournissez 4 paragraphes composés d'un sous-titre et d'un article bien expliqué. Ensuite donner matière à réflexion."
+  },
+  {
+    "label": "Article persuasif",
+    "value": "veuillez écrire un article réactif sur l'information donnée sans plagiat. Assurez-vous d'écrire sur un ton persuasif. Assurez-vous d'écrire sur un ton formel. Assurez-vous de citer les notations de démarquage # pour un titre, ## pour les sous-titres du paragraphe et ![](image_url) pour une image miniature. Fournissez un titre qui attire l'attention des internautes. Fournissez ensuite une courte description. Fournissez ensuite une image miniature parmi les images données. Fournissez ensuite 4 paragraphes composés d'un sous-titre et d'un article bien expliqué. Ensuite fournissez un paragraphe de contre-argument. Ensuite, fournissez une matière à réflexion."
+  },
+  {
+    "label": "Script Youtube",
+    "value": "veuillez créer un script vidéo de réponse rapide de 1500 mots pour les informations données sans plagiat. Assurez-vous d'écrire sur un ton conversationnel. Assurez-vous de citer les notations de démarquage # pour un titre, ## pour les sous-titres des paragraphes, et ![](image_url) pour une image miniature. Fournissez un titre qui attire l'attention des gens. Ensuite, fournissez une brève description. Ensuite, fournissez une image miniature parmi les images données. Ensuite, fournissez une introduction accrocheuse avec une question à laquelle le lecteur voudra connaître la réponse. Ensuite, fournissez 4 paragraphes composés d'un sous-titre, d'un scénario bien expliqué et d'une opinion intéressante. Assurez-vous de faire appel aux émotions du public derrière l'histoire. Ensuite, donnez matière à réflexion."
+  }
+]

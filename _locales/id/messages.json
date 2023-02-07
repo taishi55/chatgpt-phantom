@@ -1,0 +1,104 @@
+{
+  "APPNAME": {
+    "message": "ChatGPT Phantom: Akses Youtube Waktu Nyata"
+  },
+  "APPDESC": {
+    "message": "Ekstensi ini memungkinkan Anda menulis artikel BERITA Real-Time dan skrip Youtube."
+  },
+  "HOME_DESC": {
+    "message": "Buat & Publikasikan artikel/skrip real-time secepat Big Media!"
+  },
+  "SUB_1": {
+    "message": "Topik Waktu Nyata"
+  },
+  "SUB_2": {
+    "message": "+20 Terjemahan Bahasa"
+  },
+  "SUB_3": {
+    "message": "Pemeriksa Plagiarisme"
+  },
+  "SUB_4": {
+    "message": "Jangan Pernah Mengumpulkan Data Pengguna"
+  },
+  "SUB_5": {
+    "message": "Sepenuhnya Gratis (donasi ❤️)"
+  },
+  "SUB_6": {
+    "message": "Penggunaan Tak Terbatas"
+  },
+  "PROMPT": {
+    "message": "Permintaan:"
+  },
+  "INFO": {
+    "message": "Info:"
+  },
+  "INSTRUCTIONS": {
+    "message": "Petunjuk:"
+  },
+  "WARNING_LABEL": {
+    "message": "Harap beri label instruksi Anda!"
+  },
+  "WARNING_VALUE": {
+    "message": "Silakan tulis instruksi Anda!"
+  },
+  "ERROR_1": {
+    "message": "Terjadi kesalahan"
+  },
+  "ERROR_2": {
+    "message": "Silakan coba lagi!"
+  },
+  "PROCESS_1": {
+    "message": "Mencari informasi."
+  },
+  "PROCESS_2": {
+    "message": "Mohon tunggu..."
+  },
+  "SOURCE_1": {
+    "message": "1 sumber"
+  },
+  "SOURCES_2": {
+    "message": "2 sumber"
+  },
+  "SOURCES_3": {
+    "message": "3 sumber"
+  },
+  "AUTO": {
+    "message": "Otomatis"
+  },
+  "TODAY": {
+    "message": "Hari ini"
+  },
+  "THIS_WEEK": {
+    "message": "Minggu ini"
+  },
+  "THIS_MONTH": {
+    "message": "Bulan ini"
+  },
+  "THIS_YEAR": {
+    "message": "Tahun ini"
+  },
+  "PLACEHOLDER_1": {
+    "message": "Beri label instruksi Anda di sini"
+  },
+  "PLACEHOLDER_2": {
+    "message": "Tulis instruksi Anda di sini"
+  },
+  "BTN_1": {
+    "message": "Buat Baru"
+  },
+  "BTN_2": {
+    "message": "Batalkan"
+  },
+  "BTN_3": {
+    "message": "Tambahkan"
+  },
+  "BTN_4": {
+    "message": "Perbarui"
+  },
+  "BTN_5": {
+    "message": "Hapus"
+  },
+  "HELP": {
+    "message": "Jadilah pendukung saya untuk mempertahankan ekstensi ini secara gratis 🥺"
+  }
+}

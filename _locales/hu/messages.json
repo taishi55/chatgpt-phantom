@@ -1,0 +1,104 @@
+{
+  "APPNAME": {
+    "message": "ChatGPT Phantom: valós idejű Youtube hozzáférés"
+  },
+  "APPDESC": {
+    "message": "Ez a bővítmény lehetővé teszi valós idejű HÍREK cikkek és Youtube-szkriptek írását."
+  },
+  "HOME_DESC": {
+    "message": "Valós idejű cikkek/szkriptek létrehozása és közzététele olyan gyorsan, mint a Big Media!"
+  },
+  "SUB_1": {
+    "message": "Valós idejű témák"
+  },
+  "SUB_2": {
+    "message": "+20 nyelvű fordítás"
+  },
+  "SUB_3": {
+    "message": "Plagium-ellenőrző"
+  },
+  "SUB_4": {
+    "message": "Soha ne gyűjtsön felhasználói adatokat"
+  },
+  "SUB_5": {
+    "message": "Teljesen ingyenes (adományok ❤️)"
+  },
+  "SUB_6": {
+    "message": "Korlátlan használat"
+  },
+  "PROMPT": {
+    "message": "Kérdés:"
+  },
+  "INFO": {
+    "message": "Információ:"
+  },
+  "INSTRUCTIONS": {
+    "message": "Utasítások:"
+  },
+  "WARNING_LABEL": {
+    "message": "Kérem, címkézze fel az utasítást!"
+  },
+  "WARNING_VALUE": {
+    "message": "Kérjük, írja meg az utasítását!"
+  },
+  "ERROR_1": {
+    "message": "Hiba történt"
+  },
+  "ERROR_2": {
+    "message": "Próbáld újra!"
+  },
+  "PROCESS_1": {
+    "message": "Információ keresése."
+  },
+  "PROCESS_2": {
+    "message": "Kérjük, várjon..."
+  },
+  "SOURCE_1": {
+    "message": "1 forrás"
+  },
+  "SOURCES_2": {
+    "message": "2 forrás"
+  },
+  "SOURCES_3": {
+    "message": "3 forrás"
+  },
+  "AUTO": {
+    "message": "Automatikus"
+  },
+  "TODAY": {
+    "message": "Ma"
+  },
+  "THIS_WEEK": {
+    "message": "Ezen a héten"
+  },
+  "THIS_MONTH": {
+    "message": "E hónapban"
+  },
+  "THIS_YEAR": {
+    "message": "Idén"
+  },
+  "PLACEHOLDER_1": {
+    "message": "Itt címkézze fel az utasítást"
+  },
+  "PLACEHOLDER_2": {
+    "message": "Írja ide az utasítást"
+  },
+  "BTN_1": {
+    "message": "Új létrehozása"
+  },
+  "BTN_2": {
+    "message": "Mégse"
+  },
+  "BTN_3": {
+    "message": "Hozzáadás"
+  },
+  "BTN_4": {
+    "message": "Frissítés"
+  },
+  "BTN_5": {
+    "message": "Törlés"
+  },
+  "HELP": {
+    "message": "Kérem, legyen a támogatóm, hogy ingyen tartsa ezt a bővítményt 🥺"
+  }
+}

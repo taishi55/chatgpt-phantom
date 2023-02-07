@@ -1,0 +1,22 @@
+[
+  {
+    "label": "Sohbet",
+    "value": "verilen bilgileri kullanarak anında yanıt veren bir yanıt yazın."
+  },
+  {
+    "label": "Haber makalesi",
+    "value": "lütfen verilen bilgiler hakkında intihal yapmadan hızlı yanıt veren bir makale yazın. Resmi bir üslupla yazdığınızdan emin olun. İşaretleme notlarını belirttiğinizden emin olun. Başlık için #, paragraf altyazıları için ## ve bir için ![](image_url) küçük resim. İnsanların dikkatini çekecek bir başlık girin. Ardından kısa bir açıklama yapın. Ardından verilen resimlerden bir küçük resim sağlayın. Ardından, alt başlık ve iyi açıklanmış makaleden oluşan 4 paragraf sağlayın. Ardından bir sonuç verin."
+  },
+  {
+    "label": "Blog makalesi",
+    "value": "lütfen verilen bilgiler hakkında intihal yapmadan hızlı yanıt veren bir makale yazın. Rahat bir üslupla yazdığınızdan emin olun. Resmi bir üslupla yazdığınızdan emin olun. İşaretleme notlarını belirttiğinizden emin olun. Başlık için #, Paragraf altyazıları için ## ve küçük resim için ![](image_url). İnsanların dikkatini çekecek bir başlık girin. Ardından kısa bir açıklama girin. Ardından verilen resimlerden bir küçük resim sağlayın. Ardından alt başlık ve iyi açıklanmış makaleden oluşan 4 paragraf sağlayın. Ardından düşünce için yiyecek sağlamak."
+  },
+  {
+    "label": "İkna edici makale",
+    "value": "lütfen intihal yapmadan verilen bilgiler hakkında hızlı yanıt veren bir makale yazın. İkna edici bir tonda yazdığınızdan emin olun. Resmi bir tonda yazdığınızdan emin olun. İşaretleme notlarını belirttiğinizden emin olun. Başlık için #, Paragrafın altyazıları için ## ve küçük resim için ![](image_url). İnsanların dikkatini çekecek bir başlık girin. Ardından kısa bir açıklama girin. Ardından verilen resimlerden bir küçük resim sağlayın. Ardından alt başlık, iyi açıklanmış makaleden oluşan 4 paragraf sağlayın. Ardından bir karşı argüman paragrafı sağlayın. Sonra düşünmek için bir yiyecek sağlayın."
+  },
+  {
+    "label": "Youtube scripti",
+    "value": "lütfen verilen bilgiler için intihal içermeyen 1500 kelimelik bir hızlı yanıt video komut dosyası oluşturun. Sohbet havasında yazdığınızdan emin olun. Başlık için #, paragraf altyazıları için ## ve ![](image_url) işaretleme notasyonlarını belirttiğinizden emin olun. küçük resim için. İnsanların dikkatini çeken bir başlık girin. Ardından kısa bir açıklama girin. Ardından verilen resimlerden bir küçük resim sağlayın. Ardından, okuyucunun cevabını bilmek isteyeceği bir soru ile akılda kalıcı bir giriş yapın. Ardından 4 tane girin alt başlık, iyi anlatılmış senaryo ve ilginç bir görüşten oluşan paragraflar. Hikayenin ardındaki izleyicinin duygularına hitap ettiğinizden emin olun. Ardından düşündürücü şeyler sağlayın."
+  }
+]

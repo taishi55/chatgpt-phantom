@@ -1,0 +1,22 @@
+[
+  {
+    "label": "Conversație",
+    "value": "scrieți un răspuns prompt, folosind informațiile oferite."
+  },
+  {
+    "label": "Articol de știri",
+    "value": "Vă rugăm să scrieți un articol cu răspuns prompt despre informațiile date, fără plagiat. Asigurați-vă că scrieți pe un ton formal. Asigurați-vă că citați notațiile de reducere # pentru un titlu, ## pentru subtitrările paragrafului și ![](image_url) pentru un imagine în miniatură. Furnizați un titlu care atrage atenția oamenilor. Apoi furnizați o scurtă descriere. Apoi furnizați o imagine în miniatură din imaginile date. Apoi furnizați 4 paragrafe constând din subtitrare și articol bine explicat. Apoi furnizați o concluzie."
+  },
+  {
+    "label": "Articol pe blog",
+    "value": "Vă rugăm să scrieți un articol cu răspuns prompt despre informațiile date, fără plagiat. Asigurați-vă că scrieți pe un ton obișnuit. Asigurați-vă că scrieți pe un ton formal. Asigurați-vă că citați notațiile de reducere # pentru un titlu, ## pentru subtitrarea paragrafului și ![](image_url) pentru o imagine în miniatură. Furnizați un titlu care atrage atenția oamenilor. Apoi furnizați o scurtă descriere. Apoi furnizați o imagine în miniatură din imaginile date. Apoi furnizați 4 paragrafe constând din subtitrare și articol bine explicat. Apoi oferiți de gândit."
+  },
+  {
+    "label": "Articol persuativ",
+    "value": "Vă rugăm să scrieți un articol cu răspuns prompt despre informațiile date, fără plagiat. Asigurați-vă că scrieți pe un ton persuasiv. Asigurați-vă că scrieți pe un ton formal. Asigurați-vă că citați notațiile de reducere # pentru un titlu, ## pentru subtitrarea paragrafului și ![](image_url) pentru o imagine în miniatură. Furnizați un titlu care atrage atenția oamenilor. Apoi furnizați o scurtă descriere. Apoi furnizați o imagine în miniatură din imaginile date. Apoi furnizați 4 paragrafe constând din subtitrare, articol bine explicat. Apoi oferiți un paragraf contra-argument. Apoi oferiți un aliment de gândire."
+  },
+  {
+    "label": "Script YouTube",
+    "value": "Vă rugăm să creați un script video de 1500 de cuvinte cu răspuns prompt pentru informațiile date, fără plagiat. Asigurați-vă că scrieți pe un ton conversațional. Asigurați-vă că citați notațiile de reducere # pentru un titlu, ## pentru subtitrarea paragrafelor și ![](image_url) pentru o imagine în miniatură. Furnizați un titlu care atrage atenția oamenilor. Apoi furnizați o scurtă descriere. Apoi furnizați o imagine în miniatură din imaginile date. Apoi oferiți o introducere captivantă cu o întrebare la care cititorul va dori să știe răspunsul. Apoi furnizați 4 paragrafe constând din subtitrare, scenariu bine explicat și o opinie interesantă. Asigurați-vă că atrageți emoțiile publicului din spatele poveștii. Apoi oferiți de gândit."
+  }
+]

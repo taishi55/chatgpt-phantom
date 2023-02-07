@@ -1,15 +1,19 @@
 {
   "manifest_version": 3,
-  "name": "ChatGPT Phantom (Copywriter)",
-  "version": "1.1.3",
-  "description": "This extension lets you write trend NEWS articles and Youtube scripts.",
+  "name": "__MSG_APPNAME__",
+  "version": "2.0.0",
+  "description": "__MSG_APPDESC__",
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
     "128": "icons/icon128.png"
   },
+  "default_locale": "en",
   "permissions": ["storage"],
-  "host_permissions": ["https://phantom-ghost-writer.vercel.app/*"],
+  "host_permissions": [
+    "https://phantom-ghost-writer.vercel.app/*",
+    "https://www.youtube.com/embed/*"
+  ],
   "background": {
     "service_worker": "background.js"
   },
@@ -24,10 +28,9 @@
   "web_accessible_resources": [
     {
       "resources": [
-        "regions.json",
-        "instructions.json",
-        "periods.json",
-        "languages.json"
+        "languages.json",
+        "chrome_langs.json",
+        "resources/*.json"
       ],
       "matches": ["https://chat.openai.com/*"]
     }

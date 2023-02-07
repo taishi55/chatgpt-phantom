@@ -1,0 +1,22 @@
+[
+  {
+    "label": "Tērzēšana",
+    "value": "uzrakstiet tūlītēju atbildi, izmantojot sniegto informāciju."
+  },
+  {
+    "label": "Ziņu raksts",
+    "value": "lūdzu, uzrakstiet ātri atsaucīgu rakstu par norādīto informāciju bez plaģiāta. Rakstiet oficiālā tonī. Noteikti citējiet atzīmes # virsrakstam, ## rindkopas subtitriem un ![](image_url) sīktēla attēls. Norādiet nosaukumu, kas piesaista cilvēku uzmanību. Pēc tam sniedziet īsu aprakstu. Pēc tam norādiet vienu sīktēlu no dotajiem attēliem. Pēc tam norādiet 4 rindkopas, kas sastāv no apakšvirsraksta un labi izskaidrota raksta. Pēc tam sniedziet secinājumu."
+  },
+  {
+    "label": "emuāra raksts",
+    "value": "lūdzu, uzrakstiet ātri atsaucīgu rakstu par norādīto informāciju bez plaģiāta. Noteikti rakstiet ikdienišķā tonī. Noteikti rakstiet oficiālā tonī. Noteikti citējiet nosaukuma apzīmējumus #, ## rindkopas subtitriem un ![](image_url) sīktēla attēlam. Norādiet nosaukumu, kas piesaista cilvēku uzmanību. Pēc tam sniedziet īsu aprakstu. Pēc tam norādiet vienu sīktēla attēlu no dotajiem attēliem. Pēc tam norādiet 4 rindkopas, kas sastāv no apakšvirsrakstiem un labi izskaidrota raksta. sniedz vielu pārdomām."
+  },
+  {
+    "label": "Pārliecinošs raksts",
+    "value": "lūdzu, uzrakstiet ātri atsaucīgu rakstu par norādīto informāciju bez plaģiāta. Noteikti rakstiet pārliecinošā tonī. Noteikti rakstiet formālā tonī. Noteikti citējiet norādes # virsrakstam, ## rindkopas subtitriem un ![](image_url) sīktēla attēlam. Norādiet nosaukumu, kas piesaista cilvēku uzmanību. Pēc tam sniedziet īsu aprakstu. Pēc tam norādiet vienu sīktēla attēlu no dotajiem attēliem. Pēc tam norādiet 4 rindkopas, kas sastāv no apakšvirsrakstiem, labi izskaidrota raksta. Pēc tam sniedziet pretargumentu rindkopu. Pēc tam sniedziet vielu pārdomām."
+  },
+  {
+    "label": "Youtube skripts",
+    "value": "lūdzu, izveidojiet 1500 vārdu tūlītējas atbildes video skriptu norādītajai informācijai bez plaģiāta. Noteikti rakstiet sarunvalodas tonī. Noteikti citējiet atzīmes # virsrakstam, ## rindkopu subtitriem un ![](image_url) par sīktēla attēlu. Norādiet nosaukumu, kas piesaista cilvēku uzmanību. Pēc tam sniedziet īsu aprakstu. Pēc tam norādiet vienu sīktēlu no dotajiem attēliem. Pēc tam sniedziet aizraujošu ievadu ar jautājumu, uz kuru lasītājs vēlēsies uzzināt atbildi. Pēc tam sniedziet 4 rindkopas, kas sastāv no subtitriem, labi izskaidrota scenārija un interesanta viedokļa. Noteikti pievērsiet uzmanību skatītāju emocijām, kas slēpjas aiz stāsta. Pēc tam sniedziet vielu pārdomām."
+  }
+]

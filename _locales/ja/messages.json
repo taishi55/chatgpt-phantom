@@ -1,0 +1,104 @@
+{
+  "APPNAME": {
+    "message": "ChatGPT Phantom: リアルタイム Youtube アクセス"
+  },
+  "APPDESC": {
+    "message": "この拡張機能を使用すると、リアルタイムのニュース記事や Youtube スクリプトを作成できます。"
+  },
+  "HOME_DESC": {
+    "message": "ビッグ メディアと同じ速さでリアルタイムの記事/スクリプトを作成および公開!"
+  },
+  "SUB_1": {
+    "message": "リアルタイム トピックス"
+  },
+  "SUB_2": {
+    "message": "+20 言語の翻訳"
+  },
+  "SUB_3": {
+    "message": "盗作チェッカー"
+  },
+  "SUB_4": {
+    "message": "ユーザー データを収集しない"
+  },
+  "SUB_5": {
+    "message": "完全無料 (寄付❤️)"
+  },
+  "SUB_6": {
+    "message": "無制限の使用"
+  },
+  "PROMPT": {
+    "message": "プロンプト:"
+  },
+  "INFO": {
+    "message": "情報:"
+  },
+  "INSTRUCTIONS": {
+    "message": "指示:"
+  },
+  "WARNING_LABEL": {
+    "message": "指示にラベルを付けてください!"
+  },
+  "WARNING_VALUE": {
+    "message": "指示を書いてください!"
+  },
+  "ERROR_1": {
+    "message": "エラーが発生しました"
+  },
+  "ERROR_2": {
+    "message": "もう一度やり直してください!"
+  },
+  "PROCESS_1": {
+    "message": "情報を検索しています。"
+  },
+  "PROCESS_2": {
+    "message": "お待ちください..."
+  },
+  "SOURCE_1": {
+    "message": "1 ソース"
+  },
+  "SOURCES_2": {
+    "message": "2 ソース"
+  },
+  "SOURCES_3": {
+    "message": "3 ソース"
+  },
+  "AUTO": {
+    "message": "自動"
+  },
+  "TODAY": {
+    "message": "今日"
+  },
+  "THIS_WEEK": {
+    "message": "今週"
+  },
+  "THIS_MONTH": {
+    "message": "今月"
+  },
+  "THIS_YEAR": {
+    "message": "今年"
+  },
+  "PLACEHOLDER_1": {
+    "message": "ここに指示をラベル付けしてください"
+  },
+  "PLACEHOLDER_2": {
+    "message": "ここに指示を書いてください"
+  },
+  "BTN_1": {
+    "message": "新規作成"
+  },
+  "BTN_2": {
+    "message": "キャンセル"
+  },
+  "BTN_3": {
+    "message": "追加"
+  },
+  "BTN_4": {
+    "message": "アップデート"
+  },
+  "BTN_5": {
+    "message": "削除"
+  },
+  "HELP": {
+    "message": "この拡張機能を無料で維持するには、私のサポーターになってください 🥺"
+  }
+}

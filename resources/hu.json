@@ -1,0 +1,22 @@
+[
+  {
+    "label": "Csevegés",
+    "value": "írjon azonnali választ a megadott információk felhasználásával."
+  },
+  {
+    "label": "Hírcikk",
+    "value": "kérjük, írjon egy azonnali, reagáló cikket az adott információról, plágium nélkül. Ügyeljen arra, hogy formális hangnemben írjon. Ügyeljen arra, hogy a címnél a #, a bekezdések feliratánál a ##, míg a ![](image_url) jelöléseket idézze. miniatűr kép. Adjon meg egy címet, amely felkelti az emberek figyelmét. Ezután adjon meg egy rövid leírást. Ezután adjon meg egy miniatűrképet a megadott képek közül. Ezután adjon meg 4 bekezdést, amely alcímből és jól magyarázott cikkből áll. Ezután adjon meg egy következtetést."
+  },
+  {
+    "label": "Blogcikk",
+    "value": "kérem, írjon egy azonnali, reagáló cikket az adott információról, plágium nélkül. Ügyeljen arra, hogy hétköznapi hangon írjon. Ügyeljen arra, hogy hivatalos hangnemben írjon. Ügyeljen arra, hogy a címnél a leíró jelöléseket #, ## a bekezdések felirataihoz, és ![](image_url) az indexképhez. Adjon meg egy címet, amely felkelti az emberek figyelmét. Ezután adjon meg egy rövid leírást. Ezután adjon meg egy indexképet a megadott képekből. Ezután adjon meg 4 bekezdést, amely feliratból és jól magyarázott cikkből áll. adjon elgondolkodtatót."
+  },
+  {
+    "label": "Meggyőző cikk",
+    "value": "kérjük, írjon egy azonnali, reagáló cikket az adott információról plágium nélkül. Ügyeljen arra, hogy meggyőző hangon írjon. Ügyeljen arra, hogy formális hangon írjon. Ügyeljen arra, hogy a címnél a leíró jelöléseket #, ## a bekezdések felirataihoz, és ![](image_url) az indexképhez. Adjon meg egy címet, amely felkelti az emberek figyelmét. Ezután adjon meg egy rövid leírást. Ezután adjon meg egy miniatűrképet a megadott képekből. Ezután adjon meg 4 bekezdést, amelyek alcímből, jól magyarázott cikkből állnak. Ezután adj egy ellenérv bekezdést. Aztán adj okot a gondolkodásra."
+  },
+  {
+    "label": "Youtube script",
+    "value": "kérjük, készítsen egy 1500 szavas, azonnali válaszú videó szkriptet a megadott információkhoz, plágium nélkül. Ügyeljen arra, hogy társalgási hangon írjon. Ügyeljen arra, hogy a címnél #, a bekezdések feliratánál ##, és ![](image_url) az indexképhez. Adjon meg egy címet, amely felkelti az emberek figyelmét. Ezután adjon meg egy rövid leírást. Ezután adjon meg egy miniatűrképet a megadott képek közül. Ezután adjon fülbemászó bevezetőt egy olyan kérdéssel, amelyre az olvasó tudni szeretné a választ. Ezután adja meg 4 bekezdés, amely alcímből, jól kifejtett forgatókönyvből és egy érdekes véleményből áll. Ügyeljen arra, hogy a sztori mögött álló közönség érzelmeit vonzza meg. Ezután adjon okot a gondolkodásra."
+  }
+]

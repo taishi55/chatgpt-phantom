@@ -1,0 +1,104 @@
+{
+  "APPNAME": {
+    "message": "ChatGPT 팬텀: 실시간 유튜브 액세스"
+  },
+  "APPDESC": {
+    "message": "이 확장 프로그램을 사용하면 실시간 NEWS 기사와 Youtube 스크립트를 작성할 수 있습니다."
+  },
+  "HOME_DESC": {
+    "message": "Big Media만큼 빠르게 실시간 기사/스크립트를 만들고 게시하세요!"
+  },
+  "SUB_1": {
+    "message": "실시간 주제"
+  },
+  "SUB_2": {
+    "message": "+20개 언어 번역"
+  },
+  "SUB_3": {
+    "message": "표절 검사기"
+  },
+  "SUB_4": {
+    "message": "사용자 데이터를 수집하지 않음"
+  },
+  "SUB_5": {
+    "message": "완전 무료(기부 ❤️)"
+  },
+  "SUB_6": {
+    "message": "무제한 사용"
+  },
+  "PROMPT": {
+    "message": "프롬프트:"
+  },
+  "INFO": {
+    "message": "정보:"
+  },
+  "INSTRUCTIONS": {
+    "message": "지침:"
+  },
+  "WARNING_LABEL": {
+    "message": "명령에 라벨을 붙여주세요!"
+  },
+  "WARNING_VALUE": {
+    "message": "지시사항을 적어주세요!"
+  },
+  "ERROR_1": {
+    "message": "오류가 발생했습니다."
+  },
+  "ERROR_2": {
+    "message": "다시 시도하십시오!"
+  },
+  "PROCESS_1": {
+    "message": "정보 검색 중."
+  },
+  "PROCESS_2": {
+    "message": "기다려주세요..."
+  },
+  "SOURCE_1": {
+    "message": "소스 1개"
+  },
+  "SOURCES_2": {
+    "message": "소스 2개"
+  },
+  "SOURCES_3": {
+    "message": "3가지 소스"
+  },
+  "AUTO": {
+    "message": "자동"
+  },
+  "TODAY": {
+    "message": "오늘"
+  },
+  "THIS_WEEK": {
+    "message": "이번 주"
+  },
+  "THIS_MONTH": {
+    "message": "이번 달"
+  },
+  "THIS_YEAR": {
+    "message": "올해"
+  },
+  "PLACEHOLDER_1": {
+    "message": "여기에 지침을 표시하십시오"
+  },
+  "PLACEHOLDER_2": {
+    "message": "여기에 지침을 작성하십시오"
+  },
+  "BTN_1": {
+    "message": "새로 만들기"
+  },
+  "BTN_2": {
+    "message": "취소"
+  },
+  "BTN_3": {
+    "message": "추가"
+  },
+  "BTN_4": {
+    "message": "업데이트"
+  },
+  "BTN_5": {
+    "message": "삭제"
+  },
+  "HELP": {
+    "message": "이 확장 프로그램을 무료로 유지하려면 제 후원자가 되어주세요 🥺"
+  }
+}

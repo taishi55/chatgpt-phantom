@@ -1,0 +1,104 @@
+{
+  "APPNAME": {
+    "message": "ChatGPT Phantom: Youtube-åtkomst i realtid"
+  },
+  "APPDESC": {
+    "message": "Det här tillägget låter dig skriva artiklar om NYHETER i realtid och Youtube-skript."
+  },
+  "HOME_DESC": {
+    "message": "Skapa och publicera artiklar/manus i realtid lika snabbt som Big Media!"
+  },
+  "SUB_1": {
+    "message": "Realtidsämnen"
+  },
+  "SUB_2": {
+    "message": "+20 språk översättning"
+  },
+  "SUB_3": {
+    "message": "Plagiatkontroll"
+  },
+  "SUB_4": {
+    "message": "Samla aldrig in användardata"
+  },
+  "SUB_5": {
+    "message": "Helt gratis (donationer ❤️)"
+  },
+  "SUB_6": {
+    "message": "Obegränsad användning"
+  },
+  "PROMPT": {
+    "message": "Prompt:"
+  },
+  "INFO": {
+    "message": "Information:"
+  },
+  "INSTRUCTIONS": {
+    "message": "Instruktioner:"
+  },
+  "WARNING_LABEL": {
+    "message": "Vänligen märk din instruktion!"
+  },
+  "WARNING_VALUE": {
+    "message": "Skriv din instruktion!"
+  },
+  "ERROR_1": {
+    "message": "Ett fel uppstod"
+  },
+  "ERROR_2": {
+    "message": "Vänligen försök igen!"
+  },
+  "PROCESS_1": {
+    "message": "Söker efter informationen."
+  },
+  "PROCESS_2": {
+    "message": "Vänta..."
+  },
+  "SOURCE_1": {
+    "message": "1 källa"
+  },
+  "SOURCES_2": {
+    "message": "2 källor"
+  },
+  "SOURCES_3": {
+    "message": "3 källor"
+  },
+  "AUTO": {
+    "message": "Auto"
+  },
+  "TODAY": {
+    "message": "Idag"
+  },
+  "THIS_WEEK": {
+    "message": "Denna vecka"
+  },
+  "THIS_MONTH": {
+    "message": "Denna månad"
+  },
+  "THIS_YEAR": {
+    "message": "I år"
+  },
+  "PLACEHOLDER_1": {
+    "message": "Märk din instruktion här"
+  },
+  "PLACEHOLDER_2": {
+    "message": "Skriv din instruktion här"
+  },
+  "BTN_1": {
+    "message": "Skapa nytt"
+  },
+  "BTN_2": {
+    "message": "Avbryt"
+  },
+  "BTN_3": {
+    "message": "Lägg till"
+  },
+  "BTN_4": {
+    "message": "Uppdatera"
+  },
+  "BTN_5": {
+    "message": "Radera"
+  },
+  "HELP": {
+    "message": "Snälla var min supporter för att behålla denna tillägg gratis 🥺"
+  }
+}

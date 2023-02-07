@@ -1,0 +1,22 @@
+[
+  {
+    "label": "Chat",
+    "value": "scrivi una risposta immediata utilizzando le informazioni fornite."
+  },
+  {
+    "label": "Articolo di notizie",
+    "value": "per favore scrivi un articolo che risponda rapidamente alle informazioni fornite senza plagio. Assicurati di scrivere in tono formale. Assicurati di citare le notazioni di markdown # per un titolo, ## per i sottotitoli del paragrafo e ![](image_url) per un immagine in miniatura. Fornisci un titolo che attiri l'attenzione della gente. Quindi fornisci una breve descrizione. Quindi fornisci un'immagine in miniatura dalle immagini fornite. Quindi fornisci 4 paragrafi composti da un sottotitolo e un articolo ben spiegato. Quindi fornisci una conclusione. "
+  },
+  {
+    "label": "Articolo del blog",
+    "value": "per favore scrivi un articolo che risponda rapidamente alle informazioni fornite senza plagio. Assicurati di scrivere in tono informale. Assicurati di scrivere in tono formale. Assicurati di citare le notazioni di markdown # per un titolo, ## per i sottotitoli del paragrafo e ![](image_url) per un'immagine in miniatura. Fornisci un titolo che attiri l'attenzione delle persone. Quindi fornisci una breve descrizione. Quindi fornisci un'immagine in miniatura dalle immagini fornite. Quindi fornisci 4 paragrafi composti da un sottotitolo e un articolo ben spiegato. Quindi fornire spunti di riflessione"
+  },
+  {
+    "label": "Articolo persuasivo",
+    "value": "per favore scrivi un articolo che risponda rapidamente alle informazioni fornite senza plagio. Assicurati di scrivere in tono persuasivo. Assicurati di scrivere in tono formale. Assicurati di citare le notazioni di markdown # per un titolo, ## per i sottotitoli del paragrafo e ![](image_url) per un'immagine in miniatura. Fornisci un titolo che attiri l'attenzione delle persone. Quindi fornisci una breve descrizione. Quindi fornisci un'immagine in miniatura dalle immagini fornite. Quindi fornisci 4 paragrafi composti da sottotitoli, articolo ben spiegato. Quindi fornire un paragrafo di controargomentazione. Quindi fornire uno spunto di riflessione."
+  },
+  {
+    "label": "Copione di Youtube",
+    "value": "crea un video script di risposta rapida di 1500 parole per le informazioni fornite senza plagio. Assicurati di scrivere in un tono colloquiale. Assicurati di citare le notazioni di markdown # per un titolo, ## per i sottotitoli dei paragrafi e ![](image_url) per un'immagine in miniatura. Fornisci un titolo che attiri l'attenzione della gente. Quindi fornisci una breve descrizione. Quindi fornisci un'immagine in miniatura dalle immagini fornite. Quindi fornisci un'introduzione accattivante con una domanda a cui il lettore vorrà conoscere la risposta. Quindi fornisci 4 paragrafi costituiti da sottotitoli, sceneggiatura ben spiegata e un'opinione interessante. Assicurati di fare appello alle emozioni del pubblico dietro la storia. Quindi fornisci spunti di riflessione."
+  }
+]

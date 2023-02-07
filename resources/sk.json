@@ -1,0 +1,22 @@
+[
+  {
+    "label": "Rozhovor",
+    "value": "napíšte rýchlu odpoveď s použitím poskytnutých informácií."
+  },
+  {
+    "label": "Spravodajský článok",
+    "value": "napíšte o danej informácii rýchlo reagujúci článok bez plagiátorstva. Uistite sa, že píšete formálnym tónom. Nezabudnite citovať označenia # pre nadpis, ## pre titulky odsekov a ![](image_url) pre obrázok miniatúry. Zadajte názov, ktorý upúta pozornosť ľudí. Potom poskytnite krátky popis. Potom poskytnite jeden obrázok miniatúry z daných obrázkov. Potom uveďte 4 odseky pozostávajúce z podnadpisu a dobre vysvetleného článku. Potom uveďte záver."
+  },
+  {
+    "label": "Článok blogu",
+    "value": "prosím napíšte článok o danej informácii s pohotovou odozvou bez plagiátorstva. Uistite sa, že píšte neformálnym tónom. Uistite sa, že píšte formálnym tónom. Nezabudnite citovať označenia # pre názov, ## pre titulky odseku a ![](image_url) pre obrázok miniatúry. Zadajte názov, ktorý upúta pozornosť ľudí. Potom poskytnite krátky popis. Potom poskytnite jeden obrázok miniatúry z daných obrázkov. Potom poskytnite 4 odseky pozostávajúce z podnadpisu a dobre vysvetleného článku. Potom poskytnúť námet na zamyslenie."
+  },
+  {
+    "label": "Presvedčivý článok",
+    "value": "prosím napíšte článok o danej informácii s pohotovou odozvou bez plagiátorstva. Uistite sa, že píšte presvedčivým tónom. Uistite sa, že píšte formálnym tónom. Nezabudnite citovať označenia # pre názov, ## pre titulky odseku a ![](image_url) pre obrázok miniatúry. Zadajte názov, ktorý upúta pozornosť ľudí. Potom poskytnite krátky popis. Potom poskytnite jeden obrázok miniatúry z daných obrázkov. Potom poskytnite 4 odseky pozostávajúce z podnadpisu, dobre vysvetleného článku. Potom poskytnite odsek s protiargumentom. Potom poskytnite podnet na zamyslenie."
+  },
+  {
+    "label": "skript YouTube",
+    "value": "vytvorte 1 500 slovný videoskript s výzvou a odpoveďou na danú informáciu bez plagiátorstva. Uistite sa, že píšte konverzačným tónom. Nezabudnite citovať označenia # pre nadpis, ## pre titulky odsekov a ![](image_url)X pre obrázok miniatúry. Zadajte názov, ktorý upúta pozornosť ľudí. Potom poskytnite krátky popis. Potom poskytnite jeden obrázok miniatúry z daných obrázkov. Potom uveďte pútavý úvod s otázkou, na ktorú bude chcieť čitateľ poznať odpoveď. Potom zadajte 4 odseky pozostávajúce z podnadpisu, dobre vysvetleného scenára a zaujímavého názoru. Uistite sa, že oslovíte emócie publika, ktoré sa skrýva za príbehom. Potom poskytnite námet na zamyslenie."
+  }
+]

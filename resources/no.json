@@ -1,0 +1,22 @@
+[
+  {
+    "label": "Chat",
+    "value": "skriv et raskt-responsivt svar ved å bruke informasjonen som er gitt."
+  },
+  {
+    "label": "Nyhetsartikkel",
+    "value": "skriv en artikkel som reagerer raskt om den gitte informasjonen uten plagiering. Sørg for å skrive i en formell tone. Sørg for å sitere markdown-notasjonene # for en tittel, ## for avsnittets undertekster og ![](image_url) for en Miniatyrbilde. Gi en tittel som fanger folks oppmerksomhet. Gi deretter en kort beskrivelse. Gi deretter ett miniatyrbilde fra de gitte bildene. Gi deretter 4 avsnitt bestående av undertittel og godt forklart artikkel. Gi deretter en konklusjon."
+  },
+  {
+    "label": "Bloggartikkel",
+    "value": "Vennligst skriv en artikkel som reagerer raskt om den gitte informasjonen uten plagiering. Sørg for å skrive i en uformell tone. Sørg for å skrive i en formell tone. Sørg for å sitere markdown-notasjonene # for en tittel, ## for avsnittets undertekster, og ![](image_url) for et miniatyrbilde. Gi en tittel som fanger folks oppmerksomhet. Gi så en kort beskrivelse. Gi deretter ett miniatyrbilde fra de gitte bildene. Gi deretter 4 avsnitt bestående av undertittel og godt forklart artikkel. Deretter gi mat til ettertanke."
+  },
+  {
+    "label": "Overbevisende artikkel",
+    "value": "Vennligst skriv en artikkel som reagerer raskt om den gitte informasjonen uten plagiat. Sørg for å skrive i en overbevisende tone. Sørg for å skrive i en formell tone. Sørg for å sitere markdown-notasjonene # for en tittel, ## for avsnittets undertekster, og ![](image_url) for et miniatyrbilde. Gi en tittel som fanger folks oppmerksomhet. Gi så en kort beskrivelse. Gi deretter ett miniatyrbilde fra de gitte bildene. Gi deretter 4 avsnitt bestående av undertittel, godt forklart artikkel. Deretter gi et motargument avsnitt. Gi så en tankevekker."
+  },
+  {
+    "label": "YouTube-skript",
+    "value": "Vennligst lag et 1500 ords prompt-svar videoskript for den gitte informasjonen uten plagiering. Sørg for å skrive i en samtaletone. Sørg for å sitere markdown-notasjonene # for en tittel, ## for avsnittsundertekster og ![](image_url) for et miniatyrbilde. Gi en tittel som fanger folks oppmerksomhet. Gi deretter en kort beskrivelse. Gi deretter ett miniatyrbilde fra de gitte bildene. Gi deretter en fengende introduksjon med et spørsmål leseren vil vite svaret på. Gi deretter 4 avsnitt som består av undertekst, godt forklart manus og en interessant mening. Sørg for å appellere til følelsene til publikum bak historien. Gi så mat til ettertanke."
+  }
+]

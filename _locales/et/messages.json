@@ -1,0 +1,104 @@
+{
+  "APPNAME": {
+    "message": "ChatGPT Phantom: YouTube'i reaalajas juurdepääs"
+  },
+  "APPDESC": {
+    "message": "See laiendus võimaldab teil kirjutada reaalajas UUDISTE artikleid ja Youtube'i skripte."
+  },
+  "HOME_DESC": {
+    "message": "Looge ja avaldage reaalajas artikleid/skripte sama kiiresti kui Big Media!"
+  },
+  "SUB_1": {
+    "message": "Reaalajas teemad"
+  },
+  "SUB_2": {
+    "message": "+20 keele tõlge"
+  },
+  "SUB_3": {
+    "message": "Plagiaadi kontrollija"
+  },
+  "SUB_4": {
+    "message": "Ära kunagi kogu kasutajaandmeid"
+  },
+  "SUB_5": {
+    "message": "Täiesti tasuta (annetused ❤️)"
+  },
+  "SUB_6": {
+    "message": "Piiramatu kasutus"
+  },
+  "PROMPT": {
+    "message": "Viip:"
+  },
+  "INFO": {
+    "message": "Teave:"
+  },
+  "INSTRUCTIONS": {
+    "message": "Juhised:"
+  },
+  "WARNING_LABEL": {
+    "message": "Palun märgi oma juhis!"
+  },
+  "WARNING_VALUE": {
+    "message": "Palun kirjutage oma juhis!"
+  },
+  "ERROR_1": {
+    "message": "Tekkis viga"
+  },
+  "ERROR_2": {
+    "message": "Palun proovi uuesti!"
+  },
+  "PROCESS_1": {
+    "message": "Teabe otsimine."
+  },
+  "PROCESS_2": {
+    "message": "Palun oodake..."
+  },
+  "SOURCE_1": {
+    "message": "1 allikas"
+  },
+  "SOURCES_2": {
+    "message": "2 allikat"
+  },
+  "SOURCES_3": {
+    "message": "3 allikat"
+  },
+  "AUTO": {
+    "message": "Automaatne"
+  },
+  "TODAY": {
+    "message": "Täna"
+  },
+  "THIS_WEEK": {
+    "message": "See nädal"
+  },
+  "THIS_MONTH": {
+    "message": "See kuu"
+  },
+  "THIS_YEAR": {
+    "message": "Sel aastal"
+  },
+  "PLACEHOLDER_1": {
+    "message": "Märkige oma juhised siia"
+  },
+  "PLACEHOLDER_2": {
+    "message": "Kirjutage oma juhised siia"
+  },
+  "BTN_1": {
+    "message": "Loo uus"
+  },
+  "BTN_2": {
+    "message": "Tühista"
+  },
+  "BTN_3": {
+    "message": "Lisa"
+  },
+  "BTN_4": {
+    "message": "Uuendus"
+  },
+  "BTN_5": {
+    "message": "Kustuta"
+  },
+  "HELP": {
+    "message": "Palun ole minu toetaja, et hoida seda laiendust tasuta 🥺"
+  }
+}

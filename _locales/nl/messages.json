@@ -1,0 +1,104 @@
+{
+  "APPNAME": {
+    "message": "ChatGPT Phantom: realtime toegang tot YouTube"
+  },
+  "APPDESC": {
+    "message": "Met deze extensie kun je Real-Time NEWS-artikelen en YouTube-scripts schrijven."
+  },
+  "HOME_DESC": {
+    "message": "Maak en publiceer real-time artikelen/scripts net zo snel als Big Media!"
+  },
+  "SUB_1": {
+    "message": "Realtime onderwerpen"
+  },
+  "SUB_2": {
+    "message": "Vertaling in +20 talen"
+  },
+  "SUB_3": {
+    "message": "Plagiaatcontrole"
+  },
+  "SUB_4": {
+    "message": "Verzamel nooit gebruikersgegevens"
+  },
+  "SUB_5": {
+    "message": "Volledig gratis (donaties ❤️)"
+  },
+  "SUB_6": {
+    "message": "Onbeperkt gebruik"
+  },
+  "PROMPT": {
+    "message": "Vraag:"
+  },
+  "INFO": {
+    "message": "Info:"
+  },
+  "INSTRUCTIONS": {
+    "message": "Instructies:"
+  },
+  "WARNING_LABEL": {
+    "message": "Gelieve uw instructie te labelen!"
+  },
+  "WARNING_VALUE": {
+    "message": "Schrijf alstublieft uw instructie!"
+  },
+  "ERROR_1": {
+    "message": "Er is een fout opgetreden"
+  },
+  "ERROR_2": {
+    "message": "Probeer het opnieuw!"
+  },
+  "PROCESS_1": {
+    "message": "Informatie zoeken."
+  },
+  "PROCESS_2": {
+    "message": "Even geduld..."
+  },
+  "SOURCE_1": {
+    "message": "1 bron"
+  },
+  "SOURCES_2": {
+    "message": "2 bronnen"
+  },
+  "SOURCES_3": {
+    "message": "3 bronnen"
+  },
+  "AUTO": {
+    "message": "Automatisch"
+  },
+  "TODAY": {
+    "message": "Vandaag"
+  },
+  "THIS_WEEK": {
+    "message": "Deze week"
+  },
+  "THIS_MONTH": {
+    "message": "Deze maand"
+  },
+  "THIS_YEAR": {
+    "message": "Dit jaar"
+  },
+  "PLACEHOLDER_1": {
+    "message": "Label hier uw instructie"
+  },
+  "PLACEHOLDER_2": {
+    "message": "Schrijf hier uw instructie"
+  },
+  "BTN_1": {
+    "message": "Nieuw maken"
+  },
+  "BTN_2": {
+    "message": "Annuleren"
+  },
+  "BTN_3": {
+    "message": "Toevoegen"
+  },
+  "BTN_4": {
+    "message": "Bijwerken"
+  },
+  "BTN_5": {
+    "message": "Verwijderen"
+  },
+  "HELP": {
+    "message": "Wees alsjeblieft mijn supporter om deze extensie gratis te houden 🥺"
+  }
+}

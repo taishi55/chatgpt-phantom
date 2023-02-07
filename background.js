@@ -6,13 +6,14 @@ function openChatGPTWebpage() {
   });
 }
 
-chrome.runtime.onInstalled.addListener(() => {
+chrome.runtime.onInstalled.addListener(async () => {
   chrome.storage.sync.set({
     web_access: true,
-    region: "us-en",
-    time_period: "w",
-    instruction:
-      "Instructions: create an article about the given info without plagiarism. Make sure to write in a formal tone. Make sure to cite the markdown notations # for a title, ## for paragraph's subtitles, and ![](src) for a thumbnail image. Provide a title that gets people's attention. Then provide a short description. Then provide a thumbnail image. Then provide 4 paragraphs consisting of subtitle and well-explained article. Then provide a conclusion.",
+    language: chrome.i18n.getMessage("@@ui_locale") || 'en',
+    source_num: 3,
+    time_period: "",
+    instruction: "",
+    instruction_label: "",
   });
   openChatGPTWebpage();
 });

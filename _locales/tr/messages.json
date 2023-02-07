@@ -1,0 +1,104 @@
+{
+  "APPNAME": {
+    "message": "ChatGPT Phantom: Gerçek Zamanlı Youtube Erişimi"
+  },
+  "APPDESC": {
+    "message": "Bu uzantı, Gerçek Zamanlı HABER makaleleri ve Youtube komut dosyaları yazmanıza olanak tanır."
+  },
+  "HOME_DESC": {
+    "message": "Gerçek zamanlı makaleleri/komut dosyalarını Big Media kadar hızlı oluşturun ve yayınlayın!"
+  },
+  "SUB_1": {
+    "message": "Gerçek Zamanlı Konular"
+  },
+  "SUB_2": {
+    "message": "+20 Dilde Çeviri"
+  },
+  "SUB_3": {
+    "message": "İntihal Denetleyicisi"
+  },
+  "SUB_4": {
+    "message": "Asla Kullanıcı Verilerini Toplama"
+  },
+  "SUB_5": {
+    "message": "Tamamen Ücretsiz (bağışlar ❤️)"
+  },
+  "SUB_6": {
+    "message": "Sınırsız Kullanım"
+  },
+  "PROMPT": {
+    "message": "Sor:"
+  },
+  "INFO": {
+    "message": "Bilgi:"
+  },
+  "INSTRUCTIONS": {
+    "message": "Talimatlar:"
+  },
+  "WARNING_LABEL": {
+    "message": "Lütfen talimatınızı etiketleyin!"
+  },
+  "WARNING_VALUE": {
+    "message": "Lütfen talimatınızı yazınız!"
+  },
+  "ERROR_1": {
+    "message": "Bir hata oluştu"
+  },
+  "ERROR_2": {
+    "message": "Lütfen tekrar deneyin!"
+  },
+  "PROCESS_1": {
+    "message": "Bilgi aranıyor."
+  },
+  "PROCESS_2": {
+    "message": "Lütfen bekleyin..."
+  },
+  "SOURCE_1": {
+    "message": "1 kaynak"
+  },
+  "SOURCES_2": {
+    "message": "2 kaynak"
+  },
+  "SOURCES_3": {
+    "message": "3 kaynak"
+  },
+  "AUTO": {
+    "message": "Otomatik"
+  },
+  "TODAY": {
+    "message": "Bugün"
+  },
+  "THIS_WEEK": {
+    "message": "Bu hafta"
+  },
+  "THIS_MONTH": {
+    "message": "Bu ay"
+  },
+  "THIS_YEAR": {
+    "message": "Bu yıl"
+  },
+  "PLACEHOLDER_1": {
+    "message": "Talimatınızı buraya etiketleyin"
+  },
+  "PLACEHOLDER_2": {
+    "message": "Talimatınızı buraya yazın"
+  },
+  "BTN_1": {
+    "message": "Yeni Oluştur"
+  },
+  "BTN_2": {
+    "message": "İptal"
+  },
+  "BTN_3": {
+    "message": "Ekle"
+  },
+  "BTN_4": {
+    "message": "Güncelle"
+  },
+  "BTN_5": {
+    "message": "Sil"
+  },
+  "HELP": {
+    "message": "Bu uzantıyı ücretsiz tutmak için lütfen destekçim olun 🥺"
+  }
+}

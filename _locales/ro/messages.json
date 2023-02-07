@@ -1,0 +1,104 @@
+{
+  "APPNAME": {
+    "message": "ChatGPT Phantom: Acces în timp real la Youtube"
+  },
+  "APPDESC": {
+    "message": "Această extensie vă permite să scrieți articole de ȘTIRI în timp real și scripturi Youtube."
+  },
+  "HOME_DESC": {
+    "message": "Creează și publică articole/scripturi în timp real la fel de rapid ca Big Media!"
+  },
+  "SUB_1": {
+    "message": "Subiecte în timp real"
+  },
+  "SUB_2": {
+    "message": "Traducere în +20 de limbi"
+  },
+  "SUB_3": {
+    "message": "Verificator de plagiat"
+  },
+  "SUB_4": {
+    "message": "Nu colectați niciodată date despre utilizator"
+  },
+  "SUB_5": {
+    "message": "Complet gratuit (donații ❤️)"
+  },
+  "SUB_6": {
+    "message": "Utilizare nelimitată"
+  },
+  "PROMPT": {
+    "message": "Prompt:"
+  },
+  "INFO": {
+    "message": "Informații:"
+  },
+  "INSTRUCTIONS": {
+    "message": "Instrucțiuni:"
+  },
+  "WARNING_LABEL": {
+    "message": "Vă rugăm să vă etichetați instrucțiunile!"
+  },
+  "WARNING_VALUE": {
+    "message": "Vă rugăm să scrieți instrucțiunea!"
+  },
+  "ERROR_1": {
+    "message": "A apărut o eroare"
+  },
+  "ERROR_2": {
+    "message": "Vă rugăm să încercați din nou!"
+  },
+  "PROCESS_1": {
+    "message": "Se caută informații."
+  },
+  "PROCESS_2": {
+    "message": "Vă rugăm să așteptați..."
+  },
+  "SOURCE_1": {
+    "message": "1 sursă"
+  },
+  "SOURCES_2": {
+    "message": "2 surse"
+  },
+  "SOURCES_3": {
+    "message": "3 surse"
+  },
+  "AUTO": {
+    "message": "Automat"
+  },
+  "TODAY": {
+    "message": "Astăzi"
+  },
+  "THIS_WEEK": {
+    "message": "Săptămâna aceasta"
+  },
+  "THIS_MONTH": {
+    "message": "Luna aceasta"
+  },
+  "THIS_YEAR": {
+    "message": "Anul acesta"
+  },
+  "PLACEHOLDER_1": {
+    "message": "Etichetați instrucțiunile dvs. aici"
+  },
+  "PLACEHOLDER_2": {
+    "message": "Scrieți instrucțiunile dvs. aici"
+  },
+  "BTN_1": {
+    "message": "Creează nou"
+  },
+  "BTN_2": {
+    "message": "Anulează"
+  },
+  "BTN_3": {
+    "message": "Adăugați"
+  },
+  "BTN_4": {
+    "message": "Actualizare"
+  },
+  "BTN_5": {
+    "message": "Ștergeți"
+  },
+  "HELP": {
+    "message": "Vă rugăm să fiți susținătorul meu pentru a păstra această extensie gratuit 🥺"
+  }
+}

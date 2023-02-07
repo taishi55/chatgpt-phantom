@@ -1,0 +1,104 @@
+{
+  "APPNAME": {
+    "message": "ChatGPT Phantom: acceso a YouTube en tiempo real"
+  },
+  "APPDESC": {
+    "message": "Esta extensión te permite escribir artículos de NOTICIAS en tiempo real y guiones de Youtube"
+  },
+  "HOME_DESC": {
+    "message": "¡Crea y publica artículos/guiones en tiempo real tan rápido como Big Media!"
+  },
+  "SUB_1": {
+    "message": "Temas en tiempo real"
+  },
+  "SUB_2": {
+    "message": "Traducción de +20 idiomas"
+  },
+  "SUB_3": {
+    "message": "Verificador de plagio"
+  },
+  "SUB_4": {
+    "message": "Nunca recopilar datos de usuario"
+  },
+  "SUB_5": {
+    "message": "Completamente gratis (donaciones ❤️)"
+  },
+  "SUB_6": {
+    "message": "Uso ilimitado"
+  },
+  "PROMPT": {
+    "message": "Mensaje:"
+  },
+  "INFO": {
+    "message": "Información:"
+  },
+  "INSTRUCTIONS": {
+    "message": "Instrucciones:"
+  },
+  "WARNING_LABEL": {
+    "message": "¡Etiqueta tu instrucción!"
+  },
+  "WARNING_VALUE": {
+    "message": "¡Por favor escribe tus instrucciones!"
+  },
+  "ERROR_1": {
+    "message": "Ocurrió un error"
+  },
+  "ERROR_2": {
+    "message": "¡Inténtalo de nuevo!"
+  },
+  "PROCESO _1": {
+    "message": "Buscando la información."
+  },
+  "PROCESO _2": {
+    "message": "Por favor espere..."
+  },
+  "SOURCE_1": {
+    "message": "1 fuente"
+  },
+  "SOURCES_2": {
+    "message": "2 fuentes"
+  },
+  "SOURCES_3": {
+    "message": "3 fuentes"
+  },
+  "AUTO": {
+    "message": "Auto"
+  },
+  "TODAY": {
+    "message": "Hoy"
+  },
+  "THIS_WEEK": {
+    "message": "Esta semana"
+  },
+  "THIS_MES": {
+    "message": "Este mes"
+  },
+  "THIS_YEAR": {
+    "message": "Este año"
+  },
+  "PLACEHOLDER_1": {
+    "message": "Etiquete su instrucción aquí"
+  },
+  "PLACEHOLDER_2": {
+    "message": "Escribe aquí tus instrucciones"
+  },
+  "BTN_1": {
+    "message": "Crear nuevo"
+  },
+  "BTN_2": {
+    "message": "Cancelar"
+  },
+  "BTN_3": {
+    "message": "Agregar"
+  },
+  "BTN_4": {
+    "message": "Actualizar"
+  },
+  "BTN_5": {
+    "message": "Borrar"
+  },
+  "HELP": {
+    "message": "Por favor, ayúdame a mantener esta extensión gratis 🥺"
+  }
+}

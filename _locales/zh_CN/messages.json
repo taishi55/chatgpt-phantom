@@ -1,0 +1,104 @@
+{
+  "APPNAME": {
+    "message": "ChatGPT Phantom:实时 Youtube 访问"
+  },
+  "APPDESC": {
+    "message": "此扩展可让您编写实时新闻文章和 Youtube 脚本。"
+  },
+  "HOME_DESC": {
+    "message": "像大媒体一样快速创建和发布实时文章/脚本！"
+  },
+  "SUB_1": {
+    "message": "实时话题"
+  },
+  "SUB_2": {
+    "message": "+20 种语言翻译"
+  },
+  "SUB_3": {
+    "message": "抄袭检查器"
+  },
+  "SUB_4": {
+    "message": "从不收集用户数据"
+  },
+  "SUB_5": {
+    "message": "完全免费（捐款❤️）"
+  },
+  "SUB_6": {
+    "message": "无限使用"
+  },
+  "PROMPT": {
+    "message": "提示:"
+  },
+  "INFO": {
+    "message": "信息:"
+  },
+  "INSTRUCTIONS": {
+    "message": "说明:"
+  },
+  "WARNING_LABEL": {
+    "message": "请标注您的指令！"
+  },
+  "WARNING_VALUE": {
+    "message": "请写下您的指令！"
+  },
+  "ERROR_1": {
+    "message": "发生错误"
+  },
+  "ERROR_2": {
+    "message": "请重试！"
+  },
+  "PROCESS_1": {
+    "message": "正在查询资料。"
+  },
+  "PROCESS_2": {
+    "message": "请稍等……"
+  },
+  "SOURCE_1": {
+    "message": "1个来源"
+  },
+  "SOURCES_2": {
+    "message": "2个来源"
+  },
+  "SOURCES_3": {
+    "message": "3个来源"
+  },
+  "AUTO": {
+    "message": "自动"
+  },
+  "TODAY": {
+    "message": "今天"
+  },
+  "THIS_WEEK": {
+    "message": "本周"
+  },
+  "THIS_MONTH": {
+    "message": "本月"
+  },
+  "THIS_YEAR": {
+    "message": "今年"
+  },
+  "PLACEHOLDER_1": {
+    "message": "在此处标记您的指令"
+  },
+  "PLACEHOLDER_2": {
+    "message": "在这里写下你的指令"
+  },
+  "BTN_1": {
+    "message": "新建"
+  },
+  "BTN_2": {
+    "message": "取消"
+  },
+  "BTN_3": {
+    "message": "添加"
+  },
+  "BTN_4": {
+    "message": "更新"
+  },
+  "BTN_5": {
+    "message": "删除"
+  },
+  "HELP": {
+    "message": "请成为我的支持者以免费保留此扩展🥺"
+  }
+}

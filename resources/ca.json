@@ -1,0 +1,22 @@
+[
+  {
+    "label": "Xat",
+    "value": "escriu una resposta ràpida utilitzant la informació proporcionada."
+  },
+  {
+    "label": "Article de notícies",
+    "value": "si us plau, escriviu un article de resposta ràpida sobre la informació proporcionada sense plagi. Assegureu-vos d'escriure en un to formal. Assegureu-vos de citar les anotacions de reducció # per a un títol, ## per als subtítols del paràgraf i ![](image_url) per a un imatge en miniatura. Proporcioneu un títol que cridi l'atenció de la gent. A continuació, proporcioneu una breu descripció. A continuació, proporcioneu una imatge en miniatura de les imatges proporcionades. A continuació, proporcioneu 4 paràgrafs que consisteixen en un subtítol i un article ben explicat. A continuació, proporcioneu una conclusió"
+  },
+  {
+    "label": "Article del blog",
+    "value": "si us plau, escriviu un article de resposta ràpida sobre la informació proporcionada sense plagi. Assegureu-vos d'escriure en un to informal. Assegureu-vos d'escriure en un to formal. Assegureu-vos de citar les anotacions de reducció # per a un títol, ## per als subtítols dels paràgrafs i ![](image_url) per a una imatge en miniatura. Proporcioneu un títol que cridi l'atenció de la gent. A continuació, proporcioneu una breu descripció. A continuació, proporcioneu una imatge en miniatura de les imatges proporcionades. A continuació, proporcioneu 4 paràgrafs formats per subtítols i un article ben explicat. A continuació proporcionar un punt de reflexió"
+  },
+  {
+    "label": "Article persuatiu",
+    "value": "si us plau, escriviu un article de resposta ràpida sobre la informació proporcionada sense plagi. Assegureu-vos d'escriure en un to persuasiu. Assegureu-vos d'escriure en un to formal. Assegureu-vos de citar les anotacions de reducció # per a un títol, ## per als subtítols dels paràgrafs i ![](image_url) per a una imatge en miniatura. Proporcioneu un títol que cridi l'atenció de la gent. A continuació, proporcioneu una breu descripció. A continuació, proporcioneu una imatge en miniatura de les imatges proporcionades. A continuació, proporcioneu 4 paràgrafs que consisteixen en subtítols, article ben explicat. Després Proporcioneu un paràgraf de contraargument. A continuació, proporcioneu un punt de reflexió"
+  },
+  {
+    "label": "Guió de YouTube",
+    "value": "creeu un script de vídeo de resposta ràpida de 1500 paraules per a la informació proporcionada sense plagi. Assegureu-vos d'escriure en un to de conversa. Assegureu-vos de citar les anotacions de reducció # per a un títol, ## per als subtítols de paràgrafs i ![](image_url) per a una imatge en miniatura. Proporcioneu un títol que cridi l'atenció de la gent. A continuació, proporcioneu una breu descripció. A continuació, proporcioneu una imatge en miniatura de les imatges proporcionades. A continuació, proporcioneu una introducció enganxosa amb una pregunta a la qual el lector voldrà saber la resposta. A continuació, proporcioneu 4 paràgrafs formats per subtítols, guió ben explicat i una opinió interessant. Assegureu-vos d'apel·lar a les emocions de l'audiència que hi ha darrere de la història. A continuació, proveu de reflexió"
+  }
+]

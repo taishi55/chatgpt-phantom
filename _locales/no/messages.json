@@ -1,0 +1,104 @@
+{
+  "APPNAME": {
+    "message": "ChatGPT Phantom: YouTube-tilgang i sanntid"
+  },
+  "APPDESC": {
+    "message": "Denne utvidelsen lar deg skrive sanntidsnyheter og Youtube-skript."
+  },
+  "HOME_DESC": {
+    "message": "Lag og publiser sanntidsartikler/skript like raskt som Big Media!"
+  },
+  "SUB_1": {
+    "message": "Sanntidsemner"
+  },
+  "SUB_2": {
+    "message": "+20 språk oversettelse"
+  },
+  "SUB_3": {
+    "message": "Plagieringskontroll"
+  },
+  "SUB_4": {
+    "message": "Samle aldri brukerdata"
+  },
+  "SUB_5": {
+    "message": "Helt gratis (donasjoner ❤️)"
+  },
+  "SUB_6": {
+    "message": "Ubegrenset bruk"
+  },
+  "PROMPT": {
+    "message": "Spørsmål:"
+  },
+  "INFO": {
+    "message": "Info:"
+  },
+  "INSTRUCTIONS": {
+    "message": "Instruksjoner:"
+  },
+  "WARNING_LABEL": {
+    "message": "Vennligst merk instruksjonene dine!"
+  },
+  "WARNING_VALUE": {
+    "message": "Vennligst skriv instruksjonen din!"
+  },
+  "ERROR_1": {
+    "message": "Det oppsto en feil"
+  },
+  "ERROR_2": {
+    "message": "Vennligst prøv igjen!"
+  },
+  "PROCESS_1": {
+    "message": "Søker i informasjonen."
+  },
+  "PROCESS_2": {
+    "message": "Vennligst vent..."
+  },
+  "SOURCE_1": {
+    "message": "1 kilde"
+  },
+  "SOURCES_2": {
+    "message": "2 kilder"
+  },
+  "SOURCES_3": {
+    "message": "3 kilder"
+  },
+  "AUTO": {
+    "message": "Auto"
+  },
+  "TODAY": {
+    "message": "I dag"
+  },
+  "THIS_WEEK": {
+    "message": "Denne uken"
+  },
+  "THIS_MONTH": {
+    "message": "Denne måneden"
+  },
+  "THIS_YEAR": {
+    "message": "I år"
+  },
+  "PLACEHOLDER_1": {
+    "message": "Merk instruksjonene dine her"
+  },
+  "PLACEHOLDER_2": {
+    "message": "Skriv instruksjonen din her"
+  },
+  "BTN_1": {
+    "message": "Opprett ny"
+  },
+  "BTN_2": {
+    "message": "Avbryt"
+  },
+  "BTN_3": {
+    "message": "Legg til"
+  },
+  "BTN_4": {
+    "message": "Oppdater"
+  },
+  "BTN_5": {
+    "message": "Slett"
+  },
+  "HELP": {
+    "message": "Vær min støttespiller for å beholde denne utvidelsen gratis 🥺"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "APPNAME": {
+    "message": "ChatGPT Phantom: Real-Time Youtube Access"
+  },
+  "APPDESC": {
+    "message": "Ang extension na ito ay nagbibigay-daan sa iyong magsulat ng Real-Time na mga artikulo sa BALITA at mga script sa Youtube."
+  },
+  "HOME_DESC": {
+    "message": "Gumawa at Mag-publish ng mga real-time na artikulo/script nang kasing bilis ng Big Media!"
+  },
+  "SUB_1": {
+    "message": "Mga Real-Time na Paksa"
+  },
+  "SUB_2": {
+    "message": "+20 Languages Translation"
+  },
+  "SUB_3": {
+    "message": "Plagiarism Checker"
+  },
+  "SUB_4": {
+    "message": "Huwag Kolektahin ang Data ng Gumagamit"
+  },
+  "SUB_5": {
+    "message": "Ganap na Libre (mga donasyon ❤️)"
+  },
+  "SUB_6": {
+    "message": "Walang limitasyong Paggamit"
+  },
+  "PROMPT": {
+    "message": "Prompt:"
+  },
+  "INFO": {
+    "message": "Impormasyon:"
+  },
+  "INSTRUCTIONS": {
+    "message": "Mga tagubilin:"
+  },
+  "WARNING_LABEL": {
+    "message": "Pakilagyan ng label ang iyong tagubilin!"
+  },
+  "WARNING_VALUE": {
+    "message": "Pakisulat ang iyong tagubilin!"
+  },
+  "ERROR_1": {
+    "message": "May naganap na error"
+  },
+  "ERROR_2": {
+    "message": "Pakisubukang muli!"
+  },
+  "PROCESS_1": {
+    "message": "Naghahanap ng impormasyon."
+  },
+  "PROCESS_2": {
+    "message": "Mangyaring maghintay..."
+  },
+  "SOURCE_1": {
+    "message": "1 pinagmulan"
+  },
+  "SOURCES_2": {
+    "message": "2 pinagmumulan"
+  },
+  "SOURCES_3": {
+    "message": "3 pinagmumulan"
+  },
+  "AUTO": {
+    "message": "Auto"
+  },
+  "TODAY": {
+    "message": "Ngayon"
+  },
+  "THIS_WEEK": {
+    "message": "Ngayong linggo"
+  },
+  "THIS_MONTH": {
+    "message": "Ngayong buwan"
+  },
+  "THIS_YEAR": {
+    "message": "Ngayong taon"
+  },
+  "PLACEHOLDER_1": {
+    "message": "Lagyan ng label ang iyong pagtuturo dito"
+  },
+  "PLACEHOLDER_2": {
+    "message": "Isulat ang iyong tagubilin dito"
+  },
+  "BTN_1": {
+    "message": "Gumawa ng Bago"
+  },
+  "BTN_2": {
+    "message": "Kanselahin"
+  },
+  "BTN_3": {
+    "message": "Idagdag"
+  },
+  "BTN_4": {
+    "message": "I-update"
+  },
+  "BTN_5": {
+    "message": "Tanggalin"
+  },
+  "HELP": {
+    "message": "Mangyaring maging tagasuporta ko upang panatilihing libre ang extension na ito 🥺"
+  }
+}

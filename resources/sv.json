@@ -1,0 +1,22 @@
+[
+  {
+    "label": "Chatta",
+    "value": "skriv ett snabbt svar med den information som ges."
+  },
+  {
+    "label": "Nyhetsartikel",
+    "value": "vänligen skriv en artikel som svarar snabbt om den givna informationen utan plagiat. Se till att skriva i en formell ton. Se till att citera markdown-notationerna # för en titel, ## för styckets undertexter och ![](image_url) för en miniatyrbild. Ge en titel som fångar folks uppmärksamhet. Ge sedan en kort beskrivning. Ge sedan en miniatyrbild från de givna bilderna. Ge sedan 4 stycken bestående av underrubrik och välförklarad artikel. Ge sedan en slutsats."
+  },
+  {
+    "label": "Bloggartikel",
+    "value": "vänligen skriv en artikel som svarar snabbt om den givna informationen utan plagiat. Se till att skriva i en avslappnad ton. Se till att skriva i en formell ton. Se till att citera markdown-notationerna # för en titel, ## för styckets undertexter och ![](image_url) för en miniatyrbild. Ange en titel som fångar folks uppmärksamhet. Ge sedan en kort beskrivning. Ange sedan en miniatyrbild från de givna bilderna. Ange sedan 4 stycken bestående av underrubrik och välförklarad artikel. Sedan ge stof till eftertanke."
+  },
+  {
+    "label": "Övertygande artikel",
+    "value": "skriv en artikel som svarar snabbt om den givna informationen utan plagiat. Se till att skriva i en övertygande ton. Se till att skriva i en formell ton. Se till att citera markdown-notationerna # för en titel, ## för styckets undertexter och ![](image_url) för en miniatyrbild. Ange en titel som fångar folks uppmärksamhet. Ge sedan en kort beskrivning. Ange sedan en miniatyrbild från de givna bilderna. Ange sedan fyra stycken bestående av underrubrik, välförklarad artikel. Sedan ge en motargumentparagraf. Ge sedan en tankeställare."
+  },
+  {
+    "label": "YouTube-skript",
+    "value": "vänligen skapa ett 1500-ords prompt-svar-videoskript för den givna informationen utan plagiat. Se till att skriva i en konversationston. Se till att citera markdown-notationerna # för en titel, ## för styckeundertexter och ![](image_url) för en miniatyrbild. Ange en titel som fångar folks uppmärksamhet. Ge sedan en kort beskrivning. Ange sedan en miniatyrbild från de givna bilderna. Ge sedan en catchy introduktion med en fråga som läsaren vill veta svaret på. Ge sedan 4 stycken bestående av undertext, välförklarat manus och en intressant åsikt. Se till att vädja till känslorna hos publiken bakom berättelsen. Ge sedan en tankeställare."
+  }
+]

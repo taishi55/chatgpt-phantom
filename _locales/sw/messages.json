@@ -1,0 +1,104 @@
+{
+  "APPNAME": {
+    "message": "ChatGPT Phantom: Ufikiaji wa YouTube wa Wakati Halisi"
+  },
+  "APPDESC": {
+    "message": "Kiendelezi hiki hukuruhusu kuandika makala ya HABARI ya Wakati Halisi na hati za YouTube."
+  },
+  "HOME_DESC": {
+    "message": "Unda na Uchapishe makala/hati za wakati halisi kwa haraka kama Media Kubwa!"
+  },
+  "SUB_1": {
+    "message": "Mada za Wakati Halisi"
+  },
+  "SUB_2": {
+    "message": "Tafsiri ya Lugha +20"
+  },
+  "SUB_3": {
+    "message": "Kikagua Ulaghai"
+  },
+  "SUB_4": {
+    "message": "Kamwe Usikusanye Data ya Mtumiaji"
+  },
+  "SUB_5": {
+    "message": "Bure Kabisa (michango ❤️)"
+  },
+  "SUB_6": {
+    "message": "Matumizi Bila Kikomo"
+  },
+  "PROMPT": {
+    "message": "Utaarifu:"
+  },
+  "INFO": {
+    "message": "Maelezo:"
+  },
+  "INSTRUCTIONS": {
+    "message": "Maelekezo:"
+  },
+  "WARNING_LABEL": {
+    "message": "Tafadhali weka lebo kwenye maagizo yako!"
+  },
+  "WARNING_VALUE": {
+    "message": "Tafadhali andika maagizo yako!"
+  },
+  "ERROR_1": {
+    "message": "Hitilafu imetokea"
+  },
+  "ERROR_2": {
+    "message": "Tafadhali jaribu tena!"
+  },
+  "PROCESS_1": {
+    "message": "Inatafuta taarifa."
+  },
+  "PROCESS_2": {
+    "message": "Tafadhali subiri..."
+  },
+  "SOURCE_1": {
+    "message": "chanzo 1"
+  },
+  "SOURCES_2": {
+    "message": "vyanzo 2"
+  },
+  "SOURCES_3": {
+    "message": "vyanzo 3"
+  },
+  "AUTO": {
+    "message": "Otomatiki"
+  },
+  "TODAY": {
+    "message": "Leo"
+  },
+  "THIS_WEEK": {
+    "message": "Wiki hii"
+  },
+  "THIS_MONTH": {
+    "message": "Mwezi huu"
+  },
+  "THIS_YEAR": {
+    "message": "Mwaka huu"
+  },
+  "PLACEHOLDER_1": {
+    "message": "Weka maagizo yako hapa"
+  },
+  "PLACEHOLDER_2": {
+    "message": "Andika maagizo yako hapa"
+  },
+  "BTN_1": {
+    "message": "Unda Mpya"
+  },
+  "BTN_2": {
+    "message": "Ghairi"
+  },
+  "BTN_3": {
+    "message": "Ongeza"
+  },
+  "BTN_4": {
+    "message": "Sasisha"
+  },
+  "BTN_5": {
+    "message": "Futa"
+  },
+  "HELP": {
+    "message": "Tafadhali uwe mfuasi wangu ili kuweka kiendelezi hiki bila malipo 🥺"
+  }
+}

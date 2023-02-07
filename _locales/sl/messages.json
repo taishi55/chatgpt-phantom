@@ -1,0 +1,104 @@
+{
+  "APPNAME": {
+    "message": "ChatGPT Phantom: dostop do YouTuba v realnem času"
+  },
+  "APPDESC": {
+    "message": "Ta razširitev vam omogoča pisanje člankov z NOVICAMI v realnem času in skriptov Youtube."
+  },
+  "HOME_DESC": {
+    "message": "Ustvarite in objavite članke/skripte v realnem času tako hitro kot Big Media!"
+  },
+  "SUB_1": {
+    "message": "Teme v realnem času"
+  },
+  "SUB_2": {
+    "message": "Prevajanje +20 jezikov"
+  },
+  "SUB_3": {
+    "message": "Preverjevalnik plagiatorstva"
+  },
+  "SUB_4": {
+    "message": "Nikoli ne zbiraj uporabniških podatkov"
+  },
+  "SUB_5": {
+    "message": "Popolnoma brezplačno (donacije ❤️)"
+  },
+  "SUB_6": {
+    "message": "Neomejena uporaba"
+  },
+  "PROMPT": {
+    "message": "Poziv:"
+  },
+  "INFO": {
+    "message": "Informacije:"
+  },
+  "INSTRUCTIONS": {
+    "message": "Navodila:"
+  },
+  "WARNING_LABEL": {
+    "message": "Prosimo, označite svoje navodilo!"
+  },
+  "WARNING_VALUE": {
+    "message": "Prosim, napišite svoje navodilo!"
+  },
+  "ERROR_1": {
+    "message": "Prišlo je do napake"
+  },
+  "ERROR_2": {
+    "message": "Prosimo, poskusite znova!"
+  },
+  "PROCESS_1": {
+    "message": "Iskanje informacij."
+  },
+  "PROCESS_2": {
+    "message": "Prosimo, počakajte ..."
+  },
+  "SOURCE_1": {
+    "message": "1 vir"
+  },
+  "SOURCES_2": {
+    "message": "2 vira"
+  },
+  "SOURCES_3": {
+    "message": "3 viri"
+  },
+  "AUTO": {
+    "message": "Samodejno"
+  },
+  "TODAY": {
+    "message": "Danes"
+  },
+  "THIS_WEEK": {
+    "message": "Ta teden"
+  },
+  "THIS_MONTH": {
+    "message": "Ta mesec"
+  },
+  "THIS_YEAR": {
+    "message": "Letos"
+  },
+  "PLACEHOLDER_1": {
+    "message": "Označite svoje navodilo tukaj"
+  },
+  "PLACEHOLDER_2": {
+    "message": "Tukaj napišite svoje navodilo"
+  },
+  "BTN_1": {
+    "message": "Ustvari novo"
+  },
+  "BTN_2": {
+    "message": "Prekliči"
+  },
+  "BTN_3": {
+    "message": "Dodaj"
+  },
+  "BTN_4": {
+    "message": "Posodobi"
+  },
+  "BTN_5": {
+    "message": "Izbriši"
+  },
+  "HELP": {
+    "message": "Prosim, bodite moj podpornik, da obdržim to razširitev brezplačno 🥺"
+  }
+}

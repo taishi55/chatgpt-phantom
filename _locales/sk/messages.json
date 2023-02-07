@@ -1,0 +1,104 @@
+{
+  "APPNAME": {
+    "message": "ChatGPT Phantom: Prístup na YouTube v reálnom čase"
+  },
+  "APPDESC": {
+    "message": "Toto rozšírenie vám umožňuje písať články NOVINKY v reálnom čase a skripty na Youtube."
+  },
+  "HOME_DESC": {
+    "message": "Vytvárajte a publikujte články/skripty v reálnom čase tak rýchlo ako Big Media!"
+  },
+  "SUB_1": {
+    "message": "Témy v reálnom čase"
+  },
+  "SUB_2": {
+    "message": "Preklad +20 jazykov"
+  },
+  "SUB_3": {
+    "message": "Kontrola plagiátorstva"
+  },
+  "SUB_4": {
+    "message": "Nikdy nezhromažďujte používateľské údaje"
+  },
+  "SUB_5": {
+    "message": "Úplne zadarmo (dary ❤️)"
+  },
+  "SUB_6": {
+    "message": "Neobmedzené použitie"
+  },
+  "PROMPT": {
+    "message": "Výzva:"
+  },
+  "INFO": {
+    "message": "Informácie:"
+  },
+  "INSTRUCTIONS": {
+    "message": "Pokyny:"
+  },
+  "WARNING_LABEL": {
+    "message": "Prosím, označte svoj pokyn!"
+  },
+  "WARNING_VALUE": {
+    "message": "Napíšte prosím svoj pokyn!"
+  },
+  "ERROR_1": {
+    "message": "Vyskytla sa chyba"
+  },
+  "ERROR_2": {
+    "message": "Skúste to znova!"
+  },
+  "PROCESS_1": {
+    "message": "Vyhľadávanie informácií."
+  },
+  "PROCESS_2": {
+    "message": "Počkajte, prosím..."
+  },
+  "SOURCE_1": {
+    "message": "1 zdroj"
+  },
+  "SOURCES_2": {
+    "message": "2 zdroje"
+  },
+  "SOURCES_3": {
+    "message": "3 zdroje"
+  },
+  "AUTO": {
+    "message": "Auto"
+  },
+  "TODAY": {
+    "message": "Dnes"
+  },
+  "THIS_WEEK": {
+    "message": "Tento týždeň"
+  },
+  "THIS_MONTH": {
+    "message": "Tento mesiac"
+  },
+  "THIS_YEAR": {
+    "message": "Tento rok"
+  },
+  "PLACEHOLDER_1": {
+    "message": "Tu označte svoj pokyn"
+  },
+  "PLACEHOLDER_2": {
+    "message": "Sem napíšte svoj pokyn"
+  },
+  "BTN_1": {
+    "message": "Vytvoriť nový"
+  },
+  "BTN_2": {
+    "message": "Zrušiť"
+  },
+  "BTN_3": {
+    "message": "Pridať"
+  },
+  "BTN_4": {
+    "message": "Aktualizovať"
+  },
+  "BTN_5": {
+    "message": "Odstrániť"
+  },
+  "HELP": {
+    "message": "Buďte mojím podporovateľom, aby ste toto rozšírenie ponechali zadarmo 🥺"
+  }
+}

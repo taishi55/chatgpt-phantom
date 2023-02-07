@@ -1,0 +1,104 @@
+{
+  "APPNAME": {
+    "message": "ChatGPT Phantom: Real-Time Youtube Access"
+  },
+  "APPDESC": {
+    "message": "This extension lets you write Real-Time NEWS articles and Youtube scripts."
+  },
+  "HOME_DESC": {
+    "message": "Create & Publish real-time articles/scripts as fast as Big Media!"
+  },
+  "SUB_1": {
+    "message": "Real-Time Topics"
+  },
+  "SUB_2": {
+    "message": "+20 Languages Translation"
+  },
+  "SUB_3": {
+    "message": "Plagiarism Checker"
+  },
+  "SUB_4": {
+    "message": "Never Collect User Data"
+  },
+  "SUB_5": {
+    "message": "Completely Free (donations ❤️)"
+  },
+  "SUB_6": {
+    "message": "Unlimited Usage"
+  },
+  "PROMPT": {
+    "message": "Prompt:"
+  },
+  "INFO": {
+    "message": "Info:"
+  },
+  "INSTRUCTIONS": {
+    "message": "Instructions:"
+  },
+  "WARNING_LABEL": {
+    "message": "Please label your instruction!"
+  },
+  "WARNING_VALUE": {
+    "message": "Please write your instruction!"
+  },
+  "ERROR_1": {
+    "message": "An error occurred"
+  },
+  "ERROR_2": {
+    "message": "Please try again!"
+  },
+  "PROCESS_1": {
+    "message": "Searching the information."
+  },
+  "PROCESS_2": {
+    "message": "Please wait..."
+  },
+  "SOURCE_1": {
+    "message": "1 source"
+  },
+  "SOURCES_2": {
+    "message": "2 sources"
+  },
+  "SOURCES_3": {
+    "message": "3 sources"
+  },
+  "AUTO": {
+    "message": "Auto"
+  },
+  "TODAY": {
+    "message": "Today"
+  },
+  "THIS_WEEK": {
+    "message": "This week"
+  },
+  "THIS_MONTH": {
+    "message": "This month"
+  },
+  "THIS_YEAR": {
+    "message": "This year"
+  },
+  "PLACEHOLDER_1": {
+    "message": "Label your instruction here"
+  },
+  "PLACEHOLDER_2": {
+    "message": "Write your instruction here"
+  },
+  "BTN_1": {
+    "message": "Create New"
+  },
+  "BTN_2": {
+    "message": "Cancel"
+  },
+  "BTN_3": {
+    "message": "Add"
+  },
+  "BTN_4": {
+    "message": "Update"
+  },
+  "BTN_5": {
+    "message": "Delete"
+  },
+  "HELP": {
+    "message": "Please be my supporter to keep this extension for free 🥺"
+  }
+}

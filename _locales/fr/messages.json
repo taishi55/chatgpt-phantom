@@ -1,0 +1,104 @@
+{
+  "APPNAME": {
+    "message": "ChatGPT Phantom : accès à Youtube en temps réel"
+  },
+  "APPDESC": {
+    "message": "Cette extension vous permet d'écrire des articles de NEWS en temps réel et des scripts Youtube."
+  },
+  "HOME_DESC": {
+    "message": "Créez et publiez des articles/scripts en temps réel aussi vite que les grands médias !"
+  },
+  "SUB_1": {
+    "message": "Sujets en temps réel"
+  },
+  "SUB_2": {
+    "message": "Traduction +20 langues"
+  },
+  "SUB_3": {
+    "message": "Vérificateur de plagiat"
+  },
+  "SUB_4": {
+    "message": "Ne collectez jamais de données utilisateur"
+  },
+  "SUB_5": {
+    "message": "Entièrement gratuit (dons ❤️)"
+  },
+  "SUB_6": {
+    "message": "Utilisation illimitée"
+  },
+  "PROMPT": {
+    "message": "Invite :"
+  },
+  "INFO": {
+    "message": "Info :"
+  },
+  "INSTRUCTIONS": {
+    "message": "Instructions :"
+  },
+  "WARNING_LABEL": {
+    "message": "Veuillez étiqueter votre instruction !"
+  },
+  "WARNING_VALUE": {
+    "message": "Veuillez écrire vos instructions !"
+  },
+  "ERROR_1": {
+    "message": "Une erreur s'est produite"
+  },
+  "ERROR_2": {
+    "message": "Veuillez réessayer !"
+  },
+  "PROCESS_1": {
+    "message": "Recherche des informations."
+  },
+  "PROCESS_2": {
+    "message": "Veuillez patienter..."
+  },
+  "SOURCE_1": {
+    "message": "1 source"
+  },
+  "SOURCES_2": {
+    "message": "2 sources"
+  },
+  "SOURCES_3": {
+    "message": "3 sources"
+  },
+  "AUTO": {
+    "message": "Auto"
+  },
+  "TODAY": {
+    "message": "Aujourd'hui"
+  },
+  "THIS_WEEK": {
+    "message": "Cette semaine"
+  },
+  "THIS_MONTH": {
+    "message": "Ce mois-ci"
+  },
+  "THIS_YEAR": {
+    "message": "Cette année"
+  },
+  "PLACEHOLDER_1": {
+    "message": "Étiquetez votre instruction ici"
+  },
+  "PLACEHOLDER_2": {
+    "message": "Écrivez vos instructions ici"
+  },
+  "BTN_1": {
+    "message": "Créer nouveau"
+  },
+  "BTN_2": {
+    "message": "Annuler"
+  },
+  "BTN_3": {
+    "message": "Ajouter"
+  },
+  "BTN_4": {
+    "message": "Mettre à jour"
+  },
+  "BTN_5": {
+    "message": "Supprimer"
+  },
+  "HELP": {
+    "message": "S'il vous plaît soyez mon supporter pour garder cette extension gratuitement 🥺"
+  }
+}

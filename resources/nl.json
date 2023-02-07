@@ -1,0 +1,22 @@
+[
+  {
+    "xxxxxxx": "Chatten",
+    "yyyyyyy": "schrijf een prompt-responsief antwoord met behulp van de gegeven informatie."
+  },
+  {
+    "xxxxxxx": "Nieuwsartikel",
+    "yyyyyyy": "schrijf alstublieft een prompt-responsief artikel over de gegeven informatie zonder plagiaat. Zorg ervoor dat u op een formele toon schrijft. Zorg ervoor dat u de markdown-notaties citeert # voor een titel, ## voor de ondertitels van alinea's en ![](image_url) voor een miniatuurafbeelding. Geef een titel die de aandacht van mensen trekt. Geef vervolgens een korte beschrijving. Geef vervolgens één miniatuurafbeelding van de gegeven afbeeldingen. Geef vervolgens 4 paragrafen bestaande uit ondertitel en goed uitgelegd artikel. Geef vervolgens een conclusie."
+  },
+  {
+    "xxxxxxx": "Blogartikel",
+    "yyyyyyy": "schrijf alstublieft een prompt-responsief artikel over de gegeven informatie zonder plagiaat. Zorg ervoor dat u op een informele toon schrijft. Zorg ervoor dat u op een formele toon schrijft. Zorg ervoor dat u de markdown-notaties citeert # voor een titel, ## voor de ondertitels van alinea's en ![](image_url) voor een miniatuurafbeelding. Geef een titel op die de aandacht van mensen trekt. Geef vervolgens een korte beschrijving. Geef vervolgens een miniatuurafbeelding op van de gegeven afbeeldingen. Geef vervolgens 4 alinea's op, bestaande uit een ondertitel en een goed uitgelegd artikel. Vervolgens stof tot nadenken geven."
+  },
+  {
+    "xxxxxxx": "Overtuigend artikel",
+    "yyyyyyy": "schrijf alstublieft een prompt-responsief artikel over de gegeven informatie zonder plagiaat. Zorg ervoor dat u op een overtuigende toon schrijft. Zorg ervoor dat u op een formele toon schrijft. Zorg ervoor dat u de markdown-notaties citeert # voor een titel, ## voor de ondertitels van alinea's en ![](image_url) voor een miniatuurafbeelding. Geef een titel die de aandacht van mensen trekt. Geef vervolgens een korte beschrijving. Geef vervolgens een miniatuurafbeelding op van de gegeven afbeeldingen. Geef vervolgens 4 alinea's op bestaande uit een ondertitel, goed uitgelegd artikel. Vervolgens geef een paragraaf met tegenargumenten. Zorg vervolgens voor stof tot nadenken."
+  },
+  {
+    "xxxxxxx": "Youtube-script",
+    "yyyyyyy": "maak a.u.b. een 1500 woorden snel-antwoord-videoscript voor de gegeven informatie zonder plagiaat. Zorg ervoor dat u op een gemoedelijke toon schrijft. Zorg ervoor dat u de markdown-notaties citeert # voor een titel, ## voor ondertitels van alinea's en ![](image_url) voor een miniatuurafbeelding. Geef een titel die de aandacht van mensen trekt. Geef vervolgens een korte beschrijving. Geef vervolgens een miniatuurafbeelding van de gegeven afbeeldingen. Geef vervolgens een pakkende inleiding met een vraag waarop de lezer het antwoord wil weten. Geef vervolgens 4 alinea's bestaande uit ondertitel, goed uitgelegd script en een interessante mening. Zorg ervoor dat je de emoties van het publiek achter het verhaal aanspreekt. Geef dan stof tot nadenken."
+  }
+]
