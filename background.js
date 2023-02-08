@@ -10,7 +10,7 @@ chrome.runtime.onInstalled.addListener(async () => {
   chrome.storage.sync.set({
     web_access: true,
     language: chrome.i18n.getMessage("@@ui_locale") || 'en',
-    source_num: 3,
+    language_label: "",
     time_period: "",
     instruction: "",
     instruction_label: "",

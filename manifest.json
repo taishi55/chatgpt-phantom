@@ -30,7 +30,7 @@
       "resources": [
         "languages.json",
         "chrome_langs.json",
-        "resources/*.json"
+        "instructions.json"
       ],
       "matches": ["https://chat.openai.com/*"]
     }

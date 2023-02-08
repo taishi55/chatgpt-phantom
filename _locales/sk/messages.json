@@ -26,19 +26,10 @@
   "SUB_6": {
     "message": "Neobmedzené použitie"
   },
-  "PROMPT": {
-    "message": "Výzva:"
-  },
-  "INFO": {
-    "message": "Informácie:"
-  },
-  "INSTRUCTIONS": {
-    "message": "Pokyny:"
-  },
-  "WARNING_LABEL": {
+  "WARNING_1": {
     "message": "Prosím, označte svoj pokyn!"
   },
-  "WARNING_VALUE": {
+  "WARNING_2": {
     "message": "Napíšte prosím svoj pokyn!"
   },
   "ERROR_1": {
@@ -53,28 +44,19 @@
   "PROCESS_2": {
     "message": "Počkajte, prosím..."
   },
-  "SOURCE_1": {
-    "message": "1 zdroj"
-  },
-  "SOURCES_2": {
-    "message": "2 zdroje"
-  },
-  "SOURCES_3": {
-    "message": "3 zdroje"
-  },
-  "AUTO": {
+  "PERIOD_1": {
     "message": "Auto"
   },
-  "TODAY": {
+  "PERIOD_2": {
     "message": "Dnes"
   },
-  "THIS_WEEK": {
+  "PERIOD_3": {
     "message": "Tento týždeň"
   },
-  "THIS_MONTH": {
+  "PERIOD_4": {
     "message": "Tento mesiac"
   },
-  "THIS_YEAR": {
+  "PERIOD_5": {
     "message": "Tento rok"
   },
   "PLACEHOLDER_1": {
@@ -82,6 +64,9 @@
   },
   "PLACEHOLDER_2": {
     "message": "Sem napíšte svoj pokyn"
+  },
+  "PLACEHOLDER_3": {
+    "message": "Hľadať"
   },
   "BTN_1": {
     "message": "Vytvoriť nový"
@@ -98,7 +83,7 @@
   "BTN_5": {
     "message": "Odstrániť"
   },
-  "HELP": {
+  "DONATE": {
     "message": "Buďte mojím podporovateľom, aby ste toto rozšírenie ponechali zadarmo 🥺"
   }
 }

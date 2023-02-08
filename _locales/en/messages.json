@@ -26,19 +26,10 @@
   "SUB_6": {
     "message": "Unlimited Usage"
   },
-  "PROMPT": {
-    "message": "Prompt:"
-  },
-  "INFO": {
-    "message": "Info:"
-  },
-  "INSTRUCTIONS": {
-    "message": "Instructions:"
-  },
-  "WARNING_LABEL": {
+  "WARNING_1": {
     "message": "Please label your instruction!"
   },
-  "WARNING_VALUE": {
+  "WARNING_2": {
     "message": "Please write your instruction!"
   },
   "ERROR_1": {
@@ -53,28 +44,19 @@
   "PROCESS_2": {
     "message": "Please wait..."
   },
-  "SOURCE_1": {
-    "message": "1 source"
-  },
-  "SOURCES_2": {
-    "message": "2 sources"
-  },
-  "SOURCES_3": {
-    "message": "3 sources"
-  },
-  "AUTO": {
+  "PERIOD_1": {
     "message": "Auto"
   },
-  "TODAY": {
+  "PERIOD_2": {
     "message": "Today"
   },
-  "THIS_WEEK": {
+  "PERIOD_3": {
     "message": "This week"
   },
-  "THIS_MONTH": {
+  "PERIOD_4": {
     "message": "This month"
   },
-  "THIS_YEAR": {
+  "PERIOD_5": {
     "message": "This year"
   },
   "PLACEHOLDER_1": {
@@ -82,6 +64,9 @@
   },
   "PLACEHOLDER_2": {
     "message": "Write your instruction here"
+  },
+  "PLACEHOLDER_3": {
+    "message": "Search"
   },
   "BTN_1": {
     "message": "Create New"
@@ -98,7 +83,7 @@
   "BTN_5": {
     "message": "Delete"
   },
-  "HELP": {
+  "DONATE": {
     "message": "Please be my supporter to keep this extension for free 🥺"
   }
 }

@@ -1,9 +1,9 @@
 {
   "APPNAME": {
-    "message": "ChatGPT Phantom: accesso YouTube in tempo reale"
+    "message": "ChatGPT Phantom: accesso a Youtube in tempo reale"
   },
   "APPDESC": {
-    "message": "Questa estensione ti consente di scrivere articoli di NOTIZIE in tempo reale e script per Youtube."
+    "message": "Questa estensione ti consente di scrivere articoli NEWS in tempo reale e script Youtube."
   },
   "HOME_DESC": {
     "message": "Crea e pubblica articoli/script in tempo reale alla stessa velocità di Big Media!"
@@ -26,19 +26,10 @@
   "SUB_6": {
     "message": "Utilizzo illimitato"
   },
-  "PROMPT": {
-    "message": "Richiesta:"
-  },
-  "INFO": {
-    "message": "Informazioni:"
-  },
-  "INSTRUCTIONS": {
-    "message": "Istruzioni:"
-  },
-  "WARNING_LABEL": {
+  "WARNING_1": {
     "message": "Per favore etichetta la tua istruzione!"
   },
-  "WARNING_VALUE": {
+  "WARNING_2": {
     "message": "Per favore, scrivi le tue istruzioni!"
   },
   "ERROR_1": {
@@ -53,28 +44,19 @@
   "PROCESS_2": {
     "message": "Per favore aspetta..."
   },
-  "SOURCE_1": {
-    "message": "1 fonte"
-  },
-  "SOURCES_2": {
-    "message": "2 fonti"
-  },
-  "SOURCES_3": {
-    "message": "3 fonti"
-  },
-  "AUTO": {
+  "PERIOD_1": {
     "message": "Automatico"
   },
-  "TODAY": {
+  "PERIOD_2": {
     "message": "Oggi"
   },
-  "THIS_WEEK": {
+  "PERIOD_3": {
     "message": "Questa settimana"
   },
-  "THIS_MONTH": {
+  "PERIOD_4": {
     "message": "Questo mese"
   },
-  "THIS_YEAR": {
+  "PERIOD_5": {
     "message": "Quest'anno"
   },
   "PLACEHOLDER_1": {
@@ -82,6 +64,9 @@
   },
   "PLACEHOLDER_2": {
     "message": "Scrivi qui le tue istruzioni"
+  },
+  "PLACEHOLDER_3": {
+    "message": "Cerca"
   },
   "BTN_1": {
     "message": "Crea nuovo"
@@ -98,7 +83,7 @@
   "BTN_5": {
     "message": "Elimina"
   },
-  "HELP": {
+  "DONATE": {
     "message": "Si prega di essere il mio sostenitore per mantenere questa estensione gratuitamente 🥺"
   }
 }

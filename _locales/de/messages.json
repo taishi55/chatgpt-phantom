@@ -26,19 +26,10 @@
   "SUB_6": {
     "message": "Unbegrenzte Nutzung"
   },
-  "PROMPT": {
-    "message": "Eingabeaufforderung:"
-  },
-  "INFO": {
-    "message": "Info:"
-  },
-  "INSTRUCTIONS": {
-    "message": "Anweisungen:"
-  },
-  "WARNING_LABEL": {
+  "WARNING_1": {
     "message": "Bitte beschriften Sie Ihre Anleitung!"
   },
-  "WARNING_VALUE": {
+  "WARNING_2": {
     "message": "Bitte schreiben Sie Ihre Anweisung!"
   },
   "ERROR_1": {
@@ -53,28 +44,19 @@
   "PROCESS_2": {
     "message": "Bitte warten..."
   },
-  "SOURCE_1": {
-    "message": "1 Quelle"
-  },
-  "SOURCES_2": {
-    "message": "2 Quellen"
-  },
-  "SOURCES_3": {
-    "message": "3 Quellen"
-  },
-  "AUTO": {
+  "PERIOD_1": {
     "message": "Automatisch"
   },
-  "TODAY": {
+  "PERIOD_2": {
     "message": "Heute"
   },
-  "THIS_WEEK": {
+  "PERIOD_3": {
     "message": "Diese Woche"
   },
-  "THIS_MONTH": {
+  "PERIOD_4": {
     "message": "Diesen Monat"
   },
-  "THIS_YEAR": {
+  "PERIOD_5": {
     "message": "Dieses Jahr"
   },
   "PLACEHOLDER_1": {
@@ -82,6 +64,9 @@
   },
   "PLACEHOLDER_2": {
     "message": "Schreiben Sie hier Ihre Anweisung"
+  },
+  "PLACEHOLDER_3": {
+    "message": "Suchen"
   },
   "BTN_1": {
     "message": "Neu erstellen"
@@ -98,7 +83,7 @@
   "BTN_5": {
     "message": "Löschen"
   },
-  "HELP": {
+  "DONATE": {
     "message": "Bitte seien Sie mein Unterstützer, um diese Erweiterung kostenlos zu behalten 🥺"
   }
 }

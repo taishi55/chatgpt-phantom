@@ -26,19 +26,10 @@
   "SUB_6": {
     "message": "Obegränsad användning"
   },
-  "PROMPT": {
-    "message": "Prompt:"
-  },
-  "INFO": {
-    "message": "Information:"
-  },
-  "INSTRUCTIONS": {
-    "message": "Instruktioner:"
-  },
-  "WARNING_LABEL": {
+  "WARNING_1": {
     "message": "Vänligen märk din instruktion!"
   },
-  "WARNING_VALUE": {
+  "WARNING_2": {
     "message": "Skriv din instruktion!"
   },
   "ERROR_1": {
@@ -53,28 +44,19 @@
   "PROCESS_2": {
     "message": "Vänta..."
   },
-  "SOURCE_1": {
-    "message": "1 källa"
-  },
-  "SOURCES_2": {
-    "message": "2 källor"
-  },
-  "SOURCES_3": {
-    "message": "3 källor"
-  },
-  "AUTO": {
+  "PERIOD_1": {
     "message": "Auto"
   },
-  "TODAY": {
+  "PERIOD_2": {
     "message": "Idag"
   },
-  "THIS_WEEK": {
+  "PERIOD_3": {
     "message": "Denna vecka"
   },
-  "THIS_MONTH": {
+  "PERIOD_4": {
     "message": "Denna månad"
   },
-  "THIS_YEAR": {
+  "PERIOD_5": {
     "message": "I år"
   },
   "PLACEHOLDER_1": {
@@ -82,6 +64,9 @@
   },
   "PLACEHOLDER_2": {
     "message": "Skriv din instruktion här"
+  },
+  "PLACEHOLDER_3": {
+    "message": "Sök"
   },
   "BTN_1": {
     "message": "Skapa nytt"
@@ -98,7 +83,7 @@
   "BTN_5": {
     "message": "Radera"
   },
-  "HELP": {
+  "DONATE": {
     "message": "Snälla var min supporter för att behålla denna tillägg gratis 🥺"
   }
 }

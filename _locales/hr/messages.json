@@ -1,6 +1,6 @@
 {
   "APPNAME": {
-    "message": "ChatGPT Phantom: pristup Youtubeu u stvarnom vremenu"
+    "message": "ChatGPT Phantom: pristup YouTubeu u stvarnom vremenu"
   },
   "APPDESC": {
     "message": "Ovo proširenje vam omogućuje pisanje članaka VIJESTI u stvarnom vremenu i Youtube skripti."
@@ -26,19 +26,10 @@
   "SUB_6": {
     "message": "Neograničeno korištenje"
   },
-  "PROMPT": {
-    "message": "Odziv:"
-  },
-  "INFO": {
-    "message": "Informacije:"
-  },
-  "INSTRUCTIONS": {
-    "message": "Upute:"
-  },
-  "WARNING_LABEL": {
+  "WARNING_1": {
     "message": "Molimo označite svoju uputu!"
   },
-  "WARNING_VALUE": {
+  "WARNING_2": {
     "message": "Molimo napišite svoje upute!"
   },
   "ERROR_1": {
@@ -53,28 +44,19 @@
   "PROCESS_2": {
     "message": "Molim pričekajte..."
   },
-  "SOURCE_1": {
-    "message": "1 izvor"
-  },
-  "SOURCES_2": {
-    "message": "2 izvora"
-  },
-  "SOURCES_3": {
-    "message": "3 izvora"
-  },
-  "AUTO": {
+  "PERIOD_1": {
     "message": "Auto"
   },
-  "TODAY": {
+  "PERIOD_2": {
     "message": "Danas"
   },
-  "THIS_WEEK": {
+  "PERIOD_3": {
     "message": "Ovaj tjedan"
   },
-  "THIS_MONTH": {
+  "PERIOD_4": {
     "message": "Ovaj mjesec"
   },
-  "THIS_YEAR": {
+  "PERIOD_5": {
     "message": "Ove godine"
   },
   "PLACEHOLDER_1": {
@@ -82,6 +64,9 @@
   },
   "PLACEHOLDER_2": {
     "message": "Ovdje napišite svoje upute"
+  },
+  "PLACEHOLDER_3": {
+    "message": "Traži"
   },
   "BTN_1": {
     "message": "Stvori novo"
@@ -98,7 +83,7 @@
   "BTN_5": {
     "message": "Izbriši"
   },
-  "HELP": {
+  "DONATE": {
     "message": "Molim vas podržite me da zadržim ovo proširenje besplatno 🥺"
   }
 }

@@ -9,8 +9,8 @@
   { "label": "German", "value": "de" },
   { "label": "Greek", "value": "el" },
   { "label": "English", "value": "en" },
-  { "label": "English (Great Britain)", "value": "en_GB" },
-  { "label": "English (USA)", "value": "en_US" },
+  { "label": "English (British)", "value": "en_GB" },
+  { "label": "English (American)", "value": "en_US" },
   { "label": "Spanish", "value": "es" },
   { "label": "Spanish (Latin America and Caribbean)", "value": "es_419" },
   { "label": "Estonian", "value": "et" },
@@ -36,8 +36,8 @@
   { "label": "Dutch", "value": "nl" },
   { "label": "Norwegian", "value": "no" },
   { "label": "Polish", "value": "pl" },
-  { "label": "Portuguese (Brazil)", "value": "pt_BR" },
-  { "label": "Portuguese (Portugal)", "value": "pt_PT" },
+  { "label": "Portuguese (Brazilian)", "value": "pt_BR" },
+  { "label": "Portuguese (Portuguese)", "value": "pt_PT" },
   { "label": "Romanian", "value": "ro" },
   { "label": "Russian", "value": "ru" },
   { "label": "Slovak", "value": "sk" },
@@ -51,6 +51,6 @@
   { "label": "Turkish", "value": "tr" },
   { "label": "Ukrainian", "value": "uk" },
   { "label": "Vietnamese", "value": "vi" },
-  { "label": "Chinese (China)", "value": "zh_CN" },
-  { "label": "Chinese (Taiwan)", "value": "zh_TW" }
+  { "label": "Chinese (simplified)", "value": "zh_CN" },
+  { "label": "Chinese (traditional)", "value": "zh_TW" }
 ]

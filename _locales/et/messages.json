@@ -26,19 +26,10 @@
   "SUB_6": {
     "message": "Piiramatu kasutus"
   },
-  "PROMPT": {
-    "message": "Viip:"
-  },
-  "INFO": {
-    "message": "Teave:"
-  },
-  "INSTRUCTIONS": {
-    "message": "Juhised:"
-  },
-  "WARNING_LABEL": {
+  "WARNING_1": {
     "message": "Palun märgi oma juhis!"
   },
-  "WARNING_VALUE": {
+  "WARNING_2": {
     "message": "Palun kirjutage oma juhis!"
   },
   "ERROR_1": {
@@ -53,28 +44,19 @@
   "PROCESS_2": {
     "message": "Palun oodake..."
   },
-  "SOURCE_1": {
-    "message": "1 allikas"
-  },
-  "SOURCES_2": {
-    "message": "2 allikat"
-  },
-  "SOURCES_3": {
-    "message": "3 allikat"
-  },
-  "AUTO": {
+  "PERIOD_1": {
     "message": "Automaatne"
   },
-  "TODAY": {
+  "PERIOD_2": {
     "message": "Täna"
   },
-  "THIS_WEEK": {
+  "PERIOD_3": {
     "message": "See nädal"
   },
-  "THIS_MONTH": {
+  "PERIOD_4": {
     "message": "See kuu"
   },
-  "THIS_YEAR": {
+  "PERIOD_5": {
     "message": "Sel aastal"
   },
   "PLACEHOLDER_1": {
@@ -82,6 +64,9 @@
   },
   "PLACEHOLDER_2": {
     "message": "Kirjutage oma juhised siia"
+  },
+  "PLACEHOLDER_3": {
+    "message": "Otsi"
   },
   "BTN_1": {
     "message": "Loo uus"
@@ -98,7 +83,7 @@
   "BTN_5": {
     "message": "Kustuta"
   },
-  "HELP": {
+  "DONATE": {
     "message": "Palun ole minu toetaja, et hoida seda laiendust tasuta 🥺"
   }
 }

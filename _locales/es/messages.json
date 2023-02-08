@@ -26,19 +26,10 @@
   "SUB_6": {
     "message": "Uso ilimitado"
   },
-  "PROMPT": {
-    "message": "Mensaje:"
-  },
-  "INFO": {
-    "message": "Información:"
-  },
-  "INSTRUCTIONS": {
-    "message": "Instrucciones:"
-  },
-  "WARNING_LABEL": {
+  "WARNING_1": {
     "message": "¡Etiqueta tu instrucción!"
   },
-  "WARNING_VALUE": {
+  "WARNING_2": {
     "message": "¡Por favor escribe tus instrucciones!"
   },
   "ERROR_1": {
@@ -47,34 +38,25 @@
   "ERROR_2": {
     "message": "¡Inténtalo de nuevo!"
   },
-  "PROCESO _1": {
+  "PROCESS_1": {
     "message": "Buscando la información."
   },
-  "PROCESO _2": {
+  "PROCESS_2": {
     "message": "Por favor espere..."
   },
-  "SOURCE_1": {
-    "message": "1 fuente"
-  },
-  "SOURCES_2": {
-    "message": "2 fuentes"
-  },
-  "SOURCES_3": {
-    "message": "3 fuentes"
-  },
-  "AUTO": {
+  "PERIOD_1": {
     "message": "Auto"
   },
-  "TODAY": {
+  "PERIOD_2": {
     "message": "Hoy"
   },
-  "THIS_WEEK": {
+  "PERIOD_3": {
     "message": "Esta semana"
   },
-  "THIS_MES": {
+  "PERIOD_4": {
     "message": "Este mes"
   },
-  "THIS_YEAR": {
+  "PERIOD_5": {
     "message": "Este año"
   },
   "PLACEHOLDER_1": {
@@ -82,6 +64,9 @@
   },
   "PLACEHOLDER_2": {
     "message": "Escribe aquí tus instrucciones"
+  },
+  "PLACEHOLDER_3": {
+    "message": "Buscar"
   },
   "BTN_1": {
     "message": "Crear nuevo"
@@ -98,7 +83,7 @@
   "BTN_5": {
     "message": "Borrar"
   },
-  "HELP": {
+  "DONATE": {
     "message": "Por favor, ayúdame a mantener esta extensión gratis 🥺"
   }
 }

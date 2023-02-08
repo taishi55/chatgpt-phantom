@@ -26,19 +26,10 @@
   "SUB_6": {
     "message": "Korlátlan használat"
   },
-  "PROMPT": {
-    "message": "Kérdés:"
-  },
-  "INFO": {
-    "message": "Információ:"
-  },
-  "INSTRUCTIONS": {
-    "message": "Utasítások:"
-  },
-  "WARNING_LABEL": {
+  "WARNING_1": {
     "message": "Kérem, címkézze fel az utasítást!"
   },
-  "WARNING_VALUE": {
+  "WARNING_2": {
     "message": "Kérjük, írja meg az utasítását!"
   },
   "ERROR_1": {
@@ -53,28 +44,19 @@
   "PROCESS_2": {
     "message": "Kérjük, várjon..."
   },
-  "SOURCE_1": {
-    "message": "1 forrás"
-  },
-  "SOURCES_2": {
-    "message": "2 forrás"
-  },
-  "SOURCES_3": {
-    "message": "3 forrás"
-  },
-  "AUTO": {
+  "PERIOD_1": {
     "message": "Automatikus"
   },
-  "TODAY": {
+  "PERIOD_2": {
     "message": "Ma"
   },
-  "THIS_WEEK": {
+  "PERIOD_3": {
     "message": "Ezen a héten"
   },
-  "THIS_MONTH": {
+  "PERIOD_4": {
     "message": "E hónapban"
   },
-  "THIS_YEAR": {
+  "PERIOD_5": {
     "message": "Idén"
   },
   "PLACEHOLDER_1": {
@@ -82,6 +64,9 @@
   },
   "PLACEHOLDER_2": {
     "message": "Írja ide az utasítást"
+  },
+  "PLACEHOLDER_3": {
+    "message": "Keresés"
   },
   "BTN_1": {
     "message": "Új létrehozása"
@@ -98,7 +83,7 @@
   "BTN_5": {
     "message": "Törlés"
   },
-  "HELP": {
+  "DONATE": {
     "message": "Kérem, legyen a támogatóm, hogy ingyen tartsa ezt a bővítményt 🥺"
   }
 }

@@ -26,19 +26,10 @@
   "SUB_6": {
     "message": "Απεριόριστη χρήση"
   },
-  "PROMPT": {
-    "message": "Προτροπή:"
-  },
-  "INFO": {
-    "message": "Πληροφορίες:"
-  },
-  "INSTRUCTIONS": {
-    "message": "Οδηγίες:"
-  },
-  "WARNING_LABEL": {
+  "WARNING_1": {
     "message": "Παρακαλώ σημειώστε την οδηγία σας!"
   },
-  "WARNING_VALUE": {
+  "WARNING_2": {
     "message": "Παρακαλώ γράψτε τις οδηγίες σας!"
   },
   "ERROR_1": {
@@ -53,28 +44,19 @@
   "PROCESS_2": {
     "message": "Παρακαλώ περιμένετε..."
   },
-  "SOURCE_1": {
-    "message": "1 πηγή"
-  },
-  "SOURCES_2": {
-    "message": "2 πηγές"
-  },
-  "SOURCES_3": {
-    "message": "3 πηγές"
-  },
-  "AUTO": {
+  "PERIOD_1": {
     "message": "Auto"
   },
-  "TODAY": {
+  "PERIOD_2": {
     "message": "Σήμερα"
   },
-  "THIS_WEEK": {
+  "PERIOD_3": {
     "message": "Αυτή την εβδομάδα"
   },
-  "THIS_MONTH": {
+  "PERIOD_4": {
     "message": "Αυτό το μήνα"
   },
-  "THIS_YEAR": {
+  "PERIOD_5": {
     "message": "Φέτος"
   },
   "PLACEHOLDER_1": {
@@ -82,6 +64,9 @@
   },
   "PLACEHOLDER_2": {
     "message": "Γράψε τις οδηγίες σου εδώ"
+  },
+  "PLACEHOLDER_3": {
+    "message": "Αναζήτηση"
   },
   "BTN_1": {
     "message": "Δημιουργία νέου"
@@ -98,7 +83,7 @@
   "BTN_5": {
     "message": "Διαγραφή"
   },
-  "HELP": {
+  "DONATE": {
     "message": "Παρακαλώ γίνετε υποστηρικτής μου για να διατηρήσετε αυτήν την επέκταση δωρεάν 🥺"
   }
 }

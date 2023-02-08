@@ -2,8 +2,8 @@
 let isWebAccessOn = true;
 let isProcessing = false;
 var timePeriod = "";
-var sourceNum = 3;
 var language = chrome.i18n.getMessage("@@ui_locale") || "en";
+var languageLabel = "English";
 var instruction;
 var instrucitonLabel;
 var textarea;
@@ -13,15 +13,15 @@ chrome.storage.sync.get(
   [
     "web_access",
     "language",
+    "language_label",
     "time_period",
     "instruction",
-    "source_num",
     "instruction_label",
   ],
   (data) => {
     isWebAccessOn = data.web_access || false;
     language = data.language || language;
-    sourceNum = data.source_num || sourceNum;
+    languageLabel = data.language_label || languageLabel;
     timePeriod = data.time_period || timePeriod;
     instruction = data.instruction || "";
     instrucitonLabel = data.instruction_label || "";
@@ -92,16 +92,8 @@ function getYoutubeIds(text) {
   return videoElementsWrapper;
 }
 
-function pasteToTextarea(results, prompt, instruction) {
-  textarea.value = `${chrome.i18n.getMessage("INFO")}\n${results
-    .map((r) => r.summary)
-    .join("\n")}\n\nSource_URL:\n${results
-      .map((r) => r.url)
-      .join("\n")}\n\nImage_URL:\n${results
-        .map((r) => r.image)
-        .join("\n")}\n\n${chrome.i18n.getMessage(
-          "PROMPT"
-        )} ${prompt}\n\n${chrome.i18n.getMessage("INSTRUCTIONS")} ${instruction}`;
+function pasteToTextarea(resultText, prompt, instruction) {
+  textarea.value = `Info:\n${resultText}\n\nPrompt:\n${prompt}\n\n${instruction} Make sure to write in ${languageLabel}.`;
 }
 
 // submit the textarea input
@@ -143,10 +135,10 @@ async function onSubmit(event) {
       }
       showProcessingMessage();
 
-      const results = await getSearchData(query, timePeriod, sourceNum);
+      const resultText = await getSearchData(query, timePeriod);
 
-      if (results) {
-        pasteToTextarea(results, query, instruction);
+      if (resultText) {
+        pasteToTextarea(resultText, query, instruction);
         pressEnter();
       } else {
         textarea.value = query;
@@ -229,7 +221,7 @@ function updateCreateNewPage() {
     "a[class*='flex py-3 px-3 items-center gap-3']"
   );
   if (createNewLink) {
-    createNewLink.href = "/chat";
+    createNewLink.href = "https://chat.openai.com/chat";
   }
 }
 
@@ -244,7 +236,7 @@ function toggleVisibility(elements, className) {
 function renderWebSwitch(toolbarDiv) {
   var toggleWebAccessDiv = document.createElement("div");
   toggleWebAccessDiv.innerHTML =
-    '<label class="web-chatgpt-toggle"><input class="web-chatgpt-toggle-checkbox" type="checkbox"><div class="web-chatgpt-toggle-switch"></div><span class="web-chatgpt-toggle-label text-sm italic">Phantom Mode</span></label>';
+    '<label class="web-chatgpt-toggle"><input class="web-chatgpt-toggle-checkbox" type="checkbox"><div class="web-chatgpt-toggle-switch"></div><span class="web-chatgpt-toggle-label text-sm italic">Phantom</span></label>';
   toggleWebAccessDiv.classList.add("web-chatgpt-toggle-web-access");
   chrome.storage.sync.get("web_access", (data) => {
     toggleWebAccessDiv.querySelector(".web-chatgpt-toggle-checkbox").checked =
@@ -255,44 +247,10 @@ function renderWebSwitch(toolbarDiv) {
     var checkbox = toggleWebAccessDiv.querySelector(
       ".web-chatgpt-toggle-checkbox"
     );
-    checkbox.checked = !isWebAccessOn;
-    isWebAccessOn = !isWebAccessOn;
+    isWebAccessOn = checkbox.checked;
     chrome.storage.sync.set({ web_access: isWebAccessOn });
   });
   toolbarDiv.appendChild(toggleWebAccessDiv);
-}
-
-function renderSourceDropdown(dropdownDesign, toolbarDiv) {
-  var sourceDropdown = document.createElement("select");
-  sourceDropdown.classList.add(...dropdownDesign);
-
-  const sources = [
-    {
-      label: chrome.i18n.getMessage("SOURCES_3"),
-      value: 3,
-    },
-    {
-      label: chrome.i18n.getMessage("SOURCES_2"),
-      value: 2,
-    },
-    {
-      label: chrome.i18n.getMessage("SOURCE_1"),
-      value: 1,
-    },
-  ];
-  sources.forEach(function (option) {
-    var optionElement = document.createElement("option");
-    optionElement.value = option.value;
-    optionElement.innerHTML = option.label;
-    optionElement.classList.add("text-sm", "dark:text-white");
-    sourceDropdown.appendChild(optionElement);
-  });
-  sourceDropdown.value = sourceNum;
-  sourceDropdown.onchange = function () {
-    chrome.storage.sync.set({ sourceNum: this.value });
-    sourceNum = this.value;
-  };
-  toolbarDiv.appendChild(sourceDropdown);
 }
 
 function renderPeriodDropdown(dropdownDesign, toolbarDiv) {
@@ -303,19 +261,19 @@ function renderPeriodDropdown(dropdownDesign, toolbarDiv) {
   var timePeriodDropdown = document.createElement("select");
   timePeriodDropdown.classList.add(...dropdownDesign);
   const periodList = [
-    { value: "", label: chrome.i18n.getMessage("AUTO") },
-    { value: "EgQIAhAB", label: chrome.i18n.getMessage("TODAY") },
+    { value: "", label: chrome.i18n.getMessage("PERIOD_1") },
+    { value: "EgQIAhAB", label: chrome.i18n.getMessage("PERIOD_2") },
     {
       value: "EgQIAxAB",
-      label: chrome.i18n.getMessage("THIS_WEEK"),
+      label: chrome.i18n.getMessage("PERIOD_3"),
     },
     {
       value: "EgQIBBAB",
-      label: chrome.i18n.getMessage("THIS_MONTH"),
+      label: chrome.i18n.getMessage("PERIOD_4"),
     },
     {
       value: "EgQIBRAB",
-      label: chrome.i18n.getMessage("THIS_YEAR"),
+      label: chrome.i18n.getMessage("PERIOD_5"),
     },
   ];
 
@@ -347,43 +305,20 @@ async function renderLangDropwdown(dropdownDesign, toolbarDiv) {
     optionElement.innerHTML = option.label;
     optionElement.classList.add("text-sm", "dark:text-white");
     languageDropdown.appendChild(optionElement);
+    if (language === option.value) {
+      languageLabel = option.label;
+    }
   });
   languageDropdown.value = language;
   languageDropdown.onchange = async function () {
-    chrome.storage.sync.set({ language: this.value });
+    chrome.storage.sync.set({
+      language: this.value,
+      language_label:
+        languageDropdown.options[languageDropdown.selectedIndex].text,
+    });
     language = this.value;
-    // load the default languages
-    const res = await fetch(
-      chrome.runtime.getURL(`resources/${language}.json`)
-    );
-    const defaultInstructions = await res.json();
-    const newInstructions = defaultInstructions.map((item) => {
-      return { ...item, id: `${crypto.randomUUID()}--${language}` };
-    });
-    // save the new instruction
-    chrome.storage.local.get("myInstructions", async function (result) {
-      var myInstructions = result.myInstructions || [];
-      // check if the data is already saved
-      const isIncluded = myInstructions.some((item) =>
-        item.id.includes(`--${language.split("-")[0]}`)
-      );
-      // save the instructions if not saved
-      if (!isIncluded) {
-        newInstructions.forEach((item) => {
-          renderInstructionItem(
-            `${crypto.randomUUID()}--${language}`,
-            item.label,
-            item.value
-          );
-        });
-        chrome.storage.local.set({
-          myInstructions: [...myInstructions, ...newInstructions],
-        });
-      }
-    });
-
-    // open the instruction window
-    document.querySelector(".instruction-btn").click();
+    languageLabel =
+      languageDropdown.options[languageDropdown.selectedIndex].text;
   };
   toolbarDiv.appendChild(languageDropdown);
 }
@@ -403,29 +338,6 @@ function renderInstructionItem(
   instructionWindowWrapper,
   instructionSearch
 ) {
-  instructionList =
-    instructionList || document.getElementById("instructionList");
-  instructionLabelInput =
-    instructionLabelInput || document.getElementById("instructionLabelInput");
-  instructionTextarea =
-    instructionTextarea || document.getElementById("instructionTextarea");
-  instructionDeleteBtn =
-    instructionDeleteBtn || document.getElementById("instructionDeleteBtn");
-  instructionCancelBtn =
-    instructionCancelBtn || document.getElementById("instructionCancelBtn");
-  instructionEditBtn =
-    instructionEditBtn || document.getElementById("instructionEditBtn");
-  instructionBtnText =
-    instructionBtnText || document.getElementById("instructionBtnText");
-  instructionCreateNewBtn =
-    instructionCreateNewBtn ||
-    document.getElementById("instructionCreateNewBtn");
-  instructionWindowWrapper =
-    instructionWindowWrapper ||
-    document.getElementById("instructionWindowWrapper");
-  instructionSearch =
-    instructionSearch || document.getElementById("instructionSearch");
-
   var instructionItemWrapper = document.createElement("li");
   instructionItemWrapper.id = "instruction-item-" + instructionId;
   instructionItemWrapper.classList.add("show-element");
@@ -523,7 +435,6 @@ async function renderInstructionDropdown(dropdownDesign, toolbarDiv) {
   var instructionBtn = document.createElement("button");
   instructionBtn.classList.add(...dropdownDesign, "instruction-btn");
   var instructionBtnText = document.createElement("div");
-  instructionBtnText.id = "instructionBtnText";
   instructionBtnText.textContent = instrucitonLabel;
   instructionBtnText.classList.add("instruction-text");
   var instructionBtnIcon = document.createElement("div");
@@ -533,7 +444,6 @@ async function renderInstructionDropdown(dropdownDesign, toolbarDiv) {
 
   // dropdown window for choosing instructions
   var instructionWindowWrapper = document.createElement("div");
-  instructionWindowWrapper.id = "instructionWindowWrapper";
   instructionWindowWrapper.classList.add(
     "hide-element",
     "instruction-window-wrapper"
@@ -544,17 +454,14 @@ async function renderInstructionDropdown(dropdownDesign, toolbarDiv) {
     "dark:bg-gray-900",
     "dark:text-white"
   );
-
   // list of existing instructions
   var instructionList = document.createElement("ol");
-  instructionList.id = "instructionList";
   instructionList.classList.add("instruction-list", "show-element");
 
   var instructionBtnWrapper = document.createElement("div");
   instructionBtnWrapper.classList.add("instruction-btn-wrapper");
   // button that navigates to a new input
   var instructionCreateNewBtn = document.createElement("button");
-  instructionCreateNewBtn.id = "instructionCreateNewBtn";
   instructionCreateNewBtn.classList.add(
     "add-new-btn",
     "bg-blue-600",
@@ -564,7 +471,6 @@ async function renderInstructionDropdown(dropdownDesign, toolbarDiv) {
   instructionBtnWrapper.appendChild(instructionCreateNewBtn);
   // button that cancels and navigates to the list of instructions
   var instructionCancelBtn = document.createElement("button");
-  instructionCancelBtn.id = "instructionCancelBtn";
   instructionCancelBtn.classList.add(
     "add-new-btn",
     "bg-gray-600",
@@ -579,7 +485,6 @@ async function renderInstructionDropdown(dropdownDesign, toolbarDiv) {
   instructionBtnWrapper.appendChild(instructionAddBtn);
   // button that edit an existing instruction and navigates to the list of instructions
   var instructionEditBtn = document.createElement("button");
-  instructionEditBtn.id = "instructionEditBtn";
   instructionEditBtn.classList.add(
     "add-new-btn",
     "bg-blue-600",
@@ -589,7 +494,6 @@ async function renderInstructionDropdown(dropdownDesign, toolbarDiv) {
   instructionBtnWrapper.appendChild(instructionEditBtn);
   // button that edit an existing instruction and navigates to the list of instructions
   var instructionDeleteBtn = document.createElement("button");
-  instructionDeleteBtn.id = "instructionDeleteBtn";
   instructionDeleteBtn.classList.add(
     "add-new-btn",
     "bg-red-600",
@@ -597,11 +501,9 @@ async function renderInstructionDropdown(dropdownDesign, toolbarDiv) {
   );
   instructionDeleteBtn.textContent = chrome.i18n.getMessage("BTN_5");
   instructionBtnWrapper.appendChild(instructionDeleteBtn);
-
   // input to add a new instruction's label
   var instructionLabelInput = document.createElement("input");
   instructionLabelInput.placeholder = chrome.i18n.getMessage("PLACEHOLDER_1");
-  instructionLabelInput.id = "instructionLabelInput";
   instructionLabelInput.classList.add(
     "border",
     "border-black/10",
@@ -620,7 +522,6 @@ async function renderInstructionDropdown(dropdownDesign, toolbarDiv) {
 
   // textarea to add a new instruction
   var instructionTextarea = document.createElement("textarea");
-  instructionTextarea.id = "instructionTextarea";
   instructionTextarea.placeholder = chrome.i18n.getMessage("PLACEHOLDER_2");
   instructionTextarea.classList.add(
     "border",
@@ -636,7 +537,6 @@ async function renderInstructionDropdown(dropdownDesign, toolbarDiv) {
   );
 
   var instructionSearch = document.createElement("input");
-  instructionSearch.id = "instructionSearch";
   instructionSearch.classList.add(
     "border",
     "border-black/10",
@@ -652,9 +552,9 @@ async function renderInstructionDropdown(dropdownDesign, toolbarDiv) {
     "text-sm",
     "show-element"
   );
-  instructionSearch.placeholder = "Search";
+  instructionSearch.placeholder = chrome.i18n.getMessage("PLACEHOLDER_3");
 
-  var watchComponents = [
+  const watchComponents = [
     instructionList,
     instructionLabelInput,
     instructionTextarea,
@@ -673,7 +573,6 @@ async function renderInstructionDropdown(dropdownDesign, toolbarDiv) {
     const instructionItems = Array.from(
       document.querySelectorAll("[id^='instruction-item']")
     );
-    console.log(instructionItems);
 
     if (!this.value) {
       // show all if no input
@@ -763,10 +662,10 @@ async function renderInstructionDropdown(dropdownDesign, toolbarDiv) {
     e.preventDefault();
     // show warning if values are not provided
     if (!instructionLabelInput.value) {
-      alert(chrome.i18n.getMessage("WARNING_LABEL"));
+      alert(chrome.i18n.getMessage("WARNING_1"));
       return;
     } else if (!instructionTextarea.value) {
-      alert(chrome.i18n.getMessage("WARNING_VALUE"));
+      alert(chrome.i18n.getMessage("WARNING_2"));
       return;
     }
 
@@ -777,7 +676,8 @@ async function renderInstructionDropdown(dropdownDesign, toolbarDiv) {
     renderInstructionItem(
       id,
       instructionLabelInput.value,
-      instructionTextarea.value
+      instructionTextarea.value,
+      ...watchComponents
     );
     // hide
     toggleVisibility(
@@ -819,9 +719,9 @@ async function renderInstructionDropdown(dropdownDesign, toolbarDiv) {
     renderInstructionItem(
       newId,
       instructionLabelInput.value,
-      instructionTextarea.value
+      instructionTextarea.value,
+      ...watchComponents
     );
-    console.log(instructionLabelInput.id);
 
     // hide
     toggleVisibility(
@@ -901,7 +801,6 @@ async function renderInstructionDropdown(dropdownDesign, toolbarDiv) {
 
   // close the instruction window when other place is clicked
   document.addEventListener("click", function (event) {
-    event.preventDefault();
     if (
       !instructionWindowWrapper.contains(event.target) &&
       !instructionBtn.contains(event.target) &&
@@ -919,7 +818,7 @@ function renderFooterMsg(bottomDiv) {
   var footerDiv = document.createElement("div");
 
   footerDiv.innerHTML = `For magic commands, refer to <a href='https://github.com/taishi55/chatgpt-phantom' target='_blank' class='underline'>ChatGPT Phantom</a> 👻. ${chrome.i18n.getMessage(
-    "HELP"
+    "DONATE"
   )} <a href='https://www.buymeacoffee.com/phantom.writer' target='_blank' class='underline'>Donation</a>`;
 
   var lastElement = bottomDiv.lastElementChild;
@@ -961,9 +860,6 @@ async function updateBottomToolBar() {
   ];
   // Time period dropdown
   renderPeriodDropdown(dropdownDesign, toolbarDiv);
-
-  // Source dropdown
-  renderSourceDropdown(dropdownDesign, toolbarDiv);
 
   // Lang dropdown
   await renderLangDropwdown(dropdownDesign, toolbarDiv);
@@ -1047,18 +943,12 @@ async function readInstructions(instructionBtnText) {
       var instructions = result.myInstructions || [];
       if (instructions.length === 0) {
         try {
-          const res = await fetch(
-            chrome.runtime.getURL(
-              `resources/${chrome.i18n.getMessage("@@ui_locale")}.json`
-            )
-          );
+          const res = await fetch(chrome.runtime.getURL(`instructions.json`));
           const defaultInstructions = await res.json();
           instructions = defaultInstructions.map((item) => {
             return {
               ...item,
-              id: `${crypto.randomUUID()}--${chrome.i18n.getMessage(
-                "@@ui_locale"
-              )}`,
+              id: crypto.randomUUID(),
             };
           });
           chrome.storage.local.set({ myInstructions: instructions });
@@ -1128,6 +1018,17 @@ async function updateSideToolBar() {
           ) {
             element.innerHTML += "Bad";
           }
+
+          element.addEventListener("change", function () {
+            element.classList.remove("p-1");
+            element.classList.add(
+              "flex",
+              "items-center",
+              "gap-1",
+              "pl-1",
+              "mb-1"
+            );
+          });
         });
       }
     });
@@ -1292,16 +1193,16 @@ window.onload = async () => {
     rootEl.classList.add("print-color-correction");
   }
   updateCreateNewPage();
-  updateBottomToolBar();
   updatePrintVisibility();
+  await updateBottomToolBar();
   await updateSideToolBar();
 
   // update when changing pages or changing dark to white or vice versa
   new MutationObserver(async () => {
     try {
       updateCreateNewPage();
-      updateBottomToolBar();
       updatePrintVisibility();
+      await updateBottomToolBar();
       await updateSideToolBar();
     } catch (e) {
       console.info("Phantom Error --> ", e.stack);

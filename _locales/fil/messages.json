@@ -26,19 +26,10 @@
   "SUB_6": {
     "message": "Walang limitasyong Paggamit"
   },
-  "PROMPT": {
-    "message": "Prompt:"
-  },
-  "INFO": {
-    "message": "Impormasyon:"
-  },
-  "INSTRUCTIONS": {
-    "message": "Mga tagubilin:"
-  },
-  "WARNING_LABEL": {
+  "WARNING_1": {
     "message": "Pakilagyan ng label ang iyong tagubilin!"
   },
-  "WARNING_VALUE": {
+  "WARNING_2": {
     "message": "Pakisulat ang iyong tagubilin!"
   },
   "ERROR_1": {
@@ -53,28 +44,19 @@
   "PROCESS_2": {
     "message": "Mangyaring maghintay..."
   },
-  "SOURCE_1": {
-    "message": "1 pinagmulan"
-  },
-  "SOURCES_2": {
-    "message": "2 pinagmumulan"
-  },
-  "SOURCES_3": {
-    "message": "3 pinagmumulan"
-  },
-  "AUTO": {
+  "PERIOD_1": {
     "message": "Auto"
   },
-  "TODAY": {
+  "PERIOD_2": {
     "message": "Ngayon"
   },
-  "THIS_WEEK": {
+  "PERIOD_3": {
     "message": "Ngayong linggo"
   },
-  "THIS_MONTH": {
+  "PERIOD_4": {
     "message": "Ngayong buwan"
   },
-  "THIS_YEAR": {
+  "PERIOD_5": {
     "message": "Ngayong taon"
   },
   "PLACEHOLDER_1": {
@@ -82,6 +64,9 @@
   },
   "PLACEHOLDER_2": {
     "message": "Isulat ang iyong tagubilin dito"
+  },
+  "PLACEHOLDER_3": {
+    "message": "Paghahanap"
   },
   "BTN_1": {
     "message": "Gumawa ng Bago"
@@ -98,7 +83,7 @@
   "BTN_5": {
     "message": "Tanggalin"
   },
-  "HELP": {
+  "DONATE": {
     "message": "Mangyaring maging tagasuporta ko upang panatilihing libre ang extension na ito 🥺"
   }
 }

@@ -26,19 +26,10 @@
   "SUB_6": {
     "message": "Neomezené použití"
   },
-  "PROMPT": {
-    "message": "Výzva:"
-  },
-  "INFO": {
-    "message": "Informace:"
-  },
-  "INSTRUCTIONS": {
-    "message": "Pokyny:"
-  },
-  "WARNING_LABEL": {
+  "WARNING_1": {
     "message": "Označte prosím svůj pokyn!"
   },
-  "WARNING_VALUE": {
+  "WARNING_2": {
     "message": "Napište prosím svůj pokyn!"
   },
   "ERROR_1": {
@@ -53,28 +44,19 @@
   "PROCESS_2": {
     "message": "Počkejte prosím..."
   },
-  "SOURCE_1": {
-    "message": "1 zdroj"
-  },
-  "SOURCES_2": {
-    "message": "2 zdroje"
-  },
-  "SOURCES_3": {
-    "message": "3 zdroje"
-  },
-  "AUTO": {
+  "PERIOD_1": {
     "message": "Auto"
   },
-  "TODAY": {
+  "PERIOD_2": {
     "message": "Dnes"
   },
-  "THIS_WEEK": {
+  "PERIOD_3": {
     "message": "Tento týden"
   },
-  "THIS_MONTH": {
+  "PERIOD_4": {
     "message": "Tento měsíc"
   },
-  "THIS_YEAR": {
+  "PERIOD_5": {
     "message": "Letos"
   },
   "PLACEHOLDER_1": {
@@ -82,6 +64,9 @@
   },
   "PLACEHOLDER_2": {
     "message": "Sem napište svůj pokyn"
+  },
+  "PLACEHOLDER_3": {
+    "message": "Hledat"
   },
   "BTN_1": {
     "message": "Vytvořit nový"
@@ -98,7 +83,7 @@
   "BTN_5": {
     "message": "Smazat"
   },
-  "HELP": {
+  "DONATE": {
     "message": "Prosím, buďte mým příznivcem, abyste si toto rozšíření ponechali zdarma 🥺"
   }
 }

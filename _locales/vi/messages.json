@@ -3,7 +3,7 @@
     "message": "ChatGPT Phantom: Truy cập Youtube theo thời gian thực"
   },
   "APPDESC": {
-    "message": "Tiện ích mở rộng này cho phép bạn viết các bài báo TIN TỨC theo thời gian thực và các đoạn mã Youtube."
+    "message": "Tiện ích mở rộng này cho phép bạn viết các bài báo TIN TỨC Thời Gian Thực và các kịch bản Youtube."
   },
   "HOME_DESC": {
     "message": "Tạo & Xuất bản các bài viết/tập lệnh thời gian thực nhanh như Big Media!"
@@ -26,19 +26,10 @@
   "SUB_6": {
     "message": "Sử dụng không giới hạn"
   },
-  "PROMPT": {
-    "message": "Lời nhắc:"
-  },
-  "INFO": {
-    "message": "Thông tin:"
-  },
-  "INSTRUCTIONS": {
-    "message": "Hướng dẫn:"
-  },
-  "WARNING_LABEL": {
+  "WARNING_1": {
     "message": "Vui lòng dán nhãn hướng dẫn của bạn!"
   },
-  "WARNING_VALUE": {
+  "WARNING_2": {
     "message": "Vui lòng viết hướng dẫn của bạn!"
   },
   "ERROR_1": {
@@ -53,28 +44,19 @@
   "PROCESS_2": {
     "message": "Vui lòng đợi..."
   },
-  "SOURCE_1": {
-    "message": "1 nguồn"
-  },
-  "SOURCES_2": {
-    "message": "2 nguồn"
-  },
-  "SOURCES_3": {
-    "message": "3 nguồn"
-  },
-  "AUTO": {
+  "PERIOD_1": {
     "message": "Tự động"
   },
-  "TODAY": {
+  "PERIOD_2": {
     "message": "Hôm nay"
   },
-  "THIS_WEEK": {
+  "PERIOD_3": {
     "message": "Tuần này"
   },
-  "THIS_MONTH": {
+  "PERIOD_4": {
     "message": "Tháng này"
   },
-  "THIS_YEAR": {
+  "PERIOD_5": {
     "message": "Năm nay"
   },
   "PLACEHOLDER_1": {
@@ -83,14 +65,17 @@
   "PLACEHOLDER_2": {
     "message": "Viết hướng dẫn của bạn ở đây"
   },
+  "PLACEHOLDER_3": {
+    "message": "Tìm kiếm"
+  },
   "BTN_1": {
-    "message": "Tạo mới"
+    "message": "Tạo Mới"
   },
   "BTN_2": {
     "message": "Hủy bỏ"
   },
   "BTN_3": {
-    "message": "Thêm"
+    "bột ngọt": "Thêm"
   },
   "BTN_4": {
     "message": "Cập nhật"
@@ -98,7 +83,7 @@
   "BTN_5": {
     "message": "Xóa"
   },
-  "HELP": {
-    "message": "Hãy là người ủng hộ tôi để giữ phần mở rộng này miễn phí 🥺"
+  "DONATE": {
+    "message": "Hãy là người ủng hộ tôi để giữ tiện ích mở rộng này miễn phí 🥺"
   }
 }

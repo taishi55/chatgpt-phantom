@@ -26,19 +26,10 @@
   "SUB_6": {
     "message": "무제한 사용"
   },
-  "PROMPT": {
-    "message": "프롬프트:"
-  },
-  "INFO": {
-    "message": "정보:"
-  },
-  "INSTRUCTIONS": {
-    "message": "지침:"
-  },
-  "WARNING_LABEL": {
+  "WARNING_1": {
     "message": "명령에 라벨을 붙여주세요!"
   },
-  "WARNING_VALUE": {
+  "WARNING_2": {
     "message": "지시사항을 적어주세요!"
   },
   "ERROR_1": {
@@ -53,28 +44,19 @@
   "PROCESS_2": {
     "message": "기다려주세요..."
   },
-  "SOURCE_1": {
-    "message": "소스 1개"
-  },
-  "SOURCES_2": {
-    "message": "소스 2개"
-  },
-  "SOURCES_3": {
-    "message": "3가지 소스"
-  },
-  "AUTO": {
+  "PERIOD_1": {
     "message": "자동"
   },
-  "TODAY": {
+  "PERIOD_2": {
     "message": "오늘"
   },
-  "THIS_WEEK": {
+  "PERIOD_3": {
     "message": "이번 주"
   },
-  "THIS_MONTH": {
+  "PERIOD_4": {
     "message": "이번 달"
   },
-  "THIS_YEAR": {
+  "PERIOD_5": {
     "message": "올해"
   },
   "PLACEHOLDER_1": {
@@ -82,6 +64,9 @@
   },
   "PLACEHOLDER_2": {
     "message": "여기에 지침을 작성하십시오"
+  },
+  "PLACEHOLDER_3": {
+    "message": "검색"
   },
   "BTN_1": {
     "message": "새로 만들기"
@@ -98,7 +83,7 @@
   "BTN_5": {
     "message": "삭제"
   },
-  "HELP": {
+  "DONATE": {
     "message": "이 확장 프로그램을 무료로 유지하려면 제 후원자가 되어주세요 🥺"
   }
 }

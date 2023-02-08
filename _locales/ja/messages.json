@@ -3,7 +3,7 @@
     "message": "ChatGPT Phantom: リアルタイム Youtube アクセス"
   },
   "APPDESC": {
-    "message": "この拡張機能を使用すると、リアルタイムのニュース記事や Youtube スクリプトを作成できます。"
+    "message": "この拡張機能を使用すると、リアルタイムのニュース記事と Youtube スクリプトを作成できます。"
   },
   "HOME_DESC": {
     "message": "ビッグ メディアと同じ速さでリアルタイムの記事/スクリプトを作成および公開!"
@@ -26,19 +26,10 @@
   "SUB_6": {
     "message": "無制限の使用"
   },
-  "PROMPT": {
-    "message": "プロンプト:"
-  },
-  "INFO": {
-    "message": "情報:"
-  },
-  "INSTRUCTIONS": {
-    "message": "指示:"
-  },
-  "WARNING_LABEL": {
+  "WARNING_1": {
     "message": "指示にラベルを付けてください!"
   },
-  "WARNING_VALUE": {
+  "WARNING_2": {
     "message": "指示を書いてください!"
   },
   "ERROR_1": {
@@ -53,28 +44,19 @@
   "PROCESS_2": {
     "message": "お待ちください..."
   },
-  "SOURCE_1": {
-    "message": "1 ソース"
-  },
-  "SOURCES_2": {
-    "message": "2 ソース"
-  },
-  "SOURCES_3": {
-    "message": "3 ソース"
-  },
-  "AUTO": {
+  "PERIOD_1": {
     "message": "自動"
   },
-  "TODAY": {
+  "PERIOD_2": {
     "message": "今日"
   },
-  "THIS_WEEK": {
+  "PERIOD_3": {
     "message": "今週"
   },
-  "THIS_MONTH": {
+  "PERIOD_4": {
     "message": "今月"
   },
-  "THIS_YEAR": {
+  "PERIOD_5": {
     "message": "今年"
   },
   "PLACEHOLDER_1": {
@@ -82,6 +64,9 @@
   },
   "PLACEHOLDER_2": {
     "message": "ここに指示を書いてください"
+  },
+  "PLACEHOLDER_3": {
+    "message": "検索"
   },
   "BTN_1": {
     "message": "新規作成"
@@ -98,7 +83,7 @@
   "BTN_5": {
     "message": "削除"
   },
-  "HELP": {
+  "DONATE": {
     "message": "この拡張機能を無料で維持するには、私のサポーターになってください 🥺"
   }
 }

@@ -26,19 +26,10 @@
   "SUB_6": {
     "message": "Neribotas naudojimas"
   },
-  "PROMPT": {
-    "message": "Raginti:"
-  },
-  "INFO": {
-    "message": "Informacija:"
-  },
-  "INSTRUCTIONS": {
-    "message": "Instrukcijos:"
-  },
-  "WARNING_LABEL": {
+  "WARNING_1": {
     "message": "Pažymėkite savo instrukciją!"
   },
-  "WARNING_VALUE": {
+  "WARNING_2": {
     "message": "Parašykite savo nurodymą!"
   },
   "ERROR_1": {
@@ -53,28 +44,19 @@
   "PROCESS_2": {
     "message": "Prašau palaukti..."
   },
-  "SOURCE_1": {
-    "message": "1 šaltinis"
-  },
-  "SOURCES_2": {
-    "message": "2 šaltiniai"
-  },
-  "SOURCES_3": {
-    "message": "3 šaltiniai"
-  },
-  "AUTO": {
+  "PERIOD_1": {
     "message": "Automatinis"
   },
-  "TODAY": {
+  "PERIOD_2": {
     "message": "Šiandien"
   },
-  "THIS_WEEK": {
+  "PERIOD_3": {
     "message": "Šią savaitę"
   },
-  "THIS_MONTH": {
+  "PERIOD_4": {
     "message": "Šį mėnesį"
   },
-  "THIS_YEAR": {
+  "PERIOD_5": {
     "message": "Šiais metais"
   },
   "PLACEHOLDER_1": {
@@ -82,6 +64,9 @@
   },
   "PLACEHOLDER_2": {
     "message": "Parašykite savo nurodymą čia"
+  },
+  "PLACEHOLDER_3": {
+    "message": "Ieškoti"
   },
   "BTN_1": {
     "message": "Sukurti naują"
@@ -98,7 +83,7 @@
   "BTN_5": {
     "message": "Ištrinti"
   },
-  "HELP": {
-    "message": "Prašome būti mano rėmėju, kad išlaikytumėte šį plėtinį nemokamai 🥺"
+  "DONATE": {
+    "message": "Prašome būti mano rėmėju, kad šis plėtinys liktų nemokamai 🥺"
   }
 }

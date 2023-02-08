@@ -26,19 +26,10 @@
   "SUB_6": {
     "message": "Nieograniczone użycie"
   },
-  "PROMPT": {
-    "message": "Podpowiedź:"
-  },
-  "INFO": {
-    "message": "Informacje:"
-  },
-  "INSTRUCTIONS": {
-    "message": "Instrukcje:"
-  },
-  "WARNING_LABEL": {
+  "WARNING_1": {
     "message": "Proszę oznaczyć swoją instrukcję!"
   },
-  "WARNING_VALUE": {
+  "WARNING_2": {
     "message": "Proszę napisać instrukcję!"
   },
   "ERROR_1": {
@@ -53,28 +44,19 @@
   "PROCESS_2": {
     "message": "Proszę czekać..."
   },
-  "SOURCE_1": {
-    "message": "1 źródło"
-  },
-  "SOURCES_2": {
-    "message": "2 źródła"
-  },
-  "SOURCES_3": {
-    "message": "3 źródła"
-  },
-  "AUTO": {
+  "PERIOD_1": {
     "message": "Auto"
   },
-  "TODAY": {
+  "PERIOD_2": {
     "message": "Dzisiaj"
   },
-  "THIS_WEEK": {
+  "PERIOD_3": {
     "message": "W tym tygodniu"
   },
-  "THIS_MIESIĄC": {
+  "PERIOD_4": {
     "message": "W tym miesiącu"
   },
-  "THIS_YEAR": {
+  "PERIOD_5": {
     "message": "W tym roku"
   },
   "PLACEHOLDER_1": {
@@ -82,6 +64,9 @@
   },
   "PLACEHOLDER_2": {
     "message": "Wpisz tutaj swoją instrukcję"
+  },
+  "PLACEHOLDER_3": {
+    "message": "Wyszukaj"
   },
   "BTN_1": {
     "message": "Utwórz nowy"
@@ -98,7 +83,7 @@
   "BTN_5": {
     "message": "Usuń"
   },
-  "HELP": {
+  "DONATE": {
     "message": "Proszę, bądź moim wsparciem, aby zachować to rozszerzenie za darmo 🥺"
   }
 }
