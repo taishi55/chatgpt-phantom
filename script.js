@@ -2,8 +2,8 @@
 let isWebAccessOn = true;
 let isProcessing = false;
 var timePeriod = "";
-var language = chrome.i18n.getMessage("@@ui_locale") || "en";
-var languageLabel = "English";
+var language;
+var languageLabel;
 var instruction;
 var instrucitonLabel;
 
@@ -22,8 +22,8 @@ chrome.storage.sync.get(
   ],
   (data) => {
     isWebAccessOn = data.web_access || false;
-    language = data.language || language;
-    languageLabel = data.language_label || languageLabel;
+    language = data.language || "en";
+    languageLabel = data.language_label || "English";
     timePeriod = data.time_period || timePeriod;
     instruction = data.instruction || "";
     instrucitonLabel = data.instruction_label || "";
@@ -55,7 +55,7 @@ function showErrorMessage(e) {
   );
   errorDiv.innerHTML = `<b>${chrome.i18n.getMessage(
     "ERROR_1"
-  )}</b><br>" + "<br>${chrome.i18n.getMessage("ERROR_2")}`;
+  )}</b><br><br>${chrome.i18n.getMessage("ERROR_2")}`;
   document.body.appendChild(errorDiv);
   setTimeout(() => {
     errorDiv.remove();
@@ -76,19 +76,22 @@ function showProcessingMessage() {
 }
 
 function getYoutubeIds(text) {
-  const youtubeRegex = /https:\/\/www\.youtube\.com\/watch\?v=(\w{11})/g;
-  let youtubeIds = [];
-  let match;
-  for (let i = 0; (match = youtubeRegex.exec(text)) !== null; i++) {
-    youtubeIds.push(match[1]);
+  let youtubeVideoIds = [];
+  const youtubeUrlPrefix = "https://www.youtube.com/watch?v=";
+  let startIndex = text.indexOf(youtubeUrlPrefix);
+
+  while (startIndex !== -1) {
+    startIndex += youtubeUrlPrefix.length;
+    youtubeVideoIds.push(text.substr(startIndex, 11));
+    startIndex = text.indexOf(youtubeUrlPrefix, startIndex);
   }
 
   // remove duplicates
-  youtubeIds = Array.from(new Set(youtubeIds));
+  youtubeVideoIds = Array.from(new Set(youtubeVideoIds));
 
   const videoElementsWrapper = document.createElement("div");
   videoElementsWrapper.classList.add("youtube-videos", "print:hidden");
-  youtubeIds.forEach((videoId) => {
+  youtubeVideoIds.forEach((videoId) => {
     videoElementsWrapper.innerHTML += `<iframe style="aspect-ratio: 16 / 9;width: 100%;border-radius: 0.5rem;" src="https://www.youtube.com/embed/${videoId}" title="Helpful videos" frameborder="0" allow="clipboard-write; encrypted-media; gyroscope;" allowfullscreen></iframe>`;
   });
   return videoElementsWrapper;
@@ -170,12 +173,19 @@ async function onSubmit(event) {
 // change css for PDF export
 function updatePrintVisibility() {
   let containers = document.querySelectorAll(".overflow-hidden");
-  containers.forEach((container) => {
+  containers?.forEach((container) => {
     container?.classList?.add("print:overflow-visible");
   });
 
   let scrollContainers = document.querySelectorAll(".overflow-y-auto");
-  scrollContainers.forEach((container) => {
+  scrollContainers?.forEach((container) => {
+    container?.classList?.add("print:overflow-visible");
+  });
+
+  let scrollReactContainers = document.querySelectorAll(
+    "div[class*='react-scroll-to-bottom']"
+  );
+  scrollReactContainers?.forEach((container) => {
     container?.classList?.add("print:overflow-visible");
   });
 
@@ -832,7 +842,7 @@ async function renderInstructionDropdown(dropdownDesign, toolbarDiv) {
 function renderFooterMsg(bottomDiv) {
   var footerDiv = document.createElement("div");
 
-  footerDiv.innerHTML = `For magic commands, refer to <a href='https://github.com/taishi55/chatgpt-phantom' target='_blank' class='underline'>ChatGPT Phantom</a> 👻. ${chrome.i18n.getMessage(
+  footerDiv.innerHTML = `<a href='https://chatgpt-phantom.vercel.app/' target='_blank' class='underline'>ChatGPT Phantom</a> 👻. ${chrome.i18n.getMessage(
     "DONATE"
   )} <a href='https://www.buymeacoffee.com/phantom.writer' target='_blank' class='underline'>Donation</a>`;
 
@@ -891,20 +901,23 @@ async function updateBottomToolBar() {
   var bottomDiv = document.querySelector("div[class*='absolute bottom-0']");
   renderFooterMsg(bottomDiv);
 
-  // update side tool bar for each update (when bottomDiv's children changed)!
-  new MutationObserver(async (mutationsList) => {
-    let runOnce = false;
-    for (const mutation of mutationsList) {
-      if (mutation.target.nodeName === "TEXTAREA") {
-        // ignore the change in the textarea element
-        return;
-      } else if (mutation.target.nodeName === "BUTTON" && !runOnce) {
-        // handle other mutations
-        await updateSideToolBar();
-        runOnce = true;
+  if (bottomDiv instanceof Node) {
+    // update side tool bar for each update (when bottomDiv's children changed)!
+    new MutationObserver(async (mutationsList) => {
+      let runOnce = false;
+      for (const mutation of mutationsList) {
+        if (mutation.target.nodeName === "TEXTAREA") {
+          // ignore the change in the textarea element
+          return;
+        } else if (mutation.target.nodeName === "BUTTON" && !runOnce) {
+          // handle other mutations
+          updatePrintVisibility();
+          await updateSideToolBar();
+          runOnce = true;
+        }
       }
-    }
-  }).observe(bottomDiv, { childList: true, subtree: true });
+    }).observe(bottomDiv, { childList: true, subtree: true });
+  }
 }
 
 function getPDF() {
@@ -1098,7 +1111,7 @@ async function updateSideToolBar() {
         ).textContent;
 
         copyInnerHtml = `<div>${chatDiv.querySelector("div[class*='flex flex-grow flex-col gap-3']")
-          .innerHTML
+            .innerHTML
           }</div>\n`;
 
         const videoElements = getYoutubeIds(chatText);
