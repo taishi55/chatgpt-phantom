@@ -97,7 +97,7 @@ function getYoutubeIds(text) {
   return videoElementsWrapper;
 }
 
-async function pasteToTextarea(resultText) {
+async function pasteToTextarea(resultText, query) {
   if (!language.includes("en")) {
     // ChatGPT is not capable enough to handle large inputs in non-English languages.
     // The max number of letter is 3000 for English, 1500 for other language to get the best result.
@@ -111,7 +111,10 @@ async function pasteToTextarea(resultText) {
       "\n\nSource_URL:\n" +
       resultText.split("Source_URL:")[1];
   }
-  textarea.value = `${resultText} Make sure to write in ${languageLabel}.`;
+  textarea.value = `${resultText.replace(
+    "{Prompt}",
+    query
+  )} Make sure to write in ${languageLabel}.`;
 }
 
 // submit the textarea input
@@ -156,7 +159,7 @@ async function onSubmit(event) {
       const resultText = await getSearchData(query, timePeriod, instruction);
 
       if (resultText) {
-        await pasteToTextarea(resultText);
+        await pasteToTextarea(resultText, query);
         pressEnter();
       } else {
         textarea.value = query;
