@@ -6,6 +6,8 @@ var language = chrome.i18n.getMessage("@@ui_locale") || "en";
 var languageLabel = "English";
 var instruction;
 var instrucitonLabel;
+
+// default component
 var textarea;
 
 // get defualt parameters
@@ -92,8 +94,21 @@ function getYoutubeIds(text) {
   return videoElementsWrapper;
 }
 
-function pasteToTextarea(resultText, prompt, instruction) {
-  textarea.value = `Info:\n${resultText}\n\nPrompt:\n${prompt}\n\n${instruction} Make sure to write in ${languageLabel}.`;
+async function pasteToTextarea(resultText) {
+  if (!language.includes("en")) {
+    // ChatGPT is not capable enough to handle large inputs in non-English languages.
+    // The max number of letter is 3000 for English, 1500 for other language to get the best result.
+    resultText =
+      "Info:\n" +
+      resultText
+        .split("Info:")[1]
+        .split("Source_URL:")[0]
+        .trim()
+        .slice(0, 1500) +
+      "\n\nSource_URL:\n" +
+      resultText.split("Source_URL:")[1];
+  }
+  textarea.value = `${resultText} Make sure to write in ${languageLabel}.`;
 }
 
 // submit the textarea input
@@ -135,10 +150,10 @@ async function onSubmit(event) {
       }
       showProcessingMessage();
 
-      const resultText = await getSearchData(query, timePeriod);
+      const resultText = await getSearchData(query, timePeriod, instruction);
 
       if (resultText) {
-        pasteToTextarea(resultText, query, instruction);
+        await pasteToTextarea(resultText);
         pressEnter();
       } else {
         textarea.value = query;
@@ -1083,7 +1098,7 @@ async function updateSideToolBar() {
         ).textContent;
 
         copyInnerHtml = `<div>${chatDiv.querySelector("div[class*='flex flex-grow flex-col gap-3']")
-            .innerHTML
+          .innerHTML
           }</div>\n`;
 
         const videoElements = getYoutubeIds(chatText);
