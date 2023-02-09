@@ -9,7 +9,7 @@ function openChatGPTWebpage() {
 chrome.runtime.onInstalled.addListener(async () => {
   chrome.storage.sync.set({
     web_access: true,
-    language: chrome.i18n.getMessage("@@ui_locale") || 'en',
+    language: chrome.i18n.getMessage("@@ui_locale") || 'en_US',
     language_label: "",
     time_period: "",
     instruction: "",

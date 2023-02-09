@@ -1,89 +1,89 @@
 {
   "APPNAME": {
-    "MSG": "ChatGPT Phantom: Akses Youtube Masa Nyata"
+    "message": "ChatGPT Phantom: Akses Youtube Masa Nyata"
   },
   "APPDESC": {
-    "MSG": "Sambungan ini membolehkan anda menulis artikel BERITA Masa Nyata dan skrip Youtube."
+    "message": "Sambungan ini membolehkan anda menulis artikel BERITA Masa Nyata dan skrip Youtube."
   },
   "HOME_DESC": {
-    "MSG": "Buat & Terbitkan artikel/skrip masa nyata sepantas Big Media!"
+    "message": "Buat & Terbitkan artikel/skrip masa nyata sepantas Big Media!"
   },
   "SUB_1": {
-    "MSG": "Topik Masa Nyata"
+    "message": "Topik Masa Nyata"
   },
   "SUB_2": {
-    "MSG": "Terjemahan +20 Bahasa"
+    "message": "Terjemahan +20 Bahasa"
   },
   "SUB_3": {
-    "MSG": "Pemeriksa Plagiarisme"
+    "message": "Pemeriksa Plagiarisme"
   },
   "SUB_4": {
-    "MSG": "Jangan sekali-kali Kumpul Data Pengguna"
+    "message": "Jangan sekali-kali Kumpul Data Pengguna"
   },
   "SUB_5": {
-    "MSG": "Percuma Sepenuhnya (derma ❤️)"
+    "message": "Percuma Sepenuhnya (derma ❤️)"
   },
   "SUB_6": {
-    "MSG": "Penggunaan Tanpa Had"
+    "message": "Penggunaan Tanpa Had"
   },
   "WARNING_1": {
-    "MSG": "Sila labelkan arahan anda!"
+    "message": "Sila labelkan arahan anda!"
   },
   "WARNING_2": {
-    "MSG": "Sila tulis arahan anda!"
+    "message": "Sila tulis arahan anda!"
   },
   "ERROR_1": {
-    "MSG": "Ralat berlaku"
+    "message": "Ralat berlaku"
   },
   "ERROR_2": {
-    "MSG": "Sila cuba lagi!"
+    "message": "Sila cuba lagi!"
   },
   "PROCESS_1": {
-    "MSG": "Mencari maklumat."
+    "message": "Mencari maklumat."
   },
   "PROCESS_2": {
-    "MSG": "Sila tunggu..."
+    "message": "Sila tunggu..."
   },
   "PERIOD_1": {
-    "MSG": "Auto"
+    "message": "Auto"
   },
   "PERIOD_2": {
-    "MSG": "Hari ini"
+    "message": "Hari ini"
   },
   "PERIOD_3": {
-    "MSG": "Minggu ini"
+    "message": "Minggu ini"
   },
   "PERIOD_4": {
-    "MSG": "Bulan ini"
+    "message": "Bulan ini"
   },
   "PERIOD_5": {
-    "MSG": "Tahun ini"
+    "message": "Tahun ini"
   },
   "PLACEHOLDER_1": {
-    "MSG": "Labelkan arahan anda di sini"
+    "message": "Labelkan arahan anda di sini"
   },
   "PLACEHOLDER_2": {
-    "MSG": "Tulis arahan anda di sini"
+    "message": "Tulis arahan anda di sini"
   },
   "PLACEHOLDER_3": {
-    "MSG": "Cari"
+    "message": "Cari"
   },
   "BTN_1": {
-    "MSG": "Buat Baharu"
+    "message": "Buat Baharu"
   },
   "BTN_2": {
-    "MSG": "Batalkan"
+    "message": "Batalkan"
   },
   "BTN_3": {
-    "MSG": "Tambah"
+    "message": "Tambah"
   },
   "BTN_4": {
-    "MSG": "Kemas kini"
+    "message": "Kemas kini"
   },
   "BTN_5": {
-    "MSG": "Padam"
+    "message": "Padam"
   },
   "DONATE": {
-    "MSG": "Sila jadi penyokong saya untuk mengekalkan sambungan ini secara percuma 🥺"
+    "message": "Sila jadi penyokong saya untuk mengekalkan sambungan ini secara percuma 🥺"
   }
 }
