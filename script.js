@@ -242,7 +242,7 @@ function updateCreateNewPage() {
     "div[class*='md:flex items-start text-center gap-3.5']"
   );
   if (video) {
-    video.innerHTML = `<iframe style="aspect-ratio: 16 / 9;width: 100%;border-radius: 0.5rem;" src="https://www.youtube.com/embed/x" title="ChatGPT Phantom Demo" frameborder="0" allow="clipboard-write; encrypted-media; gyroscope;" allowfullscreen></iframe>`;
+    video.innerHTML = `<iframe style="aspect-ratio: 16 / 9;width: 100%;border-radius: 0.5rem;" src="https://www.youtube.com/embed/1tfrGwJPTsM" title="ChatGPT Phantom Demo" frameborder="0" allow="clipboard-write; encrypted-media; gyroscope;" allowfullscreen></iframe>`;
   }
 
   const createNewLink = document?.querySelector(
