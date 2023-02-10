@@ -86,7 +86,7 @@ create an article in about the given info without plagiarism. Make sure to write
 |        word limit         |       unlimited        |  100,000  |        160,000         | unlimited |
 |           price           |          FREE          | $99/month |       $99/month        | $30/month |
 |      real-time data       |          Yes           |     -     |    chat reply only     |     -     |
-|        data source        | All public data on Web |     -     | Google Knowledge Graph |     -     |
+|        data source        | YouTube |     -     | Google Knowledge Graph |     -     |
 | languages translated from |         DeepL          |   DeepL   |         DeepL          |  Google   |
 |        AI provider        |         OpenAI         |  OpenAI   |         OpenAI         |  OpenAI   |
 
