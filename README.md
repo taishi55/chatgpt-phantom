@@ -67,17 +67,6 @@ https://user-images.githubusercontent.com/105188885/213975594-43f261a0-32de-4913
 
 If you discover an awesome command, share it on our community below👍 We love to see what you found😁
 
-## Custom Instuctions 🔥🔥🔥
-
-Example input:
-
-```
-Tell me today's news about Japan.
---
-create an article in about the given info without plagiarism. Make sure to write in a formal tone. Make sure to cite the markdown notations # for a title, ## for subtitles, and ![](src) for a thumbnail image. Provide a title that gets people's attention. Then provide a short description. Then provide a thumbnail image. Then provide 4 paragraphs consisting of subtitle, well-explained article. Then provide a conclusion.
-```
-
-> ⚠️ Please insert "--"" in between your prompt and your instructions. According to your promt, Phantom will provide the real-time info. According to your instructions, ChatGPT will generate an output in the format.
 
 ## Other Competitors 🌛🌝🌜
 
