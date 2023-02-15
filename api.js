@@ -3,7 +3,6 @@ async function getSearchData(query, time, instruction) {
   // format query
   const url = "https://phantom-ghost-writer.vercel.app/api/youtube";
 
-  query = query.replace(/\s/g, "+");
   const headers = new Headers({
     Origin: "https://chat.openai.com",
     "content-type": "application/json",

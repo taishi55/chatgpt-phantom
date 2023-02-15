@@ -201,6 +201,7 @@ function updatePrintVisibility() {
 
 // change the design on the blank page
 function updateCreateNewPage() {
+  // free version
   const title = document.evaluate(
     "//h1[text()='ChatGPT']",
     document,
@@ -208,48 +209,52 @@ function updateCreateNewPage() {
     XPathResult.FIRST_ORDERED_NODE_TYPE,
     null
   ).singleNodeValue;
-  if (!title) {
-    return;
-  }
+  if (title) {
+    title.textContent = "ChatGPT Phantom";
+    title.classList.remove("sm:mb-16", "mb-10");
+    title.classList.add("sm:mb-8", "italic", "mb-5");
 
-  title.textContent = "ChatGPT Phantom";
-  title.classList.remove("sm:mb-16", "mb-10");
-  title.classList.add("sm:mb-8", "italic", "mb-5");
+    const benefits = document.createElement("div");
+    benefits.innerHTML = `<div class="mb-5 flex w-fit justify-center gap-4" style="font-weight: 300;"> <ol> <li class="flex items-center gap-2"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6 text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" /></svg> <div>${chrome.i18n.getMessage(
+      "SUB_1"
+    )}</div> </li> <li class="flex items-center gap-2"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6 text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" /></svg> <div>${chrome.i18n.getMessage(
+      "SUB_2"
+    )}</div> </li> <li class="flex items-center gap-2"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6 text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" /></svg> <div>${chrome.i18n.getMessage(
+      "SUB_3"
+    )}</div> </li> </ol> <ol> <li class="flex items-center gap-2"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6 text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" /></svg> <div>${chrome.i18n.getMessage(
+      "SUB_4"
+    )}</div> </li> <li class="flex items-center gap-2"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6 text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" /></svg> <div>${chrome.i18n.getMessage(
+      "SUB_5"
+    )}</div> </li> <li class="flex items-center gap-2"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6 text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" /></svg> <div>${chrome.i18n.getMessage(
+      "SUB_6"
+    )}</div> </li> </ol> </div>`;
+    title.parentNode.insertBefore(benefits, title.nextSibling);
 
-  const benefits = document.createElement("div");
-  benefits.innerHTML = `<div class="mb-5 flex w-fit justify-center gap-4" style="font-weight: 300;"> <ol> <li class="flex items-center gap-2"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6 text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" /></svg> <div>${chrome.i18n.getMessage(
-    "SUB_1"
-  )}</div> </li> <li class="flex items-center gap-2"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6 text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" /></svg> <div>${chrome.i18n.getMessage(
-    "SUB_2"
-  )}</div> </li> <li class="flex items-center gap-2"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6 text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" /></svg> <div>${chrome.i18n.getMessage(
-    "SUB_3"
-  )}</div> </li> </ol> <ol> <li class="flex items-center gap-2"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6 text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" /></svg> <div>${chrome.i18n.getMessage(
-    "SUB_4"
-  )}</div> </li> <li class="flex items-center gap-2"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6 text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" /></svg> <div>${chrome.i18n.getMessage(
-    "SUB_5"
-  )}</div> </li> <li class="flex items-center gap-2"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6 text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" /></svg> <div>${chrome.i18n.getMessage(
-    "SUB_6"
-  )}</div> </li> </ol> </div>`;
-  title.parentNode.insertBefore(benefits, title.nextSibling);
+    const subtitle = document.createElement("div");
+    subtitle.classList.add(
+      "w-full",
+      "mb-3",
+      "text-center",
+      "italic",
+      "text-xl"
+    );
+    subtitle.style.cssText += "font-weight: 300;";
+    subtitle.textContent = chrome.i18n.getMessage("HOME_DESC");
+    title.parentNode.insertBefore(subtitle, title.nextSibling);
 
-  const subtitle = document.createElement("div");
-  subtitle.classList.add("w-full", "mb-3", "text-center", "italic", "text-xl");
-  subtitle.style.cssText += "font-weight: 300;";
-  subtitle.textContent = chrome.i18n.getMessage("HOME_DESC");
-  title.parentNode.insertBefore(subtitle, title.nextSibling);
+    const video = document?.querySelector(
+      "div[class*='md:flex items-start text-center gap-3.5']"
+    );
+    if (video) {
+      video.innerHTML = `<iframe style="aspect-ratio: 16 / 9;width: 100%;border-radius: 0.5rem;" src="https://www.youtube.com/embed/1tfrGwJPTsM" title="ChatGPT Phantom Demo" frameborder="0" allow="clipboard-write; encrypted-media; gyroscope;" allowfullscreen></iframe>`;
+    }
 
-  const video = document?.querySelector(
-    "div[class*='md:flex items-start text-center gap-3.5']"
-  );
-  if (video) {
-    video.innerHTML = `<iframe style="aspect-ratio: 16 / 9;width: 100%;border-radius: 0.5rem;" src="https://www.youtube.com/embed/1tfrGwJPTsM" title="ChatGPT Phantom Demo" frameborder="0" allow="clipboard-write; encrypted-media; gyroscope;" allowfullscreen></iframe>`;
-  }
-
-  const createNewLink = document?.querySelector(
-    "a[class*='flex py-3 px-3 items-center gap-3']"
-  );
-  if (createNewLink) {
-    createNewLink.href = "https://chat.openai.com/chat";
+    const createNewLink = document?.querySelector(
+      "a[class*='flex py-3 px-3 items-center gap-3']"
+    );
+    if (createNewLink) {
+      createNewLink.href = "https://chat.openai.com/chat";
+    }
   }
 }
 
@@ -855,6 +860,11 @@ function renderFooterMsg(bottomDiv) {
 
 // add some functions under textarea
 async function updateBottomToolBar() {
+  const isChatGptPlus = document.querySelector(".stretch.mx-2.flex.flex-row");
+  if (isChatGptPlus) {
+    isChatGptPlus.classList.remove("flex-row");
+    isChatGptPlus.classList.add("flex-col");
+  }
   if (document.querySelector(".web-chatgpt-toolbar")) {
     return;
   }
@@ -1224,6 +1234,7 @@ window.onload = async () => {
     rootEl.classList.add("print-color-correction");
   }
   updateCreateNewPage();
+
   updatePrintVisibility();
   await updateBottomToolBar();
   await updateSideToolBar();
