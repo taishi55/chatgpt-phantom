@@ -850,9 +850,10 @@ async function renderInstructionDropdown(dropdownDesign, toolbarDiv) {
 function renderFooterMsg(bottomDiv) {
   var footerDiv = document.createElement("div");
 
-  footerDiv.innerHTML = `<a href='https://chatgpt-phantom.vercel.app/' target='_blank' class='underline'>ChatGPT Phantom</a> 👻. ${chrome.i18n.getMessage(
+  footerDiv.innerHTML = `Refer to <a href='https://chatgpt-phantom.vercel.app/' target='_blank' class='underline'>ChatGPT Phantom</a> 👻. ${chrome.i18n.getMessage(
     "DONATE"
   )} <a href='https://www.buymeacoffee.com/phantom.writer' target='_blank' class='underline'>Donation</a>`;
+  footerDiv.classList.add("text-xs", "text-gray-400");
 
   var lastElement = bottomDiv.lastElementChild;
   lastElement.appendChild(footerDiv);
