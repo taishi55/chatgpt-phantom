@@ -21,7 +21,7 @@ chrome.storage.sync.get(
     "instruction_label",
   ],
   (data) => {
-    isWebAccessOn = data.web_access || false;
+    isWebAccessOn = data.web_access || true;
     language = data.language || "en";
     languageLabel = data.language_label || "English";
     timePeriod = data.time_period || timePeriod;
@@ -211,43 +211,6 @@ function updateCreateNewPage() {
   ).singleNodeValue;
   if (title) {
     title.textContent = "ChatGPT Phantom";
-    title.classList.remove("sm:mb-16", "mb-10");
-    title.classList.add("sm:mb-8", "italic", "mb-5");
-
-    const benefits = document.createElement("div");
-    benefits.innerHTML = `<div class="mb-5 flex w-fit justify-center gap-4" style="font-weight: 300;"> <ol> <li class="flex items-center gap-2"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6 text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" /></svg> <div>${chrome.i18n.getMessage(
-      "SUB_1"
-    )}</div> </li> <li class="flex items-center gap-2"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6 text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" /></svg> <div>${chrome.i18n.getMessage(
-      "SUB_2"
-    )}</div> </li> <li class="flex items-center gap-2"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6 text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" /></svg> <div>${chrome.i18n.getMessage(
-      "SUB_3"
-    )}</div> </li> </ol> <ol> <li class="flex items-center gap-2"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6 text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" /></svg> <div>${chrome.i18n.getMessage(
-      "SUB_4"
-    )}</div> </li> <li class="flex items-center gap-2"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6 text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" /></svg> <div>${chrome.i18n.getMessage(
-      "SUB_5"
-    )}</div> </li> <li class="flex items-center gap-2"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6 text-blue-500"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" /></svg> <div>${chrome.i18n.getMessage(
-      "SUB_6"
-    )}</div> </li> </ol> </div>`;
-    title.parentNode.insertBefore(benefits, title.nextSibling);
-
-    const subtitle = document.createElement("div");
-    subtitle.classList.add(
-      "w-full",
-      "mb-3",
-      "text-center",
-      "italic",
-      "text-xl"
-    );
-    subtitle.style.cssText += "font-weight: 300;";
-    subtitle.textContent = chrome.i18n.getMessage("HOME_DESC");
-    title.parentNode.insertBefore(subtitle, title.nextSibling);
-
-    const video = document?.querySelector(
-      "div[class*='md:flex items-start text-center gap-3.5']"
-    );
-    if (video) {
-      video.innerHTML = `<iframe style="aspect-ratio: 16 / 9;width: 100%;border-radius: 0.5rem;" src="https://www.youtube.com/embed/1tfrGwJPTsM" title="ChatGPT Phantom Demo" frameborder="0" allow="clipboard-write; encrypted-media; gyroscope;" allowfullscreen></iframe>`;
-    }
 
     const createNewLink = document?.querySelector(
       "a[class*='flex py-3 px-3 items-center gap-3']"
@@ -853,7 +816,7 @@ function renderFooterMsg(bottomDiv) {
   footerDiv.innerHTML = `Refer to <a href='https://chatgpt-phantom.vercel.app/' target='_blank' class='underline'>ChatGPT Phantom</a> 👻. ${chrome.i18n.getMessage(
     "DONATE"
   )} <a href='https://www.buymeacoffee.com/phantom.writer' target='_blank' class='underline'>Donation</a>`;
-  footerDiv.classList.add("text-xs", "text-gray-400");
+  footerDiv.classList.add("text-xs", "text-gray-400", "text-center");
 
   var lastElement = bottomDiv.lastElementChild;
   lastElement.appendChild(footerDiv);
@@ -1015,6 +978,29 @@ async function updateSideToolBar() {
   try {
     const res = await fetch(chrome.runtime.getURL("languages.json"));
     const langs = await res.json();
+
+    const paragraphs = document.querySelectorAll("p");
+    for (let i = 0; i < paragraphs.length; i++) {
+      // Check if the text content of the paragraph contains "##"
+      if (paragraphs[i].textContent.includes("##")) {
+        // If it does, do something
+        paragraphs[i].textContent = paragraphs[i].textContent.replace("##", "");
+        // Create a new <h2> element
+        const h2Element = document.createElement("h2");
+        // Copy the contents of the <p> element to the <h2> element
+        h2Element.textContent = paragraphs[i].textContent;
+        // Replace the <p> element with the new <h2> element
+        paragraphs[i].parentNode.replaceChild(h2Element, paragraphs[i]);
+      } else if (paragraphs[i].textContent.includes("#")) {
+        paragraphs[i].textContent = paragraphs[i].textContent.replace("#", "");
+        // Create a new <h2> element
+        const h1Element = document.createElement("h1");
+        // Copy the contents of the <p> element to the <h1> element
+        h1Element.textContent = paragraphs[i].textContent;
+        // Replace the <p> element with the new <h1> element
+        paragraphs[i].parentNode.replaceChild(h1Element, paragraphs[i]);
+      }
+    }
 
     // modify the design of chat response section
     const formatElements = document.querySelectorAll(
