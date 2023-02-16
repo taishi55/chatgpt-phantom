@@ -982,7 +982,7 @@ async function updateSideToolBar() {
     const paragraphs = document.querySelectorAll("p");
     for (let i = 0; i < paragraphs.length; i++) {
       // Check if the text content of the paragraph contains "##"
-      if (paragraphs[i].textContent.includes("##")) {
+      if (paragraphs[i].textContent.startsWith("##")) {
         // If it does, do something
         paragraphs[i].textContent = paragraphs[i].textContent.replace("##", "");
         // Create a new <h2> element
@@ -991,7 +991,7 @@ async function updateSideToolBar() {
         h2Element.textContent = paragraphs[i].textContent;
         // Replace the <p> element with the new <h2> element
         paragraphs[i].parentNode.replaceChild(h2Element, paragraphs[i]);
-      } else if (paragraphs[i].textContent.includes("#")) {
+      } else if (paragraphs[i].textContent.startsWith("#")) {
         paragraphs[i].textContent = paragraphs[i].textContent.replace("#", "");
         // Create a new <h2> element
         const h1Element = document.createElement("h1");
@@ -1111,7 +1111,7 @@ async function updateSideToolBar() {
         ).textContent;
 
         copyInnerHtml = `<div>${chatDiv.querySelector("div[class*='flex flex-grow flex-col gap-3']")
-            .innerHTML
+          .innerHTML
           }</div>\n`;
 
         const videoElements = getYoutubeIds(chatText);
@@ -1221,7 +1221,6 @@ window.onload = async () => {
     rootEl.classList.add("print-color-correction");
   }
   updateCreateNewPage();
-
   updatePrintVisibility();
   await updateBottomToolBar();
   await updateSideToolBar();
