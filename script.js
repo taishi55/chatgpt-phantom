@@ -21,10 +21,10 @@ chrome.storage.sync.get(
     "instruction_label",
   ],
   (data) => {
-    isWebAccessOn = data.web_access || true;
+    isWebAccessOn = data.web_access || false;
     language = data.language || "en";
     languageLabel = data.language_label || "English";
-    timePeriod = data.time_period || timePeriod;
+    timePeriod = data.time_period || "";
     instruction = data.instruction || "";
     instrucitonLabel = data.instruction_label || "";
   }
@@ -1111,7 +1111,7 @@ async function updateSideToolBar() {
         ).textContent;
 
         copyInnerHtml = `<div>${chatDiv.querySelector("div[class*='flex flex-grow flex-col gap-3']")
-          .innerHTML
+            .innerHTML
           }</div>\n`;
 
         const videoElements = getYoutubeIds(chatText);
