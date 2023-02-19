@@ -10,6 +10,9 @@ var instrucitonLabel;
 // default component
 var textarea;
 
+// text-speech
+var isSpeaking = false;
+
 // get defualt parameters
 chrome.storage.sync.get(
   [
@@ -87,14 +90,133 @@ function getYoutubeIds(text) {
   }
 
   // remove duplicates
-  youtubeVideoIds = Array.from(new Set(youtubeVideoIds));
+  return Array.from(new Set(youtubeVideoIds));
+}
 
+function getYoutubeVideos(youtubeVideoIds) {
   const videoElementsWrapper = document.createElement("div");
-  videoElementsWrapper.classList.add("youtube-videos", "print:hidden");
-  youtubeVideoIds.forEach((videoId) => {
-    videoElementsWrapper.innerHTML += `<iframe style="aspect-ratio: 16 / 9;width: 100%;border-radius: 0.5rem;" src="https://www.youtube.com/embed/${videoId}" title="Helpful videos" frameborder="0" allow="clipboard-write; encrypted-media; gyroscope;" allowfullscreen></iframe>`;
-  });
+
+  const checkPreviosIframe = `iframe[src="https://www.youtube.com/embed/${youtubeVideoIds?.at(
+    0
+  )}"]`;
+  if (
+    youtubeVideoIds.length > 0 &&
+    !document?.querySelector(checkPreviosIframe)
+  ) {
+    videoElementsWrapper.classList.add("youtube-videos", "print:hidden");
+    youtubeVideoIds.forEach((videoId) => {
+      videoElementsWrapper.innerHTML += `<iframe style="aspect-ratio: 16 / 9;width: 100%;border-radius: 0.5rem;" src="https://www.youtube.com/embed/${videoId}" title="Helpful videos" frameborder="0" allow="clipboard-write; encrypted-media; gyroscope;" allowfullscreen></iframe>`;
+    });
+  }
+
   return videoElementsWrapper;
+}
+
+function extractRecommendYoutubeIds(str) {
+  if (str.includes("{{{") && str.includes("}}}")) {
+    return str.split("{{{")[1].split("}}}")[0].split(", ");
+  } else {
+    return [];
+  }
+}
+
+async function searchByUrl(videoId) {
+  document.querySelector(".cursor-pointer.absolute.right-6").click();
+  const resultText = await getUrlData(videoId, instruction);
+  if (resultText) {
+    const previousStatusOfWebAccess = isWebAccessOn;
+    isWebAccessOn = false;
+    await pasteToTextarea(resultText, "");
+    pressEnter();
+    textarea.value = "";
+    isWebAccessOn = previousStatusOfWebAccess;
+  }
+}
+
+function getVideoRecommendation(videoIds) {
+  const recommendationWrapper = document.createElement("div");
+
+  const checkPreviousImage = `img[src="https://i.ytimg.com/vi/${videoIds?.at(
+    0
+  )}/0.jpg"][alt="recommend"]`;
+
+  if (videoIds.length > 0 && !document.querySelector(checkPreviousImage)) {
+    const labelRecommendation = document.createElement("div");
+    labelRecommendation.classList.add("pt-2");
+    labelRecommendation.textContent = "see more...";
+    recommendationWrapper.appendChild(labelRecommendation);
+    // add recommendations
+    const videoWrapper = document.createElement("div");
+    for (const videoId of videoIds) {
+      const videoBtn = document.createElement("button");
+      videoBtn.addEventListener("click", async function () {
+        await searchByUrl(videoId);
+      });
+      const videoImage = `<img src="https://i.ytimg.com/vi/${videoId}/0.jpg" style="width: 13rem;margin-right: 0.5rem;margin-bottom: 0.5rem;border-radius: 0.375rem;object-fit: cover;aspect-ratio: 16 / 9;display: inline-block;" alt="recommend" />`;
+      videoBtn.innerHTML = videoImage;
+      videoWrapper.appendChild(videoBtn);
+    }
+    recommendationWrapper.appendChild(videoWrapper);
+    // add custom url input
+    const labelCustomeSearch = document.createElement("div");
+    labelCustomeSearch.classList.add("pt-2");
+    labelCustomeSearch.textContent = "search by url...";
+    recommendationWrapper.appendChild(labelCustomeSearch);
+    const urlInputWrapper = document.createElement("div");
+    urlInputWrapper.classList.add("flex", "items-strech");
+    const urlInputBox = document.createElement("input");
+    urlInputBox.classList.add(
+      "flex-1",
+      "border",
+      "border-black/10",
+      "bg-white",
+      "dark:border-gray-900/50",
+      "dark:text-white",
+      "dark:bg-gray-700",
+      "outline-none",
+      "rounded-md",
+      "px-3",
+      "py-1"
+    );
+    urlInputBox.placeholder = "Paste a Youtube URL here.";
+    const inputId = `youtube-url-input-${videoIds.at(0)}`;
+    urlInputBox.id = inputId;
+    const urlInputButtom = document.createElement("button");
+    urlInputButtom.classList.add(
+      "p-1",
+      "rounded-md",
+      "text-gray-500",
+      "hover:bg-gray-100",
+      "dark:hover:text-gray-400",
+      "dark:hover:bg-gray-900"
+    );
+    urlInputButtom.innerHTML = `<svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="mr-1 h-4 w-4" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"> <line x1="22" y1="2" x2="11" y2="13"></line> <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon> </svg>`;
+    urlInputButtom.addEventListener("click", async function () {
+      // ignore empty values
+      if (!document.querySelector(`#${inputId}`).value?.trim()) {
+        return;
+      }
+      const youtubeUrl = document.querySelector(`#${inputId}`).value.trim();
+      const desktopUrl = "youtube.com/watch?v=";
+      const mobileUrl = "youtu.be/";
+      if (youtubeUrl.includes(desktopUrl)) {
+        const videoId = youtubeUrl.split(desktopUrl)[1].slice(0, 11);
+        await searchByUrl(videoId);
+      } else if (youtubeUrl.includes(mobileUrl)) {
+        const videoId = youtubeUrl.split(mobileUrl)[1].slice(0, 11);
+        await searchByUrl(videoId);
+      } else {
+        alert(
+          "Invalid URL: Please input a Youtube URL including 'https://www.youtube.com/watch?v=' or 'https://youtu.be/'"
+        );
+      }
+    });
+    urlInputWrapper.appendChild(urlInputBox);
+    urlInputWrapper.appendChild(urlInputButtom);
+    recommendationWrapper.appendChild(urlInputWrapper);
+  }
+
+  return recommendationWrapper;
 }
 
 async function pasteToTextarea(resultText, query) {
@@ -199,28 +321,6 @@ function updatePrintVisibility() {
   sideToolBar?.classList?.add("print:hidden");
 }
 
-// change the design on the blank page
-function updateCreateNewPage() {
-  // free version
-  const title = document.evaluate(
-    "//h1[text()='ChatGPT']",
-    document,
-    null,
-    XPathResult.FIRST_ORDERED_NODE_TYPE,
-    null
-  ).singleNodeValue;
-  if (title) {
-    title.textContent = "ChatGPT Phantom";
-
-    const createNewLink = document?.querySelector(
-      "a[class*='flex py-3 px-3 items-center gap-3']"
-    );
-    if (createNewLink) {
-      createNewLink.href = "https://chat.openai.com/chat";
-    }
-  }
-}
-
 // hide and display elements
 function toggleVisibility(elements, className) {
   elements.forEach((element) => {
@@ -250,12 +350,8 @@ function renderWebSwitch(toolbarDiv) {
 }
 
 function renderPeriodDropdown(dropdownDesign, toolbarDiv) {
-  var timePeriodLabel = document.createElement("label");
-  timePeriodLabel.innerHTML = "Results from:";
-  timePeriodLabel.classList.add("text-sm", "dark:text-white");
-
-  var timePeriodDropdown = document.createElement("select");
-  timePeriodDropdown.classList.add(...dropdownDesign);
+  var periodDropdown = document.createElement("select");
+  periodDropdown.classList.add(...dropdownDesign);
   const periodList = [
     { value: "", label: chrome.i18n.getMessage("PERIOD_1") },
     { value: "EgQIAhAB", label: chrome.i18n.getMessage("PERIOD_2") },
@@ -278,16 +374,16 @@ function renderPeriodDropdown(dropdownDesign, toolbarDiv) {
     optionElement.value = option.value;
     optionElement.innerHTML = option.label;
     optionElement.classList.add("text-sm", "dark:text-white");
-    timePeriodDropdown.appendChild(optionElement);
+    periodDropdown.appendChild(optionElement);
   });
 
-  timePeriodDropdown.value = timePeriod;
-  timePeriodDropdown.onchange = function () {
+  periodDropdown.value = timePeriod;
+  periodDropdown.onchange = function () {
     chrome.storage.sync.set({ time_period: this.value });
     timePeriod = this.value;
   };
 
-  toolbarDiv.appendChild(timePeriodDropdown);
+  toolbarDiv.appendChild(periodDropdown);
 }
 
 async function renderLangDropwdown(dropdownDesign, toolbarDiv) {
@@ -529,7 +625,9 @@ async function renderInstructionDropdown(dropdownDesign, toolbarDiv) {
     "rounded-md",
     "hide-element",
     "h-full",
-    "text-sm"
+    "text-sm",
+    "outline-none",
+    "resize-none"
   );
 
   var instructionSearch = document.createElement("input");
@@ -973,34 +1071,55 @@ async function readInstructions(instructionBtnText) {
   });
 }
 
+function speechText(rowText) {
+  if (!window.speechSynthesis) {
+    // your device is not availbale
+    return;
+  }
+
+  if (!isSpeaking) {
+    const utterance = new SpeechSynthesisUtterance(rowText);
+    window.speechSynthesis.speak(utterance);
+    isSpeaking = true;
+  } else {
+    isSpeaking = false;
+    window.speechSynthesis.cancel();
+  }
+}
+
+function convertTitleAndSubtitleCSS() {
+  const paragraphs = document.querySelectorAll("p");
+  for (let i = 0; i < paragraphs.length; i++) {
+    // Check if the text content of the paragraph contains "##"
+    if (paragraphs[i].textContent.startsWith("##")) {
+      // If it does, do something
+      paragraphs[i].textContent = paragraphs[i].textContent.replace("##", "");
+      // Create a new <h2> element
+      const h2Element = document.createElement("h2");
+      // Copy the contents of the <p> element to the <h2> element
+      h2Element.textContent = paragraphs[i].textContent;
+      // Replace the <p> element with the new <h2> element
+      paragraphs[i].parentNode.replaceChild(h2Element, paragraphs[i]);
+    } else if (paragraphs[i].textContent.startsWith("#")) {
+      paragraphs[i].textContent = paragraphs[i].textContent.replace("#", "");
+      // Create a new <h2> element
+      const h1Element = document.createElement("h1");
+      // Copy the contents of the <p> element to the <h1> element
+      h1Element.textContent = paragraphs[i].textContent;
+      // Replace the <p> element with the new <h1> element
+      paragraphs[i].parentNode.replaceChild(h1Element, paragraphs[i]);
+    }
+  }
+}
+
 // add some functions on the side of each chat message
 async function updateSideToolBar() {
   try {
     const res = await fetch(chrome.runtime.getURL("languages.json"));
     const langs = await res.json();
 
-    const paragraphs = document.querySelectorAll("p");
-    for (let i = 0; i < paragraphs.length; i++) {
-      // Check if the text content of the paragraph contains "##"
-      if (paragraphs[i].textContent.startsWith("##")) {
-        // If it does, do something
-        paragraphs[i].textContent = paragraphs[i].textContent.replace("##", "");
-        // Create a new <h2> element
-        const h2Element = document.createElement("h2");
-        // Copy the contents of the <p> element to the <h2> element
-        h2Element.textContent = paragraphs[i].textContent;
-        // Replace the <p> element with the new <h2> element
-        paragraphs[i].parentNode.replaceChild(h2Element, paragraphs[i]);
-      } else if (paragraphs[i].textContent.startsWith("#")) {
-        paragraphs[i].textContent = paragraphs[i].textContent.replace("#", "");
-        // Create a new <h2> element
-        const h1Element = document.createElement("h1");
-        // Copy the contents of the <p> element to the <h1> element
-        h1Element.textContent = paragraphs[i].textContent;
-        // Replace the <p> element with the new <h1> element
-        paragraphs[i].parentNode.replaceChild(h1Element, paragraphs[i]);
-      }
-    }
+    // convert title to h1 and subtitle to h2
+    convertTitleAndSubtitleCSS();
 
     // modify the design of chat response section
     const formatElements = document.querySelectorAll(
@@ -1099,8 +1218,12 @@ async function updateSideToolBar() {
           }
         }
 
-        const videoElements = getYoutubeIds(chatText);
-        childElement.appendChild(videoElements);
+        // embed Youtube video
+        const videoIds = getYoutubeIds(chatText);
+        if (videoIds.length > 0) {
+          const videoElements = getYoutubeVideos(videoIds);
+          childElement.appendChild(videoElements);
+        }
       } else if (
         chatDiv.querySelector("div[class*='flex flex-grow flex-col gap-3']")
           ?.textContent
@@ -1114,14 +1237,28 @@ async function updateSideToolBar() {
             .innerHTML
           }</div>\n`;
 
-        const videoElements = getYoutubeIds(chatText);
-        chatDiv
-          .querySelector("div[class*='flex flex-grow flex-col gap-3']")
-          .appendChild(videoElements);
+        // add a viewable video in iframe
+        const videoIds = getYoutubeIds(chatText);
+        if (videoIds.length > 0) {
+          const videoElements = getYoutubeVideos(videoIds);
+          chatDiv
+            .querySelector("div[class*='flex flex-grow flex-col gap-3']")
+            .appendChild(videoElements);
+        }
+
+        // add a video recommendation
+        const recommendVideoIds = extractRecommendYoutubeIds(chatText);
+        if (recommendVideoIds.length > 0) {
+          const videoRecommendations =
+            getVideoRecommendation(recommendVideoIds);
+          chatDiv
+            .querySelector("div[class*='flex flex-grow flex-col gap-3']")
+            .appendChild(videoRecommendations);
+        }
       }
 
       // clean the noise for copy button
-      const textToCopy = JSON.stringify(chatText.replace(/['"`]/g, ""));
+      const textToCopy = chatText;
 
       // encode the text for DeepL
       const encodedChatText = encodeURIComponent(
@@ -1153,8 +1290,11 @@ async function updateSideToolBar() {
       // copy text button
       const copyTextBtn = document.createElement("div");
       if (copyTextBtn?.classList) {
+        copyTextBtn.addEventListener("click", function () {
+          navigator.clipboard.writeText(textToCopy);
+        });
         copyTextBtn.classList.add("hide-element", "show-element-lg");
-        copyTextBtn.innerHTML = `<button onclick='navigator.clipboard.writeText(${textToCopy})' class="${buttonClassName}"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4"> <path stroke-linecap="round" stroke-linejoin="round" d="M15.666 3.888A2.25 2.25 0 0013.5 2.25h-3c-1.03 0-1.9.693-2.166 1.638m7.332 0c.055.194.084.4.084.612v0a.75.75 0 01-.75.75H9a.75.75 0 01-.75-.75v0c0-.212.03-.418.084-.612m7.332 0c.646.049 1.288.11 1.927.184 1.1.128 1.907 1.077 1.907 2.185V19.5a2.25 2.25 0 01-2.25 2.25H6.75A2.25 2.25 0 014.5 19.5V6.257c0-1.108.806-2.057 1.907-2.185a48.208 48.208 0 011.927-.184" /> </svg><span class="px-1">Copy Text</span></buttton>`;
+        copyTextBtn.innerHTML = `<button class="${buttonClassName}"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4"> <path stroke-linecap="round" stroke-linejoin="round" d="M15.666 3.888A2.25 2.25 0 0013.5 2.25h-3c-1.03 0-1.9.693-2.166 1.638m7.332 0c.055.194.084.4.084.612v0a.75.75 0 01-.75.75H9a.75.75 0 01-.75-.75v0c0-.212.03-.418.084-.612m7.332 0c.646.049 1.288.11 1.927.184 1.1.128 1.907 1.077 1.907 2.185V19.5a2.25 2.25 0 01-2.25 2.25H6.75A2.25 2.25 0 014.5 19.5V6.257c0-1.108.806-2.057 1.907-2.185a48.208 48.208 0 011.927-.184" /> </svg><span class="px-1">Copy Text</span></buttton>`;
         chatDiv.querySelector(".custom-tool-bar").appendChild(copyTextBtn);
       }
 
@@ -1162,20 +1302,34 @@ async function updateSideToolBar() {
       copyInnerHtml = "<html>\n<body>\n" + copyInnerHtml + "</body>\n</html>";
       const copyHtmlBtn = document.createElement("div");
       if (copyHtmlBtn?.classList) {
+        copyHtmlBtn.addEventListener("click", function () {
+          navigator.clipboard.writeText(copyInnerHtml);
+        });
         copyHtmlBtn.classList.add("hide-element", "show-element-lg");
-        copyHtmlBtn.innerHTML = `<button onclick='navigator.clipboard.writeText(${JSON.stringify(
-          copyInnerHtml.replace(/['"`]/g, '"')
-        )})' class="${buttonClassName}"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4"> <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5" /> </svg><span class="px-1">Copy HTML</span></buttton>`;
+        copyHtmlBtn.innerHTML = `<button class="${buttonClassName}"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4"> <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5" /> </svg><span class="px-1">Copy HTML</span></buttton>`;
         chatDiv.querySelector(".custom-tool-bar").appendChild(copyHtmlBtn);
       }
 
       // export pdf button
       const pdfExportBtn = document.createElement("div");
       if (pdfExportBtn?.classList) {
-        pdfExportBtn.addEventListener("click", getPDF);
+        pdfExportBtn.addEventListener("click", function () {
+          getPDF();
+        });
         pdfExportBtn.classList.add("hide-element", "show-element-lg");
         pdfExportBtn.innerHTML = `<button class="${buttonClassName}"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4"> <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" /> </svg> <span class="px-1">Export PDF</span></buttton>`;
         chatDiv.querySelector(".custom-tool-bar").appendChild(pdfExportBtn);
+      }
+
+      // export speaker button
+      const speakerBtn = document.createElement("div");
+      if (speakerBtn?.classList) {
+        speakerBtn.addEventListener("click", function () {
+          speechText(textToCopy);
+        });
+        speakerBtn.classList.add("hide-element", "show-element-lg");
+        speakerBtn.innerHTML = `<button class="${buttonClassName}"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4"> <path stroke-linecap="round" stroke-linejoin="round" d="M19.114 5.636a9 9 0 010 12.728M16.463 8.288a5.25 5.25 0 010 7.424M6.75 8.25l4.72-4.72a.75.75 0 011.28.53v15.88a.75.75 0 01-1.28.53l-4.72-4.72H4.51c-.88 0-1.704-.507-1.938-1.354A9.01 9.01 0 012.25 12c0-.83.112-1.633.322-2.396C2.806 8.756 3.63 8.25 4.51 8.25H6.75z" /> </svg> <span class="px-1">Text-Speech</span></buttton>`;
+        chatDiv.querySelector(".custom-tool-bar").appendChild(speakerBtn);
       }
 
       const linkClassName =
@@ -1220,7 +1374,7 @@ window.onload = async () => {
   if (rootEl?.classList) {
     rootEl.classList.add("print-color-correction");
   }
-  updateCreateNewPage();
+
   updatePrintVisibility();
   await updateBottomToolBar();
   await updateSideToolBar();
@@ -1228,7 +1382,6 @@ window.onload = async () => {
   // update when changing pages or changing dark to white or vice versa
   new MutationObserver(async () => {
     try {
-      updateCreateNewPage();
       updatePrintVisibility();
       await updateBottomToolBar();
       await updateSideToolBar();

@@ -26,3 +26,31 @@ async function getSearchData(query, time, instruction) {
     return "";
   }
 }
+
+
+async function getUrlData(videoId, instruction) {
+  // format query
+  const url = "https://phantom-ghost-writer.vercel.app/api/youtube-link";
+
+  const headers = new Headers({
+    Origin: "https://chat.openai.com",
+    "content-type": "application/json",
+  });
+
+  try {
+    const response = await fetch(url, {
+      method: "POST",
+      body: JSON.stringify({
+        videoId,
+        instruction,
+      }),
+      headers,
+    });
+
+    const result = await response.text();
+    return result;
+  } catch (error) {
+    showErrorMessage(error);
+    return "";
+  }
+}

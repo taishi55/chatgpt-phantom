@@ -200,8 +200,12 @@ textarea {
 }
 
 @keyframes highlight {
-  0% { background-color: rgb(253 224 71 / 0.6); }
-  100% { background-color: transparent; }
+  0% {
+    background-color: rgb(253 224 71 / 0.6);
+  }
+  100% {
+    background-color: transparent;
+  }
 }
 
 .transparent {
@@ -319,4 +323,13 @@ textarea {
   max-width: 32rem;
   grid-template-columns: repeat(1, minmax(0, 1fr));
   gap: 1rem;
+}
+
+.one-line-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1; /* number of lines to show */
+          line-clamp: 1; 
+  -webkit-box-orient: vertical;
 }
