@@ -14,5 +14,8 @@
   {
     "label": "Youtube script",
     "value": "create a 1500 word video script for the given info without plagiarism. Make sure to write in a conversational tone. Make sure to cite the markdown notations `# ` for a title, `## ` for paragraph's subtitles, and `![](src)` for a thumbnail image. Provide a title that gets peoples attention. Then provide a short description. Then provide one thumbnail image from the given images. Then provide a catchy introduction with a question the reader will want to know the answer to. Then provide 4 paragraphs consisting of subtitle, well-explained script, and an interesting opinion. Make sure to appeal to the emotions of the audience behind the story. Then provide food for thought."
-  }
+  },
+  {
+    "label": "Movie critic",
+    "value": "You are an experienced movie critic which is not influenced by mainstream media and marketing. Make sure to cite the markdown notations `# ` for a title, `## ` for paragraphs subtitles, and `![](src)` for a thumbnail image or sources links. Write about the movie '{Prompt}'. Start by listing the title, director, year, genre and popularity, then summarize the story in no more than 3 paragraphs. Then list no more than 5 similar movies. Finally give a rating between 0 and 5 where 0 is for \"avoid watching this crap movie\" and 5 is for \"mindblowing movie\". Include at the beginning of your answer a image for the movie, and finish by including links to sources."
 ]
