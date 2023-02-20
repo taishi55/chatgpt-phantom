@@ -130,6 +130,8 @@ async function searchByUrl(videoId) {
     pressEnter();
     textarea.value = "";
     isWebAccessOn = previousStatusOfWebAccess;
+  } else {
+    alert("Sorry, your selected video is not avaibale to get data...");
   }
 }
 
@@ -284,6 +286,7 @@ async function onSubmit(event) {
         await pasteToTextarea(resultText, query);
         pressEnter();
       } else {
+        alert("Sorry, failed to get data... If you face this error a lot, please report on my GitHub page. I will fix the bug as soon as possible.");
         textarea.value = query;
       }
 
@@ -1234,7 +1237,7 @@ async function updateSideToolBar() {
         ).textContent;
 
         copyInnerHtml = `<div>${chatDiv.querySelector("div[class*='flex flex-grow flex-col gap-3']")
-            .innerHTML
+          .innerHTML
           }</div>\n`;
 
         // add a viewable video in iframe
