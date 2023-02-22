@@ -1,5 +1,5 @@
 // default parameters
-let isWebAccessOn = true;
+let isWebAccessOn = false;
 let isProcessing = false;
 var timePeriod = "";
 var language;
@@ -121,7 +121,12 @@ function extractRecommendYoutubeIds(str) {
 }
 
 async function searchByUrl(videoId) {
-  document.querySelector(".cursor-pointer.absolute.right-6").click();
+  const scrollToBottomBtn = document.querySelector(
+    ".cursor-pointer.absolute.right-6"
+  );
+  if (scrollToBottomBtn) {
+    scrollToBottomBtn?.click();
+  }
   const resultText = await getUrlData(videoId, instruction);
   if (resultText) {
     const previousStatusOfWebAccess = isWebAccessOn;
@@ -1241,7 +1246,7 @@ async function updateSideToolBar() {
         ).textContent;
 
         copyInnerHtml = `<div>${chatDiv.querySelector("div[class*='flex flex-grow flex-col gap-3']")
-            .innerHTML
+          .innerHTML
           }</div>\n`;
 
         // add a viewable video in iframe
