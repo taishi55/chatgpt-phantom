@@ -34,15 +34,9 @@ Official Website
 <img src="https://storage.googleapis.com/web-dev-uploads/image/WlD8wC6g8khYWPJUsQceQkhXSlv1/iNEddTyWiMfLSwFD6qGq.png" width="200" alt="Chrome" valign="middle">
 </a>
 
-<a href="https://addons.mozilla.org/en-US/firefox/addon/chatgpt-phantom-ghost-writer/" target="_blank">
-<img src="https://logolook.net/wp-content/uploads/2021/07/Mozilla-Firefox-Logo.png" height="50" alt="Chrome" valign="middle">
-</a>
-
 </p>
 
 - Install this extension on [Chrome browser](https://chrome.google.com/webstore/detail/chatgpt-phantom-ghost-wri/ofkgndjljeccdgmehefcijojnaagopbn)
-
-- Install this extension on [Firefox browser](https://addons.mozilla.org/en-US/firefox/addon/chatgpt-phantom-ghost-writer/)
 
 https://user-images.githubusercontent.com/105188885/213975594-43f261a0-32de-4913-a1dc-2f55613103a7.mp4
 
