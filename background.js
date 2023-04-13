@@ -2,7 +2,7 @@ var manifest_version = chrome.runtime.getManifest().manifest_version;
 
 function openChatGPTWebpage() {
   chrome.tabs.create({
-    url: "https://chat.openai.com/chat",
+    url: "https://chat.openai.com/",
   });
 }
 

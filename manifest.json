@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "__MSG_APPNAME__",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "description": "__MSG_APPDESC__",
   "icons": {
     "16": "icons/icon16.png",
@@ -20,7 +20,7 @@
   "action": {},
   "content_scripts": [
     {
-      "matches": ["https://chat.openai.com/chat/*"],
+      "matches": ["https://chat.openai.com/*"],
       "js": ["script.js", "api.js"],
       "css": ["styles.css"]
     }
